@@ -1,10 +1,10 @@
-package com.lee0su.LiquorLounge.core.guest.controller;
+package com.lee0su.LiquorLounge.core.controller.web;
 
-import com.lee0su.LiquorLounge.core.guest.dto.login.LoginRequest;
-import com.lee0su.LiquorLounge.core.guest.dto.login.LoginResponse;
-import com.lee0su.LiquorLounge.core.guest.dto.UserDTO;
-import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
-import com.lee0su.LiquorLounge.core.guest.service.UserService;
+import com.lee0su.LiquorLounge.core.dto.user.login.LoginRequest;
+import com.lee0su.LiquorLounge.core.dto.user.login.LoginResponse;
+import com.lee0su.LiquorLounge.core.dto.user.UserDTO;
+import com.lee0su.LiquorLounge.core.entity.user.UserEntity;
+import com.lee0su.LiquorLounge.core.service.user.UserService;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;

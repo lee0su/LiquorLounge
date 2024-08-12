@@ -1,4 +1,4 @@
-package com.lee0su.LiquorLounge.core.guest.entity;
+package com.lee0su.LiquorLounge.core.entity.user;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.lee0su.LiquorLounge.core.member.controller;
+package com.lee0su.LiquorLounge.core.controller.web;
 
-import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
+import com.lee0su.LiquorLounge.core.entity.user.UserEntity;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

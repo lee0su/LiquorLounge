@@ -1,6 +1,6 @@
-package com.lee0su.LiquorLounge.core.guest.repository;
+package com.lee0su.LiquorLounge.core.repository.user;
 
-import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
+import com.lee0su.LiquorLounge.core.entity.user.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<UserEntity, Long> {

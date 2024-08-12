@@ -1,4 +1,4 @@
-package com.lee0su.LiquorLounge.core.guest.dto.login;
+package com.lee0su.LiquorLounge.core.dto.user.login;
 
 import lombok.Getter;
 import lombok.Setter;

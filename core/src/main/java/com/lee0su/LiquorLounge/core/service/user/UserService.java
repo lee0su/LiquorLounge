@@ -1,7 +1,7 @@
-package com.lee0su.LiquorLounge.core.guest.service;
+package com.lee0su.LiquorLounge.core.service.user;
 
-import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
-import com.lee0su.LiquorLounge.core.guest.repository.UserRepository;
+import com.lee0su.LiquorLounge.core.entity.user.UserEntity;
+import com.lee0su.LiquorLounge.core.repository.user.UserRepository;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

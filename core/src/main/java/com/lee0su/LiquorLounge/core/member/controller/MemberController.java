@@ -20,12 +20,20 @@ public class MemberController {
     }
 
     @GetMapping("/liquor")
-    public String memberLiquorPage() {
+    public String memberLiquorPage(HttpSession session) {
+        UserEntity user = (UserEntity) session.getAttribute("user");
+        if (user == null) {
+            return "redirect:/guest/main";
+        }
         return "member/liquor";
     }
 
     @GetMapping("/community")
-    public String memberCommunityPage() {
+    public String memberCommunityPage(HttpSession session) {
+        UserEntity user = (UserEntity) session.getAttribute("user");
+        if (user == null) {
+            return "redirect:/guest/main";
+        }
         return "member/community";
     }
 

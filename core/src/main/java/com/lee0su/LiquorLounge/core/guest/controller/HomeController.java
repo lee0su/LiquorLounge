@@ -23,9 +23,14 @@ public class HomeController {
         return "guest/community";
     }
 
-    @GetMapping("/login")
-    public String loginPage() {
-        return "guest/login";
+    @GetMapping("/signIn")
+    public String signInPage() {
+        return "guest/signIn";
+    }
+
+    @GetMapping("/signUp")
+    public String signUpPage() {
+        return "guest/signUp";
     }
 
 }

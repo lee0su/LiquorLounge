@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>LiquorLounge</title>
+    <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/buttons.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/signIn.css">
+</head>
+<body>
+<!--navbar-->
+<nav>
+    <button onclick="location.href='/guest/main'">Main</button>
+    <button onclick="location.href='/guest/liquor'">Liquor</button>
+    <button onclick="location.href='/guest/community'">Community</button>
+    <button class="active" onclick="location.href='/guest/signIn'">Sign in</button>
+</nav>
+<!--page contents-->
+<div class="signIn-container">
+    <div class="signIn-box">
+        <h2 class="signIn-title">Sign in</h2>
+        <input type="text" placeholder="아이디" class="signIn-input">
+        <input type="password" placeholder="비밀번호" class="signIn-input">
+        <div class="button-group">
+            <button class="signIn-button">Sign in</button>
+        </div>
+        <a href="/guest/signUp" class="signUp-text">Sign up !</a>
+    </div>
+</div>
+</body>
+</html>

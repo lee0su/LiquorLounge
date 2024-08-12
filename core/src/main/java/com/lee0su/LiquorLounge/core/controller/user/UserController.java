@@ -1,4 +1,4 @@
-package com.lee0su.LiquorLounge.core.controller.web;
+package com.lee0su.LiquorLounge.core.controller.user;
 
 import com.lee0su.LiquorLounge.core.dto.user.login.LoginRequest;
 import com.lee0su.LiquorLounge.core.dto.user.login.LoginResponse;

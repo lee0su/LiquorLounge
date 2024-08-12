@@ -13,14 +13,14 @@ public class HomeController {
         return "guest/main";
     }
 
-    @GetMapping("/page2")
+    @GetMapping("/liquor")
     public String Page2() {
-        return "guest/page2";
+        return "guest/liquor";
     }
 
-    @GetMapping("/page3")
+    @GetMapping("/community")
     public String Page3() {
-        return "guest/page3";
+        return "guest/community";
     }
 
     @GetMapping("/login")

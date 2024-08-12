@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/components/navbar.css">
     <link rel="stylesheet" type="text/css" href="/css/components/buttons.css">
     <link rel="stylesheet" type="text/css" href="/css/components/signUp.css">
+    <script src="/js/validation.js" defer></script>
 </head>
 <body>
 <!--navbar-->
@@ -20,14 +21,16 @@
 <div class="signUp-container">
     <div class="signUp-box">
         <h2 class="signUp-title">Sign up</h2>
-        <input type="text" placeholder="아이디" class="signUp-input">
-        <input type="password" placeholder="비밀번호" class="signUp-input">
-        <input type="password" placeholder="비밀번호 확인" class="signUp-input">
-        <input type="text" placeholder="이름" class="signUp-input">
-        <input type="date" placeholder="생일" class="signUp-input">
-        <div class="button-group">
-            <button class="signUp-button">Sign up</button>
-        </div>
+        <form id="signUpForm" action="/api/users/register" method="post" enctype="application/x-www-form-urlencoded">
+            <input type="text" name="username" placeholder="아이디" class="signUp-input" required>
+            <input type="password" name="password" placeholder="비밀번호" class="signUp-input" required>
+            <input type="password" name="confirmPassword" placeholder="비밀번호 확인" class="signUp-input" required>
+            <input type="text" name="name" placeholder="이름" class="signUp-input" required>
+            <input type="date" name="birthdate" placeholder="생일" class="signUp-input" required>
+            <div class="button-group">
+                <button type="submit" class="signUp-button">Sign up</button>
+            </div>
+        </form>
         <a href="/guest/signIn" class="signIn-text">Sign in !</a>
     </div>
 </div>

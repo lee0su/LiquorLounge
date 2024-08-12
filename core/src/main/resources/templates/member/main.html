@@ -5,16 +5,18 @@
     <title>LiquorLounge</title>
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/components/navbar.css">
-    <link rel="stylesheet" type="text/css" href="/css/components/buttons.css">
     <script src="/js/signOut.js"></script>
 </head>
 <body>
 <!--navbar-->
 <nav>
-    <button class="active" onclick="location.href='/member/main'">Main</button>
-    <button onclick="location.href='/member/liquor'">Liquor</button>
-    <button onclick="location.href='/member/community'">Community</button>
-    <button onclick="signOut()">Sign out</button>
+    <img src="/images/logo.png" class="logo-image">
+    <div style="margin-left:auto;">
+        <button class="active" onclick="location.href='/member/main'">Main</button>
+        <button onclick="location.href='/member/liquor'">Liquor</button>
+        <button onclick="location.href='/member/community'">Community</button>
+        <button onclick="signOut()">Sign out</button>
+    </div>
 </nav>
 <!--page contents-->
 <div class="container">

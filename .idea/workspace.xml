@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="유저 정보에 email 추가">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="비밀번호 찾기 조건 생일에서 이메일로 변경">
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgotPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgotPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +84,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -379,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723467281322</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="비밀번호 찾기 조건 생일에서 이메일로 변경">
+      <option name="closed" value="true" />
+      <created>1723467589054</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723467589054</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +430,7 @@
     <MESSAGE value="로그인 시 유저정보 세션 저장, 로그아웃 시 세션 유저 정보 삭제 -&gt; 수정" />
     <MESSAGE value="네비바 호버 액션 추가" />
     <MESSAGE value="유저 정보에 email 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="유저 정보에 email 추가" />
+    <MESSAGE value="비밀번호 찾기 조건 생일에서 이메일로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="비밀번호 찾기 조건 생일에서 이메일로 변경" />
   </component>
 </project>

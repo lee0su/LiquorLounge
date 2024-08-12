@@ -1,0 +1,17 @@
+nav button {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav button.active {
+    background-color: darkblue;
+    border-radius: 20px;
+    color: white;
+}

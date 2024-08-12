@@ -33,4 +33,9 @@ public class GuestController {
         return "guest/signUp";
     }
 
+    @GetMapping("/forgotPassword")
+    public String forgotPasswordPage() {
+        return "guest/forgotPassword";
+    }
+
 }

@@ -6,6 +6,7 @@ import com.lee0su.LiquorLounge.core.guest.dto.UserDTO;
 import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
 import com.lee0su.LiquorLounge.core.guest.service.UserService;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -48,8 +49,8 @@ public class UserController {
     }
 
     @PostMapping("/signIn")
-    public ResponseEntity<?> signIn(@RequestBody LoginRequest loginRequest) {
-        UserEntity user = userService.signIn(loginRequest.getUsername(), loginRequest.getPassword());
+    public ResponseEntity<?> signIn(@RequestBody LoginRequest loginRequest, HttpSession session) {
+        UserEntity user = userService.signIn(loginRequest.getUsername(), loginRequest.getPassword(), session);
         if (user == null) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("아이디 또는 비밀번호가 잘못되었습니다.");
         }

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/guest")
-public class HomeController {
+public class GuestController {
 
     @GetMapping("/main")
     public String mainPage() {

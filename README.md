@@ -1,5 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:294C71,100:5D8AA8&height=170&section=header&text=Liquor%20Lounge&animation=twinkling&fontSize=40&fontColor=E6E8FA&fontAlignY=35"/>
-<p align=right>2024.08.12(Mon) 15:28 ~<br>...ing</p>
+<p align=right>:date: 2024.08.12(Mon) :clock3: 15:28 ~<br>...ing</p>
 
 <h1>About The Project :speech_balloon:</h1>
 <br>

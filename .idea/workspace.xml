@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="i don't no..">
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/signIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-    </list>
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="update Sign in" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +221,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723444237675</updated>
       <workItem from="1723444238721" duration="2128000" />
-      <workItem from="1723446383491" duration="6043000" />
+      <workItem from="1723446383491" duration="6348000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -255,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723450234991</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update Sign in">
+      <option name="closed" value="true" />
+      <created>1723452730830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723452730830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +266,7 @@
     <MESSAGE value="20240812_1" />
     <MESSAGE value="navbar_list update" />
     <MESSAGE value="i don't no.." />
-    <option name="LAST_COMMIT_MESSAGE" value="i don't no.." />
+    <MESSAGE value="update Sign in" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Sign in" />
   </component>
 </project>

@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="네비바 호버 액션 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signUp.html" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="유저 정보에 email 추가">
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgotPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgotPassword.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723464227526</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="유저 정보에 email 추가">
+      <option name="closed" value="true" />
+      <created>1723467281322</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723467281322</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +409,7 @@
     <MESSAGE value="Sign up 조건 추가" />
     <MESSAGE value="로그인 시 유저정보 세션 저장, 로그아웃 시 세션 유저 정보 삭제 -&gt; 수정" />
     <MESSAGE value="네비바 호버 액션 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="네비바 호버 액션 추가" />
+    <MESSAGE value="유저 정보에 email 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="유저 정보에 email 추가" />
   </component>
 </project>

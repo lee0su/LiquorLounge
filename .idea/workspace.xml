@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Sign up_1">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Sign up 조건 추가">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/dto/login/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/dto/login/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/signIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/GuestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/guest/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/signIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +53,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="liquorlounge" type="f1a62948:ProjectNode" />
+                <item name="core" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="liquorlounge" type="f1a62948:ProjectNode" />
+                <item name="core" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="core" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -68,9 +86,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Class" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -108,6 +126,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.core [build].executor": "Run",
+    "Gradle.core [clean].executor": "Run",
     "Gradle.core [dependencies].executor": "Run",
     "Gradle.core 빌드.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -159,6 +179,50 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CoreApplication (1)">
+    <configuration name="core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="core [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="core [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,6 +271,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.core [build]" />
+        <item itemvalue="Gradle.core [clean]" />
         <item itemvalue="Gradle.core [dependencies]" />
       </list>
     </recent_temporary>
@@ -228,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723444237675</updated>
       <workItem from="1723444238721" duration="2128000" />
-      <workItem from="1723446383491" duration="11715000" />
+      <workItem from="1723446383491" duration="14307000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -294,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723457687898</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sign up 조건 추가">
+      <option name="closed" value="true" />
+      <created>1723458310429</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723458310429</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +384,7 @@
     <MESSAGE value="update Sign up" />
     <MESSAGE value="update Forgot password" />
     <MESSAGE value="Sign up_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sign up_1" />
+    <MESSAGE value="Sign up 조건 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign up 조건 추가" />
   </component>
 </project>

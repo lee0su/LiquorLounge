@@ -1,5 +1,7 @@
 package com.lee0su.LiquorLounge.core.guest.controller;
 
+import com.lee0su.LiquorLounge.core.guest.dto.login.LoginRequest;
+import com.lee0su.LiquorLounge.core.guest.dto.login.LoginResponse;
 import com.lee0su.LiquorLounge.core.guest.dto.UserDTO;
 import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
 import com.lee0su.LiquorLounge.core.guest.service.UserService;
@@ -43,6 +45,15 @@ public class UserController {
         Map<String, Boolean> response = new HashMap<>();
         response.put("available", isAvailable);
         return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/signIn")
+    public ResponseEntity<?> signIn(@RequestBody LoginRequest loginRequest) {
+        UserEntity user = userService.signIn(loginRequest.getUsername(), loginRequest.getPassword());
+        if (user == null) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("아이디 또는 비밀번호가 잘못되었습니다.");
+        }
+        return ResponseEntity.ok(new LoginResponse(user.getName()));
     }
 
 }

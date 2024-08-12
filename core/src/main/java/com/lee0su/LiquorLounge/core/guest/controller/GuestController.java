@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class GuestController {
 
     @GetMapping("/main")
-    public String mainPage() {
+    public String guestMainPage() {
         return "guest/main";
     }
 
     @GetMapping("/liquor")
-    public String Page2() {
+    public String guestLiquorPage() {
         return "guest/liquor";
     }
 
     @GetMapping("/community")
-    public String Page3() {
+    public String guestCommunityPage() {
         return "guest/community";
     }
 

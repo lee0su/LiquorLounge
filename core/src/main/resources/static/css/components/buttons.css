@@ -15,3 +15,13 @@ nav button.active {
     border-radius: 20px;
     color: white;
 }
+
+nav button.active:hover {
+    opacity: 0.8;
+}
+
+nav button:hover {
+    background-color: darkblue;
+    border-radius: 20px;
+    opacity: 0.5;
+}

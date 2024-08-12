@@ -24,18 +24,30 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
-    compileOnly 'org.projectlombok:lombok'
-    developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    runtimeOnly 'com.mysql:mysql-connector-j'
-    annotationProcessor 'org.projectlombok:lombok'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.springframework.security:spring-security-test'
-    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    // 웹 스크래핑 라이브러리
+    implementation 'org.jsoup:jsoup:1.15.3' // Jsoup:HTML 파싱 및 웹 스크래핑을 위한 라이브러리
+
+    // 스프링 부트 스타터
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // JPA 를 사용한 데이터베이스 접근을 위한 스타터
+    implementation 'org.springframework.boot:spring-boot-starter-security' // 보안을 위한 스타터
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // Thymeleaf 템플릿 엔진을 위한 스타터
+    implementation 'org.springframework.boot:spring-boot-starter-web' // 웹 애플리케이션 개발을 위한 기본 스타터
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6' // Thymeleaf 와 Spring Security 통합을 위한 추가
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok' // 코드 생성을 위한 라이브러리 (Getter/Setter, Builder 등)
+    annotationProcessor 'org.projectlombok:lombok' // Lombok 애너테이션 프로세서
+
+    // MySQL Connector
+    runtimeOnly 'com.mysql:mysql-connector-j' // MySQL 데이터베이스와 연결하기 위한 드라이버
+
+    // 개발 도구
+    developmentOnly 'org.springframework.boot:spring-boot-devtools' // 개발 중 자동 재시작 및 기타 편의 기능 제공
+
+    // 테스트 관련 라이브러리
+    testImplementation 'org.springframework.boot:spring-boot-starter-test' // 스프링 부트 테스트를 위한 스타터
+    testImplementation 'org.springframework.security:spring-security-test' // Spring Security 관련 테스트 지원
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher' // JUnit 플랫폼 런처
 }
 
 tasks.named('test') {

@@ -8,11 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const password = form.password.value;
         const confirmPassword = form.confirmPassword.value;
         const name = form.name.value;
+        const email = form.email.value;
         const birthdate = form.birthdate.value;
 
         const usernameRegex = /^[a-zA-Z0-9]+$/;
         const passwordRegex = /^[a-zA-Z0-9!@#$%^&*()_+]+$/;
         const nameRegex = /^[a-zA-Z가-힣]+$/;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         if (username.length < 6 || username.length > 12 || !usernameRegex.test(username)) {
             alert('아이디는 6~12글자 사이여야 하며, 영어와 숫자만 사용이 가능합니다.');
@@ -31,6 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!nameRegex.test(name) || name.length < 2 || name.length > 10) {
             alert('이름은 2~10글자 사이여야 하며, 영어와 한글만 사용이 가능합니다.');
+            return;
+        }
+
+        if (!emailRegex.test(email)) {
+            alert('유효한 이메일 주소를 입력해주세요.');
             return;
         }
 

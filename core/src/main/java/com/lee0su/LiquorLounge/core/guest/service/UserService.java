@@ -41,8 +41,4 @@ public class UserService {
         return null; // 로그인 실패
     }
 
-    public void clearUserInformation(HttpSession session) {
-        session.removeAttribute("user");
-    }
-
 }

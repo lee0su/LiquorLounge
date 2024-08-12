@@ -29,6 +29,7 @@ public class UserController {
             user.setUsername(userDTO.getUsername());
             user.setPassword(userDTO.getPassword());
             user.setName(userDTO.getName());
+            user.setEmail(userDTO.getEmail());
             user.setBirthdate(userDTO.getBirthdate());
 
             userService.registerUser(user);

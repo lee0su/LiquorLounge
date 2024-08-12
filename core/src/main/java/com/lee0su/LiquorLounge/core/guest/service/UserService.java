@@ -2,6 +2,7 @@ package com.lee0su.LiquorLounge.core.guest.service;
 
 import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
 import com.lee0su.LiquorLounge.core.guest.repository.UserRepository;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -31,12 +32,17 @@ public class UserService {
         return !userRepository.existsByUsername(username);
     }
 
-    public UserEntity signIn(String username, String password) {
+    public UserEntity signIn(String username, String password, HttpSession session) {
         UserEntity user = userRepository.findByUsername(username);
         if (user != null && passwordEncoder.matches(password, user.getPassword())) {
+            session.setAttribute("user", user);
             return user;
         }
         return null; // 로그인 실패
+    }
+
+    public void clearUserInformation(HttpSession session) {
+        session.removeAttribute("user");
     }
 
 }

@@ -1,5 +1,8 @@
 package com.lee0su.LiquorLounge.core.config;
 
+import com.lee0su.LiquorLounge.core.guest.service.UserService;
+import jakarta.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -9,8 +12,11 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class SecurityConfig{
 
+    @Autowired
+    private UserService userService;
+
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http, UserService userService, HttpSession httpSession) throws Exception {
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authorize -> authorize
@@ -23,7 +29,11 @@ public class SecurityConfig{
                 )
                 .logout(logout -> logout
                         .logoutUrl("/api/users/logout") // 로그아웃 URL
-                        .logoutSuccessUrl("/guest/main") // 로그아웃 성공 후 리다이렉트
+                        .logoutSuccessHandler((request, response, authentication) -> {
+                            // 로그아웃 후 할 작업
+                            userService.clearUserInformation(request.getSession());
+                            response.sendRedirect("/guest/main");
+                        })
                         .permitAll()
                 );
         return http.build();

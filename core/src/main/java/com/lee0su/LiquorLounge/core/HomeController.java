@@ -1,4 +1,4 @@
-package com.lee0su.LiquorLounge.core.guest.controller;
+package com.lee0su.LiquorLounge.core;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,5 +1,7 @@
 package com.lee0su.LiquorLounge.core.member.controller;
 
+import com.lee0su.LiquorLounge.core.guest.entity.UserEntity;
+import jakarta.servlet.http.HttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MemberController {
 
     @GetMapping("/main")
-    public String memberMainPage() {
+    public String memberMainPage(HttpSession session) {
+        UserEntity user = (UserEntity) session.getAttribute("user");
+        if (user == null) {
+            return "redirect:/guest/main";
+        }
         return "member/main";
     }
 

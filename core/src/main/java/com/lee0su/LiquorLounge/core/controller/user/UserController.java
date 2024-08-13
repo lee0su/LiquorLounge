@@ -31,6 +31,7 @@ public class UserController {
             user.setName(userDTO.getName());
             user.setEmail(userDTO.getEmail());
             user.setBirthdate(userDTO.getBirthdate());
+            user.setRating("일반");
 
             userService.registerUser(user);
 

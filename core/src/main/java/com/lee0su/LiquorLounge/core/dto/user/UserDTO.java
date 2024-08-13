@@ -13,4 +13,5 @@ public class UserDTO {
     private String name;
     private String email;
     private LocalDate birthdate;
+    private String rating;
 }

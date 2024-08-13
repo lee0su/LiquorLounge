@@ -5,6 +5,7 @@
     <title>LiquorLounge</title>
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/components/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/liquor.css">
 </head>
 <body>
 <!--navbar-->
@@ -18,8 +19,37 @@
     </div>
 </nav>
 <!--page contents-->
-<div class="container">
-
+<div class="liquor-container">
+    <div class="tabs">
+        <button class="tab active" onclick="showTab('whiskey')">Whisky</button>
+        <button class="tab" onclick="showTab('gin')">Gin</button>
+        <button class="tab" onclick="showTab('rum')">Rum</button>
+        <button class="tab" onclick="showTab('wine')">Wine</button>
+        <button class="tab" onclick="showTab('others')">Others</button>
+    </div>
+    <!--위스키-->
+    <div id="whiskey" class="tab-content active">
+        <p>Whisky</p>
+    </div>
+    <!--진-->
+    <div id="gin" class="tab-content">
+        <p>Gin</p>
+    </div>
+    <!--럼-->
+    <div id="rum" class="tab-content">
+        <p>Rum</p>
+    </div>
+    <!--와인-->
+    <div id="wine" class="tab-content">
+        <p>Wine</p>
+    </div>
+    <!--그 외-->
+    <div id="others" class="tab-content">
+        <p>Others</p>
+    </div>
 </div>
+
+<!--script-->
+<script src="/js/liquor.js"></script>
 </body>
 </html>

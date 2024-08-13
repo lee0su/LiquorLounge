@@ -1,0 +1,63 @@
+.liquor-container {
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #d4d4d4;
+}
+
+.tab.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.tab-content {
+    display: none; /* 숨기기 */
+}
+
+.tab-content.active {
+    display: block; /* 활성화된 탭 보이기 */
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.liquor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.liquor-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.liquor-info {
+    flex-grow: 1;
+}
+
+.liquor-price {
+    font-weight: bold;
+    color: #007bff;
+}

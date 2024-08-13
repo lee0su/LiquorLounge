@@ -50,7 +50,7 @@ public class UserController {
         return ResponseEntity.ok(response);
     }
 
-    @PostMapping("/signIn")
+    @PostMapping("/sign-in")
     public ResponseEntity<?> signIn(@RequestBody LoginRequest loginRequest, HttpSession session) {
         UserEntity user = userService.signIn(loginRequest.getUsername(), loginRequest.getPassword(), session);
         if (user == null) {

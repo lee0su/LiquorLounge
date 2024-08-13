@@ -17,11 +17,11 @@ public class SecurityConfig{
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers("/","/guest/**","/member/**", "/api/users/register","/api/users/check-username","/api/users/signIn", "/css/**", "/js/**", "/images/**").permitAll()
+                        .requestMatchers("/","/guest/**","/member/**", "/api/users/register","/api/users/check-username","/api/users/sign-in", "/css/**", "/js/**", "/images/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin(form -> form
-                        .loginPage("/guest/signIn") // 내(커스텀) 로그인 페이지
+                        .loginPage("/guest/sign-in") // 내(커스텀) 로그인 페이지
                         .permitAll()
                 )
                 .logout(logout -> logout

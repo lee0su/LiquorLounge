@@ -5,7 +5,7 @@
     <title>LiquorLounge</title>
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/components/navbar.css">
-    <link rel="stylesheet" type="text/css" href="/css/components/signUp.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/sign-up.css">
 </head>
 <body>
 <!--navbar-->
@@ -15,25 +15,25 @@
         <button class="active" onclick="location.href='/guest/main'">Main</button>
         <button onclick="location.href='/guest/liquor'">Liquor</button>
         <button onclick="location.href='/guest/community'">Community</button>
-        <button onclick="location.href='/guest/signIn'">Sign in</button>
+        <button onclick="location.href='/guest/sign-in'">Sign in</button>
     </div>
 </nav>
 <!--page contents-->
-<div class="signUp-container">
-    <div class="signUp-box">
-        <h2 class="signUp-title">Sign up</h2>
+<div class="sign-up-container">
+    <div class="sign-up-box">
+        <h2 class="sign-up-title">Sign up</h2>
         <form id="signUpForm" action="/api/users/register" method="post" enctype="application/x-www-form-urlencoded">
-            <input type="text" name="username" placeholder="아이디" class="signUp-input" required>
-            <input type="password" name="password" placeholder="비밀번호" class="signUp-input" required>
-            <input type="password" name="confirmPassword" placeholder="비밀번호 확인" class="signUp-input" required>
-            <input type="text" name="name" placeholder="이름" class="signUp-input" required>
-            <input type="email" name="email" placeholder="이메일" class="signUp-input" required>
-            <input type="date" name="birthdate" placeholder="생일" class="signUp-input" required>
+            <input type="text" name="username" placeholder="아이디" class="sign-up-input" required>
+            <input type="password" name="password" placeholder="비밀번호" class="sign-up-input" required>
+            <input type="password" name="confirmPassword" placeholder="비밀번호 확인" class="sign-up-input" required>
+            <input type="text" name="name" placeholder="이름" class="sign-up-input" required>
+            <input type="email" name="email" placeholder="이메일" class="sign-up-input" required>
+            <input type="date" name="birthdate" placeholder="생일" class="sign-up-input" required>
             <div class="button-group">
                 <button type="submit" class="signUp-button">Sign up</button>
             </div>
         </form>
-        <a href="/guest/signIn" class="signIn-text">Sign in !</a>
+        <a href="/guest/sign-in" class="sign-in-text">Sign in !</a>
     </div>
 </div>
 

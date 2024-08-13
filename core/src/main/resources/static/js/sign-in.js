@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded",() => {
-    const signInButton = document.querySelector('.signIn-button');
+    const signInButton = document.querySelector('.sign-in-button');
     signInButton.addEventListener('click', async () => {
-        const usernameInput = document.querySelector('.signIn-input[type="text"]');
-        const passwordInput = document.querySelector('.signIn-input[type="password"]');
+        const usernameInput = document.querySelector('.sign-in-input[type="text"]');
+        const passwordInput = document.querySelector('.sign-in-input[type="password"]');
 
         const username = usernameInput.value;
         const password = passwordInput.value;
 
         try {
-            const response = await fetch('/api/users/signIn', {
+            const response = await fetch('/api/users/sign-in', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

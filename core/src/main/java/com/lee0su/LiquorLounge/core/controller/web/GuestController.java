@@ -23,19 +23,19 @@ public class GuestController {
         return "guest/community";
     }
 
-    @GetMapping("/signIn")
+    @GetMapping("/sign-in")
     public String signInPage() {
-        return "guest/signIn";
+        return "guest/sign-in";
     }
 
-    @GetMapping("/signUp")
+    @GetMapping("/sign-up")
     public String signUpPage() {
-        return "guest/signUp";
+        return "guest/sign-up";
     }
 
-    @GetMapping("/forgotPassword")
+    @GetMapping("/forgot-password")
     public String forgotPasswordPage() {
-        return "guest/forgotPassword";
+        return "guest/forgot-password";
     }
 
 }

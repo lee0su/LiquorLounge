@@ -1,3 +1,4 @@
+// tabs
 function showTab(tabName) {
     const tabs = document.querySelectorAll('.tab-content');
     tabs.forEach(tab => {

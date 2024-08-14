@@ -8,8 +8,7 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
-@Table(name = "whiskey")
+@Entity(name = "whiskey")
 public class WhiskeyEntity {
 
     @Id
@@ -38,6 +37,7 @@ public class WhiskeyEntity {
     private double proof; // 미국식 도수 ( 우리나라 도수 = proof / 2 )
 
     @ElementCollection
+    @CollectionTable(name = "whiskey_taste")
     private List<String> characteristics;
 
     // Style 필드

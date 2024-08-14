@@ -31,33 +31,3 @@
     color: white;
 }
 
-.tab-content {
-    display: none; /* 숨기기 */
-}
-
-.tab-content.active {
-    display: block; /* 활성화된 탭 보이기 */
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-}
-
-.liquor-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.liquor-item img {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.liquor-info {
-    flex-grow: 1;
-}
-
-.liquor-price {
-    font-weight: bold;
-    color: #007bff;
-}

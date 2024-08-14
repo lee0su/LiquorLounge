@@ -60,5 +60,13 @@ public class WhiskeyService {
         }).toList();
     }
 
+    public List<WhiskeyEntity> getAllWhiskeys() {
+        return whiskeyRepository.findAll();
+    }
+
+    public WhiskeyEntity createWhiskey(WhiskeyEntity whiskey) {
+        return whiskeyRepository.save(whiskey);
+    }
+
 }
 

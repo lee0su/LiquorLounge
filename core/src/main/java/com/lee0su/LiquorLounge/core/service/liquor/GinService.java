@@ -53,7 +53,7 @@ public class GinService {
                 gins.add(gin);
             }
 
-            List<GinEntity> ginEntities = convertToEntoty(gins);
+            List<GinEntity> ginEntities = convertToEntity(gins);
             ginRepository.saveAll(ginEntities);
 
         } catch (Exception e) {
@@ -61,7 +61,7 @@ public class GinService {
         }
     }
 
-    private List<GinEntity> convertToEntoty(List<GinDTO> ginDTOs) {
+    private List<GinEntity> convertToEntity(List<GinDTO> ginDTOs) {
         return ginDTOs.stream().map(dto -> {
             GinEntity gin = new GinEntity();
             gin.setName(dto.getName());

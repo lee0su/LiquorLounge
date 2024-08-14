@@ -30,7 +30,7 @@ public class WhiskeyService {
 
             Gson gson = new Gson();
             List<WhiskeyDTO> whiskeys = gson.fromJson(reader, new TypeToken<List<WhiskeyDTO>>(){}.getType());
-            List<WhiskeyEntity> whiskeyEntities = convertToEntoty(whiskeys);
+            List<WhiskeyEntity> whiskeyEntities = convertToEntity(whiskeys);
             whiskeyRepository.saveAll(whiskeyEntities);
 
         } catch (Exception e) {
@@ -38,7 +38,7 @@ public class WhiskeyService {
         }
     }
 
-    private List<WhiskeyEntity> convertToEntoty(List<WhiskeyDTO> whiskeyDTOs) {
+    private List<WhiskeyEntity> convertToEntity(List<WhiskeyDTO> whiskeyDTOs) {
         return whiskeyDTOs.stream().map(dto -> {
             WhiskeyEntity entity = new WhiskeyEntity();
             entity.setName(dto.getName());

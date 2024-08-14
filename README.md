@@ -47,6 +47,10 @@ gradlew bootRun
 
 <br>
 
+***
+
+<br>
+
 <h2>✔️ Built With</h2>
 <ul> 
   <li>Front-End</li>
@@ -73,12 +77,20 @@ gradlew bootRun
 
 <br>
 
+***
+
+<br>
+
 <h2>📚 구현된 기능</h2>
 <ul>
   <li>로그인, 로그아웃</li>
   <li>회원가입</li>
   <li>Whiskey, Gin, Wine list (75%)</li>
 </ul>
+
+<br>
+
+***
 
 <br>
 
@@ -92,6 +104,11 @@ gradlew bootRun
   <li>칵테일 추천 서비스</li>
   <li>...etc</li>
 </ul>
+
+<br>
+
+***
+
 <br>
 
 <h2>👥 Member</h2>

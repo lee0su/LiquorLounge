@@ -36,6 +36,7 @@ git clone https://github.com/lee0su/LiquorLounge.git
 <h2>:heavy_check_mark: Built With</h2>
 <ul> 
   <li>Front-End</li>
+  <br>
   <ul>
     <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></li>
     <li><img src="https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=CSS3&logoColor=white"></li>
@@ -43,12 +44,14 @@ git clone https://github.com/lee0su/LiquorLounge.git
   </ul>
   <br>
   <li>Back-End</li>
+  <br>
   <ul>
     <li><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=black"></li>
     <li><img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></li>
   </ul>
   <br>
   <li>Git</li>
+  <br>
   <ul> 
     <li><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></li>
   </ul>

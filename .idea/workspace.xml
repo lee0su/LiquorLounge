@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="데이터 불러오기 실패 시 예외문구 추가">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="데이터 불러오기 실패 시 문구 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +283,7 @@
       <workItem from="1723444238721" duration="2128000" />
       <workItem from="1723446383491" duration="14307000" />
       <workItem from="1723523720637" duration="679000" />
-      <workItem from="1723618127665" duration="20020000" />
+      <workItem from="1723618127665" duration="21649000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -518,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723639537176</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="데이터 불러오기 실패 시 문구 변경">
+      <option name="closed" value="true" />
+      <created>1723641533160</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723641533160</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20240812_2" />
     <MESSAGE value="update Sign up" />
     <MESSAGE value="update Forgot password" />
     <MESSAGE value="Sign up_1" />
@@ -562,6 +568,7 @@
     <MESSAGE value="Gin 추가" />
     <MESSAGE value="안쓰는 import 삭제" />
     <MESSAGE value="데이터 불러오기 실패 시 예외문구 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="데이터 불러오기 실패 시 예외문구 추가" />
+    <MESSAGE value="데이터 불러오기 실패 시 문구 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터 불러오기 실패 시 문구 변경" />
   </component>
 </project>

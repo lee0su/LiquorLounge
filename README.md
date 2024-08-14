@@ -6,6 +6,10 @@
 ```
 git clone https://github.com/lee0su/LiquorLounge.git
 ```
+```
+cd core
+./gradlew build
+```
 
 <br>
 

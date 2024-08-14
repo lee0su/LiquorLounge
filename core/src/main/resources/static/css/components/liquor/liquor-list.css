@@ -23,8 +23,11 @@
     flex-grow: 1;
 }
 
-.item-price {
+.item-info p {
     font-weight: bold;
-    color: #007bff;
     font-size: 12px;
+}
+
+.item-price {
+    color: #007bff;
 }

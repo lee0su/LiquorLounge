@@ -17,14 +17,12 @@ public class LiquorController {
 
     @GetMapping("/whiskey")
     public ResponseEntity<List<WhiskeyEntity>> getAllWhiskeys() {
-        System.out.println("OK1");
         List<WhiskeyEntity> whiskeys = whiskeyService.getAllWhiskeys();
         return ResponseEntity.ok(whiskeys);
     }
 
     @PostMapping("/whiskey")
     public ResponseEntity<WhiskeyEntity> createWhiskey(@RequestBody WhiskeyEntity whiskey) {
-        System.out.println("OK2");
         WhiskeyEntity createdWhiskey = whiskeyService.createWhiskey(whiskey);
         return ResponseEntity.status(201).body(createdWhiskey);
     }

@@ -49,9 +49,9 @@ async function showTab(tabName, currentPage) {
                 <img src="/images/logo.png" alt="${item.name}">
                 <div class="item-info">
                     <strong>${item.name}</strong>
-                    <p>Proof: ${item.proof}%</p>
+                    <p>ABV: ${(item.proof / 2).toFixed(1)}%</p>
+                    <p class="item-price">70cl $${item.pricePer70cl}<p>
                 </div>
-                <div class="item-price">70cl $${item.pricePer70cl}</div>
             `;
             liquorList.appendChild(liquorItem);
         });

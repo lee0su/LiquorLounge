@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="liquor 창 버튼 수정">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="liquor list 이전, 다음 버튼 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +286,7 @@
       <workItem from="1723444238721" duration="2128000" />
       <workItem from="1723446383491" duration="14307000" />
       <workItem from="1723523720637" duration="679000" />
-      <workItem from="1723618127665" duration="13484000" />
+      <workItem from="1723618127665" duration="14577000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -479,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723632836654</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="liquor list 이전, 다음 버튼 구현">
+      <option name="closed" value="true" />
+      <created>1723634185131</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723634185131</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,6 +531,7 @@
     <MESSAGE value="Liquor 창에 위스키 데이터 24개씩 나오게 추가, 이전, 다음버튼 작동 안함" />
     <MESSAGE value="Liquor 창에 위스키 데이터 24개씩 나오게 추가, 이전, 다음버튼 작동 안함_2 버튼도 수정해야됨" />
     <MESSAGE value="liquor 창 버튼 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="liquor 창 버튼 수정" />
+    <MESSAGE value="liquor list 이전, 다음 버튼 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="liquor list 이전, 다음 버튼 구현" />
   </component>
 </project>

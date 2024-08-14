@@ -31,3 +31,7 @@
     color: white;
 }
 
+.tab.active:hover {
+    background-color: royalblue;
+}
+

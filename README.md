@@ -1,6 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:294C71,100:5D8AA8&height=170&section=header&text=Liquor%20Lounge&animation=twinkling&fontSize=40&fontColor=E6E8FA&fontAlignY=35"/>
 <p align=right>:date: 2024.08.12(Mon) :clock3: 15:28 ~<br>...ing</p>
 
+```
+git clone https://github.com/lee0su/LiquorLounge.git
+```
+
 <h1>About The Project :speech_balloon:</h1>
 <br>
 <div align=center>
@@ -25,15 +29,34 @@
 
 <br>
 
-<h2>:heavy_check_mark: Skill</h2>
+<h2>:heavy_check_mark: Built With</h2>
 <ul>
   <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></li>
   <li><img src="https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=CSS3&logoColor=white"></li>
   <li><img src="https://img.shields.io/badge/javascript-%23323330?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E"></li>
   <li><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=black"></li>
   <li><img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></li>
+  <li><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></li>
 </ul>
 
+<br>
+
+<h2>:books: Features implemented</h2>
+<ul>
+  <li>Sign-in, Sign-up, Sign-out</li>
+  <li>Whiskey, Gin list (75%)</li>
+</ul>
+
+<br>
+
+<h2>:bookmark_tabs: Features not implemented</h2>
+<ul>
+  <li>Main page</li>
+  <li>Rum, Wine, Other list</li>
+  <li>Coummunity</li>
+  <li>Alcohol recommendation page</li>
+  <li>...etc</li>
+</ul>
 <br>
 
 <h2>:busts_in_silhouette: Member</h2>

@@ -117,4 +117,10 @@ gradlew bootRun
   <li>💩 farmercodel</li>
 </ul>
 
+<br>
+
+***
+
+<br>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:294C71,100:5D8AA8&height=170&section=footer&text=Liquor%20Lounge&animation=twinkling&fontSize=40&fontColor=E6E8FA&fontAlignY=70"/>

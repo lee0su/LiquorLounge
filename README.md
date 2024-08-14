@@ -77,7 +77,7 @@ gradlew bootRun
 <ul>
   <li>로그인, 로그아웃</li>
   <li>회원가입</li>
-  <li>Whiskey, Gin list (75%)</li>
+  <li>Whiskey, Gin, Wine list (75%)</li>
 </ul>
 
 <br>
@@ -85,8 +85,8 @@ gradlew bootRun
 <h2>📑 구현중인 기능</h2>
 <ul>
   <li>Main page</li>
-  <li>Whiskey, Gin list (25%)</li>
-  <li>Rum, Wine, Other list</li>
+  <li>Whiskey, Gin, Wine list (25%)</li>
+  <li>Rum, Other list</li>
   <li>Coummunity</li>
   <li>주류 추천 서비스</li>
   <li>칵테일 추천 서비스</li>

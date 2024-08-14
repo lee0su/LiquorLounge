@@ -18,7 +18,7 @@ git clone https://github.com/lee0su/LiquorLounge.git
 </div>
 <br>
 
-<h2>:mag: Main features list</h2>
+<h2>:mag: 주요 기능</h2>
 <ul>
   <li>:wine_glass: 입문용 주류 추천 서비스</li>
   <li>:cocktail: 칵테일 추천 서비스</li>

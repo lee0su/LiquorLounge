@@ -30,31 +30,44 @@ git clone https://github.com/lee0su/LiquorLounge.git
 <br>
 
 <h2>:heavy_check_mark: Built With</h2>
-<ul>
-  <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></li>
-  <li><img src="https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=CSS3&logoColor=white"></li>
-  <li><img src="https://img.shields.io/badge/javascript-%23323330?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E"></li>
-  <li><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=black"></li>
-  <li><img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></li>
-  <li><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></li>
+<ul> 
+  <li>Front-End</li>
+  <ul>
+    <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"></li>
+    <li><img src="https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=CSS3&logoColor=white"></li>
+    <li><img src="https://img.shields.io/badge/javascript-%23323330?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E"></li>
+  </ul>
+  <br>
+  <li>Back-End</li>
+  <ul>
+    <li><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=black"></li>
+    <li><img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></li>
+  </ul>
+  <br>
+  <li>Git</li>
+  <ul> 
+    <li><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></li>
+  </ul>
 </ul>
 
 <br>
 
-<h2>:books: Features implemented</h2>
+<h2>:books: 구현된 기능</h2>
 <ul>
-  <li>Sign-in, Sign-up, Sign-out</li>
+  <li>로그인, 로그아웃</li>
+  <li>회원가입</li>
   <li>Whiskey, Gin list (75%)</li>
 </ul>
 
 <br>
 
-<h2>:bookmark_tabs: Features not implemented</h2>
+<h2>:bookmark_tabs: 구현중인 기능</h2>
 <ul>
   <li>Main page</li>
   <li>Rum, Wine, Other list</li>
   <li>Coummunity</li>
-  <li>Alcohol recommendation page</li>
+  <li>주류 추천 서비스</li>
+  <li>칵테일 추천 서비스</li>
   <li>...etc</li>
 </ul>
 <br>

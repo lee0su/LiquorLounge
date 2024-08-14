@@ -35,7 +35,7 @@ async function showTab(tabName, currentPage) {
 
         data.sort((a, b) => a.id - b.id);
 
-        const totalItems = Array.isArray(data) ? data.length : data.items.length;
+        const totalItems = data.length;
         const totalPages = Math.ceil(totalItems / itemsPerPage);
 
         const startIndex = (currentPage - 1) * itemsPerPage;
@@ -73,6 +73,7 @@ async function showTab(tabName, currentPage) {
         console.error('Liquor List Up Error_1 fetching liquor data: ', error);
         // liquorList.innerHTML = '<p>데이터를 불러오는데 실패했습니다.</p>';
         liquorList.innerHTML = '<p>데이터를 준비중입니다.</p>';
+        setupPagination(0, 0, tabName);
     }
 
 }

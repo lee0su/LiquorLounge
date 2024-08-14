@@ -3,6 +3,19 @@ const itemsPerPage = 24;
 
 // tabs
 async function showTab(tabName) {
+
+    const tabButtons = document.querySelectorAll('.tab');
+
+    tabButtons.forEach(button => {
+        button.classList.remove('active');
+    });
+
+    const activeButton = Array.from(tabButtons).find(button => button.textContent.toLowerCase() === tabName);
+
+    if (activeButton) {
+        activeButton.classList.add('active');
+    }
+
     console.log('현재 페이지: ' + currentPage);
     const tabs = document.querySelectorAll('.tab-content');
     tabs.forEach(tab => {
@@ -37,9 +50,9 @@ async function showTab(tabName) {
                 <img src="/images/logo.png" alt="${item.name}">
                 <div class="item-info">
                     <strong>${item.name}</strong>
-                    <p>Proof: ${item.proof}</p>
+                    <p>Proof: ${item.proof}%</p>
                 </div>
-                <div class="item-price">$${item.pricePer70cl}</div>
+                <div class="item-price">70cl $${item.pricePer70cl}</div>
             `;
             liquorList.appendChild(liquorItem);
         });
@@ -51,15 +64,6 @@ async function showTab(tabName) {
         liquorList.innerHTML = '<p>데이터를 불러오는 데 실패했습니다.</p>';
     }
 
-    const tabButtons = document.querySelectorAll('.tab');
-    tabButtons.forEach(button => {
-        button.classList.remove('active');
-    });
-
-    const activeButton = Array.from(tabButtons).find(button => button.textContent.toLowerCase() === tabName.toLowerCase());
-    if (activeButton) {
-        activeButton.classList.add('active');
-    }
 }
 
 function setupPagination(currentPage, totalPages, tabName) {

@@ -65,7 +65,17 @@ async function showTab(tabName, currentPage) {
                         <p class="item-price">??</p>
                     </div>
                 `;
+            } else if (tabName === 'wine') {
+                liquorItem.innerHTML = `
+                    <img src="${imgUrl}" alt="${item.name}">
+                    <div class="item-info">
+                        <string>${item.name}</string>
+                        <p>ABV: ${item.abv}%</p>
+                        <p class="item-price">$${item.price}</p>
+                    </div>
+                `;
             }
+
             liquorList.appendChild(liquorItem);
         });
 

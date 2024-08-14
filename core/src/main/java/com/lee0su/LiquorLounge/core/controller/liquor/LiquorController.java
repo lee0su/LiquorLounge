@@ -2,8 +2,10 @@ package com.lee0su.LiquorLounge.core.controller.liquor;
 
 import com.lee0su.LiquorLounge.core.entity.liquor.GinEntity;
 import com.lee0su.LiquorLounge.core.entity.liquor.WhiskeyEntity;
+import com.lee0su.LiquorLounge.core.entity.liquor.WineEntity;
 import com.lee0su.LiquorLounge.core.service.liquor.GinService;
 import com.lee0su.LiquorLounge.core.service.liquor.WhiskeyService;
+import com.lee0su.LiquorLounge.core.service.liquor.WineService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,6 +21,9 @@ public class LiquorController {
 
     @Autowired
     private GinService ginService;
+
+    @Autowired
+    private WineService wineService;
 
     @GetMapping("/whiskey")
     public ResponseEntity<List<WhiskeyEntity>> getAllWhiskeys() {
@@ -42,6 +47,18 @@ public class LiquorController {
     public ResponseEntity<GinEntity> createGins(@RequestBody GinEntity gin) {
         GinEntity createdGin = ginService.createGin(gin);
         return ResponseEntity.status(201).body(createdGin);
+    }
+
+    @GetMapping("/wine")
+    public ResponseEntity<List<WineEntity>> getAllWines() {
+        List<WineEntity> wines = wineService.getAllWines();
+        return ResponseEntity.ok(wines);
+    }
+
+    @PostMapping("/wine")
+    public ResponseEntity<WineEntity> createWines(@RequestBody WineEntity wine) {
+        WineEntity createdWine = wineService.createWine(wine);
+        return ResponseEntity.status(201).body(createdWine);
     }
 
 }

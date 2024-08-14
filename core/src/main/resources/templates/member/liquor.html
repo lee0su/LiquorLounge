@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
     <link rel="stylesheet" type="text/css" href="/css/components/liquor/liquor.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/liquor/liquor-list.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/liquor/liquor-pagination.css">
 </head>
 <body>
 <!--navbar-->
@@ -27,30 +29,25 @@
         <button class="tab" onclick="showTab('wine')">Wine</button>
         <button class="tab" onclick="showTab('others')">Others</button>
     </div>
-    <!--위스키-->
-    <div id="whiskey" class="tab-content active">
-        <p>Whisky</p>
-    </div>
-    <!--진-->
-    <div id="gin" class="tab-content">
-        <p>Gin</p>
-    </div>
-    <!--럼-->
-    <div id="rum" class="tab-content">
-        <p>Rum</p>
-    </div>
-    <!--와인-->
-    <div id="wine" class="tab-content">
-        <p>Wine</p>
-    </div>
-    <!--그 외-->
-    <div id="others" class="tab-content">
-        <p>Others</p>
+    <div id="liquor" class="tab-content active">
+        <div class="liquor-list">
+            <!--동적으로 리스트가 추가될 자리-->
+        </div>
+        <div class="pagination">
+            <!--페이지 전환 버튼 추가-->
+        </div>
     </div>
 </div>
 
 <!--script-->
 <script src="/js/user/sign-out.js"></script>
 <script src="/js/liquor/liquor-tabs.js"></script>
+
+<!--시작 기본 호출 스크립트-->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        showTab('whiskey');
+    })
+</script>
 </body>
 </html>

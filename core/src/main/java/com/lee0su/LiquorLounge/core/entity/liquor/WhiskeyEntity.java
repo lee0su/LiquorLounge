@@ -54,3 +54,4 @@ public class WhiskeyEntity {
     private int sweetness;
 
 }
+

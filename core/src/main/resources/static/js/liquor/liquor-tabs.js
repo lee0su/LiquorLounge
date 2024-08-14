@@ -42,12 +42,14 @@ async function showTab(tabName, currentPage) {
         const endIndex = startIndex + itemsPerPage;
         const paginatedData = data.slice(startIndex, endIndex);
 
+        const imgUrl = '/images/temp_img.png';
+
         paginatedData.forEach(item => {
             const liquorItem = document.createElement('div');
             liquorItem.classList.add('liquor-item');
             if (tabName === 'whiskey') {
                 liquorItem.innerHTML = `
-                    <img src="/images/logo.png" alt="${item.name}">
+                    <img src="${imgUrl}" alt="${item.name}">
                     <div class="item-info">
                         <strong>${item.name}</strong>
                         <p>ABV: ${(item.proof / 2).toFixed(1)}%</p>
@@ -56,7 +58,7 @@ async function showTab(tabName, currentPage) {
                 `;
             } else if (tabName === 'gin') {
                 liquorItem.innerHTML = `
-                    <img src="/images/logo.png" alt="${item.name}">
+                    <img src="${imgUrl}" alt="${item.name}">
                     <div class="item-info">
                         <string>${item.name}</string>
                         <p>ABV: ${item.alcohol}%</p>

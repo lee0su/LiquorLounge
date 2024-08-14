@@ -1,0 +1,110 @@
+.container-community {
+    margin: 20px auto;
+    max-width: 800px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 13px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+.title {
+    flex: 4;
+}
+
+.author {
+    flex: 0.8;
+}
+
+.date {
+    flex:1.2;
+}
+
+.likes, .comments {
+    flex: 0.3; /* 좋아요와 댓글 열: 0.5 */
+}
+
+.form-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.form-container select {
+    padding: 5px; /* 내부 여백 */
+    margin-right: 10px; /* 입력 필드와 버튼 간의 간격 */
+    font-size: 14px; /* 글자 크기 조정 */
+    width: 80px; /* 선택 박스의 고정 너비 */
+}
+
+.form-container input {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.form-container button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#search {
+    margin-right: 20px;
+}
+
+
+
+
+/*.left-tab {*/
+/*    border-top-left-radius: 5px;*/
+/*    border-bottom-left-radius: 5px;*/
+/*}*/
+
+/*.right-tab {*/
+/*    border-top-right-radius: 5px;*/
+/*    border-bottom-right-radius: 5px;*/
+/*}*/
+
+/*.tab:hover {*/
+/*    background-color: #d4d4d4;*/
+/*}*/
+
+/*.tab.active {*/
+/*    background-color: #007bff;*/
+/*    color: white;*/
+/*}*/
+
+/*.tab.active:hover {*/
+/*    background-color: royalblue;*/
+/*}*/

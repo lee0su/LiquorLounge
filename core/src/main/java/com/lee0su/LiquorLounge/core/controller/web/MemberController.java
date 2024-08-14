@@ -37,4 +37,12 @@ public class MemberController {
         return "member/community";
     }
 
+    @GetMapping("/written")
+    public String memberWrittenPage(HttpSession session) {
+        UserEntity user = (UserEntity) session.getAttribute("user");
+        if (user == null) {
+            return "redirect:/guest/write-guest";
+        }
+        return "member/write-member";
+    }
 }

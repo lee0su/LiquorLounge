@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>LiquorLounge</title>
+    <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/community/written.css">
+</head>
+<body>
+<!--navbar-->
+<nav>
+    <img src="/images/logo.png" class="logo-image">
+    <div style="margin-left:auto;">
+        <button onclick="location.href='/member/main'">Main</button>
+        <button onclick="location.href='/member/liquor'">Liquor</button>
+        <button class="active" onclick="location.href='/member/community'">Community</button>
+        <button onclick="signOut()">Sign out</button>
+    </div>
+</nav>
+
+<!-- 커뮤니티 글쓰기 -->
+<div class="container-community">
+    <form id="postForm">
+        <div class="form-group">
+            <input type="text" id="title" name="title" placeholder="제목을 입력하세요" required>
+        </div>
+        <div class="form-group">
+            <textarea id="content" name="content" rows="8" placeholder="내용을 입력하세요" required></textarea>
+        </div>
+        <div class="form-group">
+            <input type="file" id="image" name="image" accept="image/*">
+        </div>
+        <button type="submit">등록</button>
+    </form>
+</div>
+
+<!--script-->
+<script src="/js/user/sign-out.js"></script>
+</body>
+</html>

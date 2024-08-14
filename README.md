@@ -68,6 +68,7 @@ git clone https://github.com/lee0su/LiquorLounge.git
 <h2>:bookmark_tabs: 구현중인 기능</h2>
 <ul>
   <li>Main page</li>
+  <li>Whiskey, Gin list (25%)</li>
   <li>Rum, Wine, Other list</li>
   <li>Coummunity</li>
   <li>주류 추천 서비스</li>

@@ -23,11 +23,11 @@
 <!--page contents-->
 <div class="liquor-container">
     <div class="tabs">
-        <button class="tab active" onclick="showTab('whiskey')">Whiskey</button>
-        <button class="tab" onclick="showTab('gin')">Gin</button>
-        <button class="tab" onclick="showTab('rum')">Rum</button>
-        <button class="tab" onclick="showTab('wine')">Wine</button>
-        <button class="tab" onclick="showTab('others')">Others</button>
+        <button class="tab active" onclick="showTab('whiskey', 1)">Whiskey</button>
+        <button class="tab" onclick="showTab('gin', 1)">Gin</button>
+        <button class="tab" onclick="showTab('rum', 1)">Rum</button>
+        <button class="tab" onclick="showTab('wine', 1)">Wine</button>
+        <button class="tab" onclick="showTab('others', 1)">Others</button>
     </div>
     <div id="liquor" class="tab-content active">
         <div class="liquor-list">
@@ -45,7 +45,7 @@
 <!--시작 기본 호출 스크립트-->
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        showTab('whiskey');
+        showTab('whiskey', 1);
     })
 </script>
 </body>

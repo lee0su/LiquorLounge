@@ -1,8 +1,7 @@
-let currentPage = 1;
 const itemsPerPage = 24;
 
 // tabs
-async function showTab(tabName) {
+async function showTab(tabName, currentPage) {
 
     const tabButtons = document.querySelectorAll('.tab');
 
@@ -75,12 +74,16 @@ function setupPagination(currentPage, totalPages, tabName) {
         prevButton.textContent = '<<';
         prevButton.onclick = () => {
             currentPage--;
-            showTab(tabName);
+            showTab(tabName, currentPage);
         };
         pagination.appendChild(prevButton);
+    } else {
+        const temp = document.createElement('span');
+        temp.textContent = '';
+        pagination.appendChild(temp);
     }
 
-    const pageInfo = document.createElement('span');
+    const pageInfo = document.createElement('p');
     pageInfo.textContent = `${currentPage}/${totalPages}`;
     pagination.appendChild(pageInfo);
 
@@ -90,8 +93,12 @@ function setupPagination(currentPage, totalPages, tabName) {
         nextButton.onclick = () => {
             currentPage++;
             console.log(currentPage);
-            showTab(tabName);
+            showTab(tabName, currentPage);
         };
         pagination.appendChild(nextButton);
+    } else {
+        const temp = document.createElement('p');
+        temp.textContent = '';
+        pagination.appendChild(temp);
     }
 }

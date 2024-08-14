@@ -29,7 +29,7 @@ async function showTab(tabName, currentPage) {
     const liquorList = document.querySelector('.liquor-list');
     liquorList.innerHTML = '';
 
-    try { //
+    try {
         const response = await fetch(`/api/liquors/${tabName}`);
         const data = await response.json();
 
@@ -45,14 +45,25 @@ async function showTab(tabName, currentPage) {
         paginatedData.forEach(item => {
             const liquorItem = document.createElement('div');
             liquorItem.classList.add('liquor-item');
-            liquorItem.innerHTML = `
-                <img src="/images/logo.png" alt="${item.name}">
-                <div class="item-info">
-                    <strong>${item.name}</strong>
-                    <p>ABV: ${(item.proof / 2).toFixed(1)}%</p>
-                    <p class="item-price">70cl $${item.pricePer70cl}<p>
-                </div>
-            `;
+            if (tabName === 'whiskey') {
+                liquorItem.innerHTML = `
+                    <img src="/images/logo.png" alt="${item.name}">
+                    <div class="item-info">
+                        <strong>${item.name}</strong>
+                        <p>ABV: ${(item.proof / 2).toFixed(1)}%</p>
+                        <p class="item-price">70cl $${item.pricePer70cl}<p>
+                    </div>
+                `;
+            } else if (tabName === 'gin') {
+                liquorItem.innerHTML = `
+                    <img src="/images/logo.png" alt="${item.name}">
+                    <div class="item-info">
+                        <string>${item.name}</string>
+                        <p>ABV: ${item.alcohol}%</p>
+                        <p class="item-price">??</p>
+                    </div>
+                `;
+            }
             liquorList.appendChild(liquorItem);
         });
 

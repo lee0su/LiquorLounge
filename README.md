@@ -3,15 +3,7 @@
 
 <br>
 
-```
-git clone https://github.com/lee0su/LiquorLounge.git
-```
-```
-cd core
-./gradlew build
-```
 
-<br>
 
 <h1>About The Project 💬</h1>
 <br>
@@ -24,6 +16,24 @@ cd core
 <div>
   <p>너무나 당연한 말이지만, 술에도 다양한 맛이 있다는 사실 ! Liquor Lounge 에서는 좋아하는 과일 🍓, 좋아하는 장소 🌇 등 여러 개인적인 취향에 따라 🥃위스키, 진, 럼, 와인🍷 등 주종부터 시작해 술의 맛에 따른 구체적인 입문용 주류 추천을 도와줍니다 ! 또한, 선호하는 도수와 단맛, 신맛, 알코올맛을 고려해 칵테일 🍹 또한 추천해줄 뿐 아니라 한눈에 보기 좋은 여러가지 각종 술들의 리스트는 물론 ! 수많은 애주가들을 위한 커뮤니티또한 운영됩니다 ! </p>
 </div>
+<br>
+
+### Clone
+```
+git clone https://github.com/lee0su/LiquorLounge.git
+cd core
+```
+### Mac
+```
+./gradlew build
+./gradlew bootRun
+```
+### Windows
+```
+gradlew build
+gradlew bootRun
+```
+
 <br>
 
 <h2>🔍 주요 기능</h2>

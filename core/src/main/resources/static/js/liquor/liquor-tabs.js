@@ -71,7 +71,8 @@ async function showTab(tabName, currentPage) {
 
     } catch(error) {
         console.error('Liquor List Up Error_1 fetching liquor data: ', error);
-        liquorList.innerHTML = '<p>데이터를 불러오는 데 실패했습니다.</p>';
+        // liquorList.innerHTML = '<p>데이터를 불러오는데 실패했습니다.</p>';
+        liquorList.innerHTML = '<p>데이터를 준비중입니다.</p>';
     }
 
 }

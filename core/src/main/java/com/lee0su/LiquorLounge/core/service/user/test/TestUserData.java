@@ -1,4 +1,4 @@
-package com.lee0su.LiquorLounge.core.service.user;
+package com.lee0su.LiquorLounge.core.service.user.test;
 
 import com.lee0su.LiquorLounge.core.dto.user.UserDTO;
 import com.lee0su.LiquorLounge.core.entity.user.UserEntity;
@@ -9,8 +9,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class TestUserData {

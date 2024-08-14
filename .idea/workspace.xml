@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="파일명 정리">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/core.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/WhiskeyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/WhiskeyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/WhiskeyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WhiskeyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/data/whisky-database.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/forgotPassword.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/forgotPassword.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/sign-in.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/sign-in.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/sign-up.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/sign-up.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/sign-out.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-out.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/user/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/user/UserEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +80,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -300,6 +291,7 @@
       <workItem from="1723444238721" duration="2128000" />
       <workItem from="1723446383491" duration="14307000" />
       <workItem from="1723523720637" duration="679000" />
+      <workItem from="1723618127665" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />

@@ -24,6 +24,10 @@ repositories {
 }
 
 dependencies {
+
+    // 객체 변환 라이브러리
+    implementation 'com.google.code.gson:gson:2.8.9' // JSON -> Java 객체 변환 Gson 라이브러리
+
     // 웹 스크래핑 라이브러리
     implementation 'org.jsoup:jsoup:1.15.3' // Jsoup:HTML 파싱 및 웹 스크래핑을 위한 라이브러리
 

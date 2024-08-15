@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="임시 이미지 추가">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/WineDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/WineEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/WineRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/data/wine-database.csv" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Wine 데이터 추가">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/liquor/LiquorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/liquor/LiquorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/GinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/GinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WhiskeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WhiskeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WineService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,44 +113,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.core [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CoreApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;패싯&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/iyeongsu/Desktop/project_list/LiquorLounge/core/src/main/resources/templates/public&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.core [:main.main()].executor": "Run",
+    "Gradle.core [build].executor": "Run",
+    "Gradle.core [clean].executor": "Run",
+    "Gradle.core [dependencies].executor": "Run",
+    "Gradle.core 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CoreApplication (1).executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "패싯",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack",
+    "two.files.diff.last.used.folder": "/Users/iyeongsu/Desktop/project_list/LiquorLounge/core/src/main/resources/templates/public",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor" />
@@ -174,6 +171,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CoreApplication (1)">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lee0su.LiquorLounge.core.dataSet.main" />
+      <module name="core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lee0su.LiquorLounge.core.dataSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="core [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -266,6 +276,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.main" />
         <item itemvalue="Gradle.core [dependencies]" />
         <item itemvalue="Gradle.core [build]" />
         <item itemvalue="Gradle.core [clean]" />
@@ -291,7 +302,7 @@
       <workItem from="1723444238721" duration="2128000" />
       <workItem from="1723446383491" duration="14307000" />
       <workItem from="1723523720637" duration="679000" />
-      <workItem from="1723618127665" duration="29245000" />
+      <workItem from="1723618127665" duration="32326000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -573,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723658809692</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Wine 데이터 추가">
+      <option name="closed" value="true" />
+      <created>1723663771520</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723663771520</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="네비바 호버 액션 추가" />
     <MESSAGE value="유저 정보에 email 추가" />
     <MESSAGE value="비밀번호 찾기 조건 생일에서 이메일로 변경" />
     <MESSAGE value="임시 로고 네비바에 추가" />
@@ -617,6 +635,7 @@
     <MESSAGE value="테스트 계정 파일 분리" />
     <MESSAGE value="Database Table 이름 정리" />
     <MESSAGE value="임시 이미지 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="임시 이미지 추가" />
+    <MESSAGE value="Wine 데이터 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wine 데이터 추가" />
   </component>
 </project>

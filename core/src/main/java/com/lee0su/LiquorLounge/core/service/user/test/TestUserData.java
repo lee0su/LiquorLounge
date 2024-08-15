@@ -27,7 +27,7 @@ public class TestUserData {
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
-    @PostConstruct
+//    @PostConstruct
     public void init() {
 
         UserDTO userDTO = new UserDTO();

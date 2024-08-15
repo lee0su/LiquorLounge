@@ -15,7 +15,6 @@ async function showTab(tabName, currentPage) {
         activeButton.classList.add('active');
     }
 
-    console.log('현재 페이지: ' + currentPage);
     const tabs = document.querySelectorAll('.tab-content');
     tabs.forEach(tab => {
         tab.classList.remove('active');
@@ -62,7 +61,16 @@ async function showTab(tabName, currentPage) {
                     <div class="item-info">
                         <string>${item.name}</string>
                         <p>ABV: ${item.alcohol}%</p>
-                        <p class="item-price">??</p>
+                        <p class="item-price">$??</p>
+                    </div>
+                `;
+            } else if (tabName === 'rum') {
+                liquorItem.innerHTML = `
+                    <img src="${imgUrl}" alt="${item.name}">
+                    <div class="item-info">
+                        <string>${item.name}</string>
+                        <p>ABV: ?%</p>
+                        <p class="item-price">$??</p>
                     </div>
                 `;
             } else if (tabName === 'wine') {
@@ -74,6 +82,8 @@ async function showTab(tabName, currentPage) {
                         <p class="item-price">$${item.price}</p>
                     </div>
                 `;
+            } else if (tabName === 'other') {
+
             }
 
             liquorList.appendChild(liquorItem);
@@ -117,7 +127,6 @@ function setupPagination(currentPage, totalPages, tabName) {
         nextButton.textContent = '>>';
         nextButton.onclick = () => {
             currentPage++;
-            console.log(currentPage);
             showTab(tabName, currentPage);
         };
         pagination.appendChild(nextButton);

@@ -1,9 +1,11 @@
 package com.lee0su.LiquorLounge.core.controller.liquor;
 
 import com.lee0su.LiquorLounge.core.entity.liquor.GinEntity;
+import com.lee0su.LiquorLounge.core.entity.liquor.RumEntity;
 import com.lee0su.LiquorLounge.core.entity.liquor.WhiskeyEntity;
 import com.lee0su.LiquorLounge.core.entity.liquor.WineEntity;
 import com.lee0su.LiquorLounge.core.service.liquor.GinService;
+import com.lee0su.LiquorLounge.core.service.liquor.RumService;
 import com.lee0su.LiquorLounge.core.service.liquor.WhiskeyService;
 import com.lee0su.LiquorLounge.core.service.liquor.WineService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +23,9 @@ public class LiquorController {
 
     @Autowired
     private GinService ginService;
+
+    @Autowired
+    private RumService rumService;
 
     @Autowired
     private WineService wineService;
@@ -47,6 +52,18 @@ public class LiquorController {
     public ResponseEntity<GinEntity> createGins(@RequestBody GinEntity gin) {
         GinEntity createdGin = ginService.createGin(gin);
         return ResponseEntity.status(201).body(createdGin);
+    }
+
+    @GetMapping("/rum")
+    public ResponseEntity<List<RumEntity>> getAllRums() {
+        List<RumEntity> rums = rumService.getAllRums();
+        return ResponseEntity.ok(rums);
+    }
+
+    @PostMapping("/rum")
+    public ResponseEntity<RumEntity> createRums(@RequestBody RumEntity rum) {
+        RumEntity createdRum = rumService.createRum(rum);
+        return ResponseEntity.status(201).body(createdRum);
     }
 
     @GetMapping("/wine")

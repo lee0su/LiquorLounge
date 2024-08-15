@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Wine 데이터 추가">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="database 저장 클래스 분리">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/RumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/RumEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/RumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/RumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/data/rum-database.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/GinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/GinService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WhiskeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WhiskeyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/WineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/liquor/LiquorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/liquor/LiquorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +306,7 @@
       <workItem from="1723444238721" duration="2128000" />
       <workItem from="1723446383491" duration="14307000" />
       <workItem from="1723523720637" duration="679000" />
-      <workItem from="1723618127665" duration="32326000" />
+      <workItem from="1723618127665" duration="34274000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -592,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723663771520</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="database 저장 클래스 분리">
+      <option name="closed" value="true" />
+      <created>1723709907805</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723709907805</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +623,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="유저 정보에 email 추가" />
     <MESSAGE value="비밀번호 찾기 조건 생일에서 이메일로 변경" />
     <MESSAGE value="임시 로고 네비바에 추가" />
     <MESSAGE value="로그인 상태가 아닐때 로그인 url 로 이동시 /guest/main 이 호출되게 변경" />
@@ -636,6 +647,7 @@
     <MESSAGE value="Database Table 이름 정리" />
     <MESSAGE value="임시 이미지 추가" />
     <MESSAGE value="Wine 데이터 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wine 데이터 추가" />
+    <MESSAGE value="database 저장 클래스 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="database 저장 클래스 분리" />
   </component>
 </project>

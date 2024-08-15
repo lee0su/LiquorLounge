@@ -3,12 +3,15 @@ package com.lee0su.LiquorLounge.core.service.liquor.data;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.lee0su.LiquorLounge.core.dto.liquor.GinDTO;
+import com.lee0su.LiquorLounge.core.dto.liquor.RumDTO;
 import com.lee0su.LiquorLounge.core.dto.liquor.WhiskeyDTO;
 import com.lee0su.LiquorLounge.core.dto.liquor.WineDTO;
 import com.lee0su.LiquorLounge.core.entity.liquor.GinEntity;
+import com.lee0su.LiquorLounge.core.entity.liquor.RumEntity;
 import com.lee0su.LiquorLounge.core.entity.liquor.WhiskeyEntity;
 import com.lee0su.LiquorLounge.core.entity.liquor.WineEntity;
 import com.lee0su.LiquorLounge.core.repository.liquor.GinRepository;
+import com.lee0su.LiquorLounge.core.repository.liquor.RumRepository;
 import com.lee0su.LiquorLounge.core.repository.liquor.WhiskeyRepository;
 import com.lee0su.LiquorLounge.core.repository.liquor.WineRepository;
 import jakarta.annotation.PostConstruct;
@@ -26,12 +29,14 @@ public class dataInit {
 
     private final GinRepository ginRepository;
     private final WhiskeyRepository whiskeyRepository;
+    private final RumRepository rumRepository;
     private final WineRepository wineRepository;
 
     @Autowired
-    public dataInit(WhiskeyRepository whiskeyRepository, GinRepository ginRepository, WineRepository wineRepository) {
+    public dataInit(WhiskeyRepository whiskeyRepository, GinRepository ginRepository, RumRepository rumRepository, WineRepository wineRepository) {
         this.whiskeyRepository = whiskeyRepository;
         this.ginRepository = ginRepository;
+        this.rumRepository = rumRepository;
         this.wineRepository = wineRepository;
     }
 
@@ -82,6 +87,37 @@ public class dataInit {
 
             List<GinEntity> ginEntities = convertToGinEntity(gins);
             ginRepository.saveAll(ginEntities);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Rum
+        try (InputStream inputStream = getClass().getResourceAsStream("/static/data/rum-database.csv");
+             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
+
+            List<RumDTO> rums = new ArrayList<>();
+            String line;
+            reader.readLine();
+            while ((line = reader.readLine()) != null) {
+                String[] data = line.split(",");
+                RumDTO rum = new RumDTO();
+                rum.setName(data[0]);
+                rum.setCompany(data[1]);
+                rum.setCountry(data[2]);
+                rum.setPrice(Double.parseDouble(data[3]));
+                rum.setRating(Double.parseDouble(data[4]));
+                rum.setScore(Double.parseDouble(data[5]));
+                rum.setType(data[6]);
+                rum.setRum_url(data[7]);
+                rum.setImg_url(data[8]);
+                rum.setBr_score(Double.parseDouble(data[9]));
+
+                rums.add(rum);
+            }
+
+            List<RumEntity> rumEntities = convertToRumEntity(rums);
+            rumRepository.saveAll(rumEntities);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -155,6 +191,25 @@ public class dataInit {
             gin.setCity(dto.getCity());
             gin.setWebsite(dto.getWebsite());
             return gin;
+        }).toList();
+    }
+
+    // Rum
+    private List<RumEntity> convertToRumEntity(List<RumDTO> rumDTOs) {
+        return rumDTOs.stream().map(dto -> {
+            RumEntity rum = new RumEntity();
+            rum.setName(dto.getName());
+            rum.setCompany(dto.getCompany());
+            rum.setCountry(dto.getCountry());
+            rum.setPrice(dto.getPrice());
+            rum.setRating(dto.getRating());
+            rum.setScore(dto.getScore());
+            rum.setType(dto.getType());
+            rum.setRum_url(dto.getRum_url());
+            rum.setImg_url(dto.getImg_url());
+            rum.setBr_score(dto.getBr_score());
+
+            return rum;
         }).toList();
     }
 

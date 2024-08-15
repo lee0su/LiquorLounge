@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="서버 실행 기본 설정 데이터 불러오기 안하게">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
-    </list>
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -613,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723712151944</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="test">
+      <option name="closed" value="true" />
+      <created>1723717759125</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1723717759126</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +637,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="로그인 상태가 아닐때 로그인 url 로 이동시 /guest/main 이 호출되게 변경" />
     <MESSAGE value="폴더 정리" />
     <MESSAGE value="종속성 설명 추가" />
     <MESSAGE value="폴더 정리_2" />
@@ -657,6 +661,7 @@
     <MESSAGE value="database 저장 클래스 분리" />
     <MESSAGE value="Rum 데이터 추가" />
     <MESSAGE value="서버 실행 기본 설정 데이터 불러오기 안하게" />
-    <option name="LAST_COMMIT_MESSAGE" value="서버 실행 기본 설정 데이터 불러오기 안하게" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

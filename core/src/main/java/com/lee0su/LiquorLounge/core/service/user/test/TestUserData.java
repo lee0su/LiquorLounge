@@ -27,7 +27,9 @@ public class TestUserData {
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
-//    @PostConstruct
+    // 주석처리 X -> 서버 구동 시 데이터 입력 O
+    // 주석처리 O -> 서버 구동 시 데이터 입력 X
+    @PostConstruct
     public void init() {
 
         UserDTO userDTO = new UserDTO();

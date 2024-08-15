@@ -40,7 +40,9 @@ public class dataInit {
         this.wineRepository = wineRepository;
     }
 
-    @PostConstruct
+    // 주석처리 O -> 서버 실행 시 데이터 불러오기 안함
+    // 주석처리 X -> 서버 실행 시 데이터 불러옴
+//    @PostConstruct
     public void init() {
 
         // Whiskey

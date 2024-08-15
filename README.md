@@ -73,6 +73,12 @@ gradlew bootRun
   <ul> 
     <li><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></li>
   </ul>
+  <br>
+  <li>Design</li>
+  <br>
+  <ul>
+    <li><img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"></li>
+  </ul>
 </ul>
 
 <br>

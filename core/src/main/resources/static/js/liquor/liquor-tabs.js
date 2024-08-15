@@ -89,7 +89,12 @@ async function showTab(tabName, currentPage) {
             liquorList.appendChild(liquorItem);
         });
 
-        setupPagination(currentPage, totalPages, tabName);
+        if (totalPages < currentPage) {
+            liquorList.innerHTML = '<p>데이터를 준비중입니다.</div>';
+            setupPagination(0, 0, tabName);
+        } else {
+            setupPagination(currentPage, totalPages, tabName);
+        }
 
     } catch(error) {
         console.error('Liquor List Up Error_1 fetching liquor data: ', error);

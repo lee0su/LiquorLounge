@@ -89,9 +89,6 @@ gradlew bootRun
 </ul>
 
 <br>
-
-***
-
 <br>
 
 <h2>📑 구현중인 기능</h2>

@@ -71,17 +71,22 @@ public class dataInit {
                 gin.setName(data[0]);
                 gin.setMaker(data[1] != null && !data[1].isEmpty() ? data[1] : "X");
                 gin.setType(data[2]);
-                gin.setBottleSize(data[3]);
-                gin.setAlcohol(Double.parseDouble(data[4].replace("%", "")));
-                gin.setCountry(data[5]);
+                gin.setImg(data[3]);
+                gin.setBottleSize(data[4]);
+                gin.setAlcohol(Double.parseDouble(data[5].replace("%", "")));
+                gin.setCountry(data[6]);
 
-                if (data.length > 6) {
-                    gin.setCity(data[6] != null && !data[6].isEmpty() ? data[6] : "X");
+                if (data.length > 7) {
+                    gin.setCity(data[7] != null && !data[7].isEmpty() ? data[7] : "X");
 
-                    if (data.length > 7) {
-                        gin.setWebsite(data[7] != null && !data[7].isEmpty() ? data[7] : "X");
+                    if (data.length > 8) {
+                        gin.setWebsite(data[8] != null && !data[8].isEmpty() ? data[8] : "X");
+                    } else {
+                        gin.setWebsite("X");
                     }
 
+                } else {
+                    gin.setCity("X");
                 }
 
                 gins.add(gin);
@@ -187,6 +192,7 @@ public class dataInit {
             gin.setName(dto.getName());
             gin.setMaker(dto.getMaker());
             gin.setType(dto.getType());
+            gin.setImg(dto.getImg());
             gin.setBottleSize(dto.getBottleSize());
             gin.setAlcohol(dto.getAlcohol());
             gin.setCountry(dto.getCountry());

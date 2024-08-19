@@ -16,9 +16,11 @@ public class GinEntity {
     private String name;
     private String maker;
     private String type;
+    private String img;
     private String bottleSize;
     private Double alcohol;
     private String country;
     private String city;
     private String website;
+
 }

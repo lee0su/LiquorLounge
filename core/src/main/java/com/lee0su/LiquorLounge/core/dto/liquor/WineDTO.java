@@ -15,5 +15,6 @@ public class WineDTO {
     private int RatingsNum;
     private String Country;
     private double ABV;
+//    private String img;
 
 }

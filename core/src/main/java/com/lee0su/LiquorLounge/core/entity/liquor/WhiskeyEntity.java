@@ -26,6 +26,7 @@ public class WhiskeyEntity {
     private String region;
     private String caskType;
     private String colouring;
+    private String type;
 
     @Column(nullable = false)
     private double pricePer70cl; // 가격

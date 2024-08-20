@@ -148,6 +148,7 @@ public class dataInit {
                 wine.setRatingsNum(Integer.parseInt(data[5]));
                 wine.setCountry(data[6]);
                 wine.setABV(Double.parseDouble(data[7]));
+//                wine.setImg(data[8]);
 
                 wines.add(wine);
             }
@@ -173,6 +174,7 @@ public class dataInit {
             entity.setRegion(dto.getRegion() != null && !dto.getRegion().isEmpty() ? dto.getRegion() : "X");
             entity.setCaskType(dto.getCaskType() != null && !dto.getCaskType().isEmpty() ? dto.getCaskType() : "X");
             entity.setColouring(dto.getColouring() != null && !dto.getColouring().isEmpty() ? dto.getColouring() : "No");
+            entity.setType(dto.getType());
             entity.setPricePer70cl(dto.getPricePer70cl());
             entity.setAgeStatement(dto.getAgeStatement() != null);
             entity.setProof(dto.getProof());
@@ -233,6 +235,7 @@ public class dataInit {
             wine.setRatingsNum(dto.getRatingsNum());
             wine.setCountry(dto.getCountry());
             wine.setABV(dto.getABV());
+//            wine.setImg(dto.getImg());
             return wine;
         }).toList();
     }

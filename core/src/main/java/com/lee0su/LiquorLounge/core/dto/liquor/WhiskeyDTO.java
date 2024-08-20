@@ -18,13 +18,15 @@ public class WhiskeyDTO {
     private String CaskType;
     private String Colouring;
 
+    @SerializedName("Type")
+    private String type;
+
     @SerializedName("Price per 70cl, USD")
     private double PricePer70cl;
 
     @SerializedName("Age Statement")
     private String AgeStatement;
     private String Name;
-    private String Type;
     private double Proof;
 
     @Getter

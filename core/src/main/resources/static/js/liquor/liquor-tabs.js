@@ -48,7 +48,7 @@ async function showTab(tabName, currentPage) {
             liquorItem.classList.add('liquor-item');
             if (tabName === 'whiskey') {
                 liquorItem.innerHTML = `
-                    <img src="${imgUrl}" alt="${item.name}">
+                    <img src="${item.img}" alt="${item.name}">
                     <div class="item-info">
                         <strong>${item.name}</strong>
                         <p>ABV: ${(item.proof / 2).toFixed(1)}%</p>

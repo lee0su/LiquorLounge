@@ -54,5 +54,7 @@ public class WhiskeyEntity {
     @Column(nullable = false)
     private int sweetness;
 
+    private String img;
+
 }
 

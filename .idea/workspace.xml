@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="test">
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/GinDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/GinDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/GinEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/GinEntity.java" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="whiskey type 데이터 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/WhiskeyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/WhiskeyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/WhiskeyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/WhiskeyEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/data/gin-database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/data/gin-database.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/data/whisky-database.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/data/whisky-database.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +304,7 @@
       <workItem from="1723446383491" duration="14307000" />
       <workItem from="1723523720637" duration="679000" />
       <workItem from="1723618127665" duration="34919000" />
-      <workItem from="1723730791883" duration="8018000" />
+      <workItem from="1723730791883" duration="14979000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -625,7 +626,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723717759126</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="gin 사진 추가">
+      <option name="closed" value="true" />
+      <created>1724052143351</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1724052143351</updated>
+    </task>
+    <task id="LOCAL-00042" summary="whiskey type 데이터 추가">
+      <option name="closed" value="true" />
+      <created>1724145942733</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1724145942733</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,8 +661,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="폴더 정리" />
-    <MESSAGE value="종속성 설명 추가" />
     <MESSAGE value="폴더 정리_2" />
     <MESSAGE value="Liquor 탭 추가" />
     <MESSAGE value="파일명 정리" />
@@ -669,6 +684,8 @@
     <MESSAGE value="Rum 데이터 추가" />
     <MESSAGE value="서버 실행 기본 설정 데이터 불러오기 안하게" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="gin 사진 추가" />
+    <MESSAGE value="whiskey type 데이터 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="whiskey type 데이터 추가" />
   </component>
 </project>

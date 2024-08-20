@@ -183,6 +183,14 @@ public class dataInit {
             entity.setRichness(dto.getStyle().getRichness());
             entity.setSmoke(dto.getStyle().getSmoke());
             entity.setSweetness(dto.getStyle().getSweetness());
+
+            if (dto.getImg() != null && dto.getImg().length > 0) {
+                String imgString = String.join(",", dto.getImg());
+                entity.setImg(imgString);
+            } else {
+                entity.setImg("temp_img.png");
+            }
+
             return entity;
         }).toList();
     }

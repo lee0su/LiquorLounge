@@ -29,6 +29,9 @@ public class WhiskeyDTO {
     private String Name;
     private double Proof;
 
+    private String[] img;
+
+
     @Getter
     @Setter
     public static class Style {

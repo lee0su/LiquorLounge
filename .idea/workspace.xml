@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="whiskey type 데이터 추가">
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/forgotPassword.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/forgotPassword.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/sign-in.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/sign-in.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/sign-up.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/sign-up.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/write-member.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/write-member.html" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Whiskey image 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/WineDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/dto/liquor/WineDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/WineEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/entity/liquor/WineEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/data/wine-database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/data/wine-database.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/liquor/liquor-tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -651,7 +642,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724145942733</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="html &gt;&gt; container &lt;&lt; 전체 구조 변경">
+      <option name="closed" value="true" />
+      <created>1724153798701</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1724153798701</updated>
+    </task>
+    <task id="LOCAL-00044" summary="main color 변경">
+      <option name="closed" value="true" />
+      <created>1724153867151</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1724153867151</updated>
+    </task>
+    <task id="LOCAL-00045" summary="main 수정">
+      <option name="closed" value="true" />
+      <created>1724154982777</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1724154982777</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Whiskey image 수정">
+      <option name="closed" value="true" />
+      <created>1724156709109</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1724156709109</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,11 +693,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="폴더 정리_2" />
-    <MESSAGE value="Liquor 탭 추가" />
-    <MESSAGE value="파일명 정리" />
-    <MESSAGE value="Whiskey 데이터 추가" />
-    <MESSAGE value="Liquor 창에 위스키 데이터 24개씩 나오게 추가, 이전, 다음버튼 작동 안함" />
     <MESSAGE value="Liquor 창에 위스키 데이터 24개씩 나오게 추가, 이전, 다음버튼 작동 안함_2 버튼도 수정해야됨" />
     <MESSAGE value="liquor 창 버튼 수정" />
     <MESSAGE value="liquor list 이전, 다음 버튼 구현" />
@@ -695,6 +713,11 @@
     <MESSAGE value="test" />
     <MESSAGE value="gin 사진 추가" />
     <MESSAGE value="whiskey type 데이터 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="whiskey type 데이터 추가" />
+    <MESSAGE value="html &gt;&gt; content &lt;&lt; 전체 구조 변경" />
+    <MESSAGE value="html &gt;&gt; container &lt;&lt; 전체 구조 변경" />
+    <MESSAGE value="main color 변경" />
+    <MESSAGE value="main 수정" />
+    <MESSAGE value="Whiskey image 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whiskey image 수정" />
   </component>
 </project>

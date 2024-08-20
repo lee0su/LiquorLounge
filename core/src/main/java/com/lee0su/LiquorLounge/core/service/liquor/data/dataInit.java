@@ -148,7 +148,7 @@ public class dataInit {
                 wine.setRatingsNum(Integer.parseInt(data[5]));
                 wine.setCountry(data[6]);
                 wine.setABV(Double.parseDouble(data[7]));
-//                wine.setImg(data[8]);
+                wine.setImg(data[8]);
 
                 wines.add(wine);
             }
@@ -243,7 +243,7 @@ public class dataInit {
             wine.setRatingsNum(dto.getRatingsNum());
             wine.setCountry(dto.getCountry());
             wine.setABV(dto.getABV());
-//            wine.setImg(dto.getImg());
+            wine.setImg(dto.getImg());
             return wine;
         }).toList();
     }

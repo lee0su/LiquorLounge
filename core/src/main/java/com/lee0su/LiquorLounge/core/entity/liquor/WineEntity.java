@@ -24,6 +24,6 @@ public class WineEntity {
     private int RatingsNum;
     private String Country;
     private double ABV;
-//    private String img;
+    private String img;
 
 }

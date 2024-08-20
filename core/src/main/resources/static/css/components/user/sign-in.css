@@ -1,4 +1,5 @@
 .sign-in-container {
+    margin: 20px auto;
     display: flex;
     justify-content: center;
     padding-top: 100px;

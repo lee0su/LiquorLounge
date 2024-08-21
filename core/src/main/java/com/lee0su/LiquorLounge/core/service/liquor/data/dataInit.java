@@ -42,7 +42,7 @@ public class dataInit {
 
     // 주석처리 X -> 서버 구동 시 데이터 입력 O
     // 주석처리 O -> 서버 구동 시 데이터 입력 X
-//    @PostConstruct
+    @PostConstruct
     public void init() {
 
         // Whiskey

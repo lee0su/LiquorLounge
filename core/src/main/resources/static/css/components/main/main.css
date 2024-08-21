@@ -1,43 +1,7 @@
-:root {
-    --color1: darkgray;
-    --color2: gray;
-}
-
 .main-container {
     padding: 0 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-}
-
-.title {
-    font-size: 5em;
-    font-weight: 900;
-    text-align: center;
-    animation: colorChange 3s infinite;
-}
-
-.liquor {
-    margin-right: 8vw;
-}
-
-.lounge {
-    margin-left: 8vw;
-}
-
-@keyframes colorChange {
-    /*0% {color: #193970}*/
-    0% { color: var(--color2); }
-    10% { color: var(--color2); }
-    20% { color: var(--color2); }
-    30% { color: var(--color2); }
-    40% { color: var(--color1); }
-    45% { color: var(--color2); }
-    50% { color: var(--color1); }
-    60% { color: var(--color2); }
-    70% { color: var(--color1); }
-    80% { color: var(--color1); }
-    90% { color: var(--color1); }
-    100% { color: var(--color2); }
 }

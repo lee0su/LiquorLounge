@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="footer 임시 추가 (더 바꿔야됨)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/write-member.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/write-member.html" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="페이지 기본 구조 변경">
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/basic/guest-setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/basic/member-setting.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +306,7 @@
       <workItem from="1723730791883" duration="14979000" />
       <workItem from="1724677637956" duration="1909000" />
       <workItem from="1724831484534" duration="116000" />
-      <workItem from="1724831700178" duration="8723000" />
+      <workItem from="1724831700178" duration="9062000" />
     </task>
     <task id="LOCAL-00001" summary="20240812_1">
       <option name="closed" value="true" />
@@ -703,7 +692,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724238450501</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="페이지 기본 구조 변경">
+      <option name="closed" value="true" />
+      <created>1724918856535</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1724918856535</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +719,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="liquor list 이전, 다음 버튼 구현" />
     <MESSAGE value="자잘한 내용 수정" />
     <MESSAGE value="Gin 추가" />
     <MESSAGE value="안쓰는 import 삭제" />
@@ -747,6 +743,7 @@
     <MESSAGE value="Whiskey image 수정" />
     <MESSAGE value="Wine img 추가" />
     <MESSAGE value="footer 임시 추가 (더 바꿔야됨)" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer 임시 추가 (더 바꿔야됨)" />
+    <MESSAGE value="페이지 기본 구조 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="페이지 기본 구조 변경" />
   </component>
 </project>

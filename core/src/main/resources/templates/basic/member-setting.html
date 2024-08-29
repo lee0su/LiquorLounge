@@ -10,7 +10,8 @@
     <!--CSS-->
 
 </head>
-<body>
+<!--따옴표 속에 active 속성을 넣을 버튼의 Text 입력 (대소문자 구분)-->
+<body data-target-text="">
     <!--header navbar-->
     <th:block th:replace="~{/component/member-header.html :: member-header}"></th:block>
 
@@ -30,21 +31,7 @@
 
     <!--script-->
     <script src="/js/component/footer.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navbar = document.querySelector('.navbar');
-            const buttons = navbar.querySelectorAll('button');
-
-            // active 를 추가할 버튼의 텍스트를 입력
-            const targetText = '';
-
-            buttons.forEach(button => {
-                if (button.textContent.trim() === targetText) {
-                    button.classList.add('active');
-                }
-            });
-        });
-    </script>
+    <script src="/js/component/header.js"></script>
 <script src="/js/user/sign-out.js"></script>
 </body>
 </html>

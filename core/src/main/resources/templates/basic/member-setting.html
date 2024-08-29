@@ -10,19 +10,40 @@
 
 </head>
 <body>
-<div class="container">
-    <div class="empty-div"></div>
-    <div class="content">
-        <!--page content-->
-        <div class="page-container">
+    <!--header navbar-->
+    <th:block th:replace="~{/component/member-header.html :: member-header}"></th:block>
 
+    <div class="container">
+        <div class="empty-div"></div>
+        <div class="content">
+            <!--page content-->
+            <div class="page-container">
+
+            </div>
         </div>
+        <div class="empty-div"></div>
     </div>
-    <div class="empty-div"></div>
-</div>
 
-<!--script-->
-<script src="/js/footer/footer.js"></script>
+    <!--footer-->
+    <th:block th:replace="~{/component/footer.html :: footer}"></th:block>
+
+    <!--script-->
+    <script src="/js/component/footer.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navbar = document.querySelector('.navbar');
+            const buttons = navbar.querySelectorAll('button');
+
+            // active 를 추가할 버튼의 텍스트를 입력
+            const targetText = '';
+
+            buttons.forEach(button => {
+                if (button.textContent.trim() === targetText) {
+                    button.classList.add('active');
+                }
+            });
+        });
+    </script>
 <script src="/js/user/sign-out.js"></script>
 </body>
 </html>

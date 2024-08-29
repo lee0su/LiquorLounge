@@ -1,0 +1,14 @@
+<!DOCTYPE>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="member-header">
+    <nav class="navbar">
+        <img src="/images/logo.png" class="logo-image">
+        <div style="margin-left:auto;">
+            <button onclick="location.href='/member/main'">Main</button>
+            <button onclick="location.href='/member/liquor'">Liquor</button>
+            <button onclick="location.href='/member/community'">Community</button>
+            <button onclick="signOut()">Sign out</button>
+        </div>
+    </nav>
+</th:block>
+</html>

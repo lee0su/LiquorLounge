@@ -21,24 +21,28 @@
 </nav>
 
 <div class="container">
-<!--page contents-->
-<div class="sign-up-container">
-    <div class="sign-up-box">
-        <h2 class="sign-up-title">Sign up</h2>
-        <form id="signUpForm" action="/api/users/register" method="post" enctype="application/x-www-form-urlencoded">
-            <input type="text" name="username" placeholder="아이디" class="sign-up-input" required>
-            <input type="password" name="password" placeholder="비밀번호" class="sign-up-input" required>
-            <input type="password" name="confirmPassword" placeholder="비밀번호 확인" class="sign-up-input" required>
-            <input type="text" name="name" placeholder="이름" class="sign-up-input" required>
-            <input type="email" name="email" placeholder="이메일" class="sign-up-input" required>
-            <input type="date" name="birthdate" placeholder="생일" class="sign-up-input" required>
-            <div class="button-group">
-                <button type="submit" class="signUp-button">Sign up</button>
+    <div class="empty-div"></div>
+    <div class="content">
+        <!--page contents-->
+        <div class="sign-up-container">
+            <div class="sign-up-box">
+                <h2 class="sign-up-title">Sign up</h2>
+                <form id="signUpForm" action="/api/users/register" method="post" enctype="application/x-www-form-urlencoded">
+                    <input type="text" name="username" placeholder="아이디" class="sign-up-input" required>
+                    <input type="password" name="password" placeholder="비밀번호" class="sign-up-input" required>
+                    <input type="password" name="confirmPassword" placeholder="비밀번호 확인" class="sign-up-input" required>
+                    <input type="text" name="name" placeholder="이름" class="sign-up-input" required>
+                    <input type="email" name="email" placeholder="이메일" class="sign-up-input" required>
+                    <input type="date" name="birthdate" placeholder="생일" class="sign-up-input" required>
+                    <div class="button-group">
+                        <button type="submit" class="signUp-button">Sign up</button>
+                    </div>
+                </form>
+                <a href="/guest/sign-in" class="sign-in-text">Sign in !</a>
             </div>
-        </form>
-        <a href="/guest/sign-in" class="sign-in-text">Sign in !</a>
+        </div>
     </div>
-</div>
+    <div class="empty-div"></div>
 </div>
 
 <!--footer-->

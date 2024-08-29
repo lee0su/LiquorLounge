@@ -22,24 +22,28 @@
     </div>
 </nav>
 <div class="container">
-    <!--page contents-->
-    <div class="liquor-container">
-        <div class="tabs">
-            <button class="tab active" onclick="showTab('whiskey', 1)">Whiskey</button>
-            <button class="tab" onclick="showTab('gin', 1)">Gin</button>
-            <button class="tab" onclick="showTab('rum', 1)">Rum</button>
-            <button class="tab" onclick="showTab('wine', 1)">Wine</button>
-            <button class="tab" onclick="showTab('others', 1)">Others</button>
-        </div>
-        <div id="liquor" class="tab-content active">
-            <div class="liquor-list">
-                <!--동적으로 리스트가 추가될 자리-->
+    <div class="empty-div"></div>
+        <div class="content">
+        <!--page contents-->
+        <div class="liquor-container">
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('whiskey', 1)">Whiskey</button>
+                <button class="tab" onclick="showTab('gin', 1)">Gin</button>
+                <button class="tab" onclick="showTab('rum', 1)">Rum</button>
+                <button class="tab" onclick="showTab('wine', 1)">Wine</button>
+                <button class="tab" onclick="showTab('others', 1)">Others</button>
             </div>
-            <div class="pagination">
-                <!--페이지 전환 버튼 추가-->
+            <div id="liquor" class="tab-content active">
+                <div class="liquor-list">
+                    <!--동적으로 리스트가 추가될 자리-->
+                </div>
+                <div class="pagination">
+                    <!--페이지 전환 버튼 추가-->
+                </div>
             </div>
         </div>
     </div>
+    <div class="empty-div"></div>
 </div>
 
 <!--footer-->

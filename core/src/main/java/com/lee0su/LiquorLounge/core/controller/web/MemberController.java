@@ -45,4 +45,14 @@ public class MemberController {
         }
         return "member/write-member";
     }
+
+    @GetMapping("/recommend/whiskey")
+    public String recommendWhiskeyPage() {
+        return "member/recommend-whiskey";
+    }
+
+    @GetMapping("/recommend/cocktail")
+    public String recommendCocktailPage() {
+        return "member/recommend-cocktail";
+    }
 }

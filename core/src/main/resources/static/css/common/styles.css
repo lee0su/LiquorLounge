@@ -12,11 +12,13 @@ body, html {
     align-items: center;
 
     .content {
+        border: 1px solid red;
         width: 74vw;
         height: 100%;
     }
 
     .empty-div {
+        border: 1px solid blue;
         width: 13vw;
         height: 100%;
     }

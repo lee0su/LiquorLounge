@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/common/footer.css">
     <link rel="stylesheet" type="text/css" href="/css/components/main/main.css">
     <link rel="stylesheet" type="text/css" href="/css/components/main/main-title.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/main/main-recommend.css">
 </head>
 <body data-target-text="Main">
 <!--header navbar-->
@@ -18,9 +19,28 @@
     <div class="empty-div"></div>
     <div class="content">
         <div class="main-container">
+            <!--제목-->
             <div class="title">
                 <div class="liquor">LIQUOR</div>
                 <div class="lounge">LOUNGE</div>
+            </div>
+            <!--웹 페이지 설명-->
+            <div class="explanation">
+                EXPLANATION
+            </div>
+            <!--추천-->
+            <div class="recommend">
+                <div class="recommend-text">TEXT</div>
+                <div class="recommend-buttons">
+                    <div class="recommend-whiskey">
+                        <button class="whiskey-button" onclick="location.href='/member/recommend/whiskey'">WHISKEY</button>
+                    </div>
+                    <div class="recommend-whiskey-text">WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W<br>HISKEY WHIS<br>KEY WHISKEY</div>
+                    <div class="recommend-cocktail">
+                        <button class="cocktail-button" onclick="location.href='/member/recommend/cocktail'">COCKTAIL</button>
+                    </div>
+                    <div class="recommend-cocktail-text">COCKTAIL CO<br>COTAIL COCK<br>TAIL COCKTA<br>IL COCKTAIL<br>COCKTAIL CO</div>
+                </div>
             </div>
         </div>
     </div>
@@ -35,5 +55,6 @@
 <script src="/js/component/header.js"></script>
 <script src="/js/user/sign-out.js"></script>
 <script src="/js/main/main.js"></script>
+<script src="/js/main/main-recommend.js"></script>
 </body>
 </html>

@@ -1,4 +1,8 @@
-/* 공통 */
+/*
+
+    STYLE
+
+*/
 .container {
     border: 1px solid black;
 }
@@ -15,7 +19,11 @@
     border: 1px solid purple;
 }
 
-/* MAIN */
+/*
+
+    MAIN
+
+*/
 .explanation {
     border: 1px solid yellow;
 }

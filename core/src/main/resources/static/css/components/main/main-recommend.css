@@ -11,15 +11,6 @@
     border: 1px yellow solid;
 }
 
-.recommend-empty {
-    width: 100%;
-
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-
-    border: 1px green solid;
-}
-
 .recommend-buttons {
     position: relative;
 
@@ -38,6 +29,9 @@
         width: 60%;
         height: 52.95vh;
 
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+
         border: 1px red solid;
     }
 
@@ -46,13 +40,15 @@
         position: relative;
 
         width: 40%;
-        height: 39.1vh;
 
         font-family: font1, serif;
         font-style: italic;
         font-size: 4vw;
 
         overflow: hidden;
+
+        opacity: 0;
+        transition: opacity 0.5s ease;
 
         border: 1px blue solid;
     }
@@ -62,12 +58,18 @@
     top: 0;
     left: 0;
 
+    transform: translateX(-35px);
+
     background-color: gray;
 }
 
 .recommend-cocktail {
-    top: -57.6%;
+    top: -72.8%;
     left: 40%;
+
+    z-index: 10;
+
+    transform: translateX(35px);
 
     background-color: lightgray;
 }
@@ -75,11 +77,17 @@
 .recommend-whiskey-text {
     top: -57.6%;
     left: 60%;
+
+    z-index: 1;
+
+    height: 52.95vh;
 }
 
 .recommend-cocktail-text {
-    top: -100.3%;
+    top: -115.3%;
     left: 0;
+
+    height: 39.1vh;
 }
 
 

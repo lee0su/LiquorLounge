@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="header.js 분리">
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-explanation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/font/nimbusmono-bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/recommend-cocktail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/recommend-whiskey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-cocktail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-whiskey.html" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 내용 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/GuestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-explanation.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-explanation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +77,9 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -322,15 +311,7 @@
       <workItem from="1723730791883" duration="14979000" />
       <workItem from="1724677637956" duration="1909000" />
       <workItem from="1724831484534" duration="116000" />
-      <workItem from="1724831700178" duration="20454000" />
-    </task>
-    <task id="LOCAL-00005" summary="20240812_2">
-      <option name="closed" value="true" />
-      <created>1723452759639</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1723452759639</updated>
+      <workItem from="1724831700178" duration="22181000" />
     </task>
     <task id="LOCAL-00006" summary="update Sign up">
       <option name="closed" value="true" />
@@ -716,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724922318150</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Main 내용 추가">
+      <option name="closed" value="true" />
+      <created>1725004743958</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1725004743958</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="데이터 불러오기 실패 시 문구 변경" />
     <MESSAGE value="로그인, 회원가입, 비밀번호 찾기 창 버튼 액션클래스 수정" />
     <MESSAGE value="테스트 계정 추가" />
     <MESSAGE value="테스트 계정 파일 분리" />
@@ -760,6 +748,7 @@
     <MESSAGE value="Header, Footer 분리" />
     <MESSAGE value="page logo 추가" />
     <MESSAGE value="header.js 분리" />
-    <option name="LAST_COMMIT_MESSAGE" value="header.js 분리" />
+    <MESSAGE value="Main 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main 내용 추가" />
   </component>
 </project>

@@ -11,13 +11,11 @@
     border: 1px yellow solid;
 }
 
-.recommend-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.recommend-empty {
     width: 100%;
 
-    margin-top: 30px;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 
     border: 1px green solid;
 }
@@ -26,9 +24,10 @@
     position: relative;
 
     width: 100%;
-    height: 750px;
+    height: 92.3vh;
 
-    margin-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 
     border: 1px green solid;
 
@@ -37,7 +36,7 @@
         position: relative;
 
         width: 60%;
-        height: 430px;
+        height: 52.95vh;
 
         border: 1px red solid;
     }
@@ -47,11 +46,13 @@
         position: relative;
 
         width: 40%;
-        height: 318px;
+        height: 39.1vh;
 
         font-family: font1, serif;
         font-style: italic;
         font-size: 4vw;
+
+        overflow: hidden;
 
         border: 1px blue solid;
     }

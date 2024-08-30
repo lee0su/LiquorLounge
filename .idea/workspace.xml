@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/component/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/component/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/basic/guest-setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/basic/guest-setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/basic/member-setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/basic/member-setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/recommend-cocktail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/recommend-cocktail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/recommend-whiskey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/community.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-cocktail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-cocktail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-whiskey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/write-member.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/write-member.html" afterDir="false" />
-    </list>
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,14 +307,6 @@
       <workItem from="1724677637956" duration="1909000" />
       <workItem from="1724831484534" duration="116000" />
       <workItem from="1724831700178" duration="30313000" />
-    </task>
-    <task id="LOCAL-00010" summary="로그인 시 유저정보 세션 저장, 로그아웃 시 세션 유저 정보 삭제 -&gt; 수정">
-      <option name="closed" value="true" />
-      <created>1723462898886</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1723462898886</updated>
     </task>
     <task id="LOCAL-00011" summary="네비바 호버 액션 추가">
       <option name="closed" value="true" />
@@ -723,7 +692,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725017585646</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Main 수정_6">
+      <option name="closed" value="true" />
+      <created>1725019503825</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1725019503825</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +719,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="임시 이미지 추가" />
     <MESSAGE value="Wine 데이터 추가" />
     <MESSAGE value="database 저장 클래스 분리" />
     <MESSAGE value="Rum 데이터 추가" />
@@ -767,6 +743,7 @@
     <MESSAGE value="Main 수정_2" />
     <MESSAGE value="Main 수정_4" />
     <MESSAGE value="Main 수정_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main 수정_5" />
+    <MESSAGE value="Main 수정_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main 수정_6" />
   </component>
 </project>

@@ -30,3 +30,4 @@ window.addEventListener('scroll', () => {
         recommendCocktailText.style.opacity = `0`;
     }
 });
+

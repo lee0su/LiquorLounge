@@ -77,14 +77,22 @@
     top: 0;
     left: 0;
 
+    z-index: 1;
+
     transform: translateX(-35px);
 
     background-color: var(--backgroundColor);
 }
 
+.recommend-whiskey:hover {
+    z-index: 500;
+}
+
 .recommend-cocktail {
     top: -72.8%;
     left: 40%;
+
+    z-index: 5;
 
     z-index: 10;
 
@@ -145,8 +153,8 @@
         }
 
         .top-object-button {
-            width: 4.5%;
-            height: 85%;
+            width: 1.8vw;
+            height: 3.3vh;
             margin-left: 1px;
             margin-right: 2px;
 
@@ -157,9 +165,8 @@
             justify-content: center;
             align-items: center;
 
+            font-size: 1vw;
             color: white;
-
-            transform: rotate(90deg);
 
             background-color: var(--backgroundColor);
         }
@@ -171,10 +178,6 @@
 
         .top-object-button.exit {
             margin-right: 5px;
-
-            height: 88%;
-
-            transform: rotate(0);
 
             background-color: red;
         }

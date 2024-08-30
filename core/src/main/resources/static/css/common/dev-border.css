@@ -1,10 +1,18 @@
 /* 공통 */
+.container {
+    border: 1px solid black;
+}
+
 .content {
     border: 1px solid red;
 }
 
 .empty-div {
     border: 1px solid blue;
+}
+
+.footer {
+    border: 1px solid purple;
 }
 
 /* MAIN */

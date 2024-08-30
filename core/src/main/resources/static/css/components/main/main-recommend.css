@@ -6,6 +6,8 @@
 
     --rightObject: #9986B3;
 
+    --textColor: #9986B3;
+
     --backgroundColor: #E0DBEF;
 
     --borderLine: #C4BEE2;
@@ -15,6 +17,8 @@
     --rightColor: #F9F9F9;
 
     --rightObject: #9E9E9E;
+
+    --textColor: black;
 
     --backgroundColor: #DBDBDB;
 
@@ -68,10 +72,10 @@
 
         font-family: font1, serif;
         font-style: italic;
-        font-size: 4vw;
+        font-size: 3.9vw;
         font-weight: bold;
 
-        color: var(--rightObject);
+        color: var(--textColor);
 
         overflow: hidden;
 
@@ -87,6 +91,7 @@
     z-index: 10;
 
     transform: translateX(-35px);
+    transform-origin: top left;
 
 }
 
@@ -95,6 +100,7 @@
     left: 40%;
 
     transform: translateX(35px);
+    transform-origin: bottom right;
 
     z-index: 15;
 }

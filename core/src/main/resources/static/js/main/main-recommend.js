@@ -34,9 +34,23 @@ window.addEventListener('scroll', () => {
 recommendWhiskey.addEventListener('mouseover', () => {
     recommendWhiskey.style.zIndex = `50`;
     recommendCocktail.style.zIndex = `20`;
-})
+
+    recommendWhiskey.style.transform = `scale(1.2)`;
+    recommendCocktail.style.transform = `scale(1)`;
+});
 
 recommendCocktail.addEventListener('mouseover', () => {
     recommendCocktail.style.zIndex = `50`;
     recommendWhiskey.style.zIndex = `20`;
-})
+
+    recommendCocktail.style.transform = `scale(1.2)`;
+    recommendWhiskey.style.transform = `scale(1)`;
+});
+
+recommendWhiskey.addEventListener('mouseout', () => {
+    recommendWhiskey.style.transform = `scale(1)`;
+});
+
+recommendCocktail.addEventListener('mouseout', () => {
+    recommendCocktail.style.transform = `scale(1)`;
+});

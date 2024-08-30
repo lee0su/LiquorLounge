@@ -58,7 +58,6 @@
         height: 52.95vh;
 
         background-color: var(--backgroundColor);
-        box-shadow: 5px 5px 15px var(--rightObject);
 
         opacity: 0;
         transition: opacity 0.5s ease, transform 0.5s ease;
@@ -90,6 +89,8 @@
 
     z-index: 10;
 
+    box-shadow: 5px 5px 15px var(--rightObject);
+
     transform: translateX(-35px);
     transform-origin: top left;
 
@@ -99,10 +100,12 @@
     top: -72.8%;
     left: 40%;
 
+    z-index: 15;
+
+    box-shadow: -5px 5px 15px var(--rightObject);
+
     transform: translateX(35px);
     transform-origin: bottom right;
-
-    z-index: 15;
 }
 
 .recommend-whiskey-text {

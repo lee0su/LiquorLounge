@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_11">
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="데이터 추가 코드 수정">
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/font/DungGeunMo.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,14 +312,6 @@
       <workItem from="1724831484534" duration="116000" />
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
-    </task>
-    <task id="LOCAL-00015" summary="로그인 상태가 아닐때 로그인 url 로 이동시 /guest/main 이 호출되게 변경">
-      <option name="closed" value="true" />
-      <created>1723477538386</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1723477538386</updated>
     </task>
     <task id="LOCAL-00016" summary="폴더 정리">
       <option name="closed" value="true" />
@@ -700,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725027930424</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="데이터 추가 코드 수정">
+      <option name="closed" value="true" />
+      <created>1725028315751</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1725028315751</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test" />
     <MESSAGE value="gin 사진 추가" />
     <MESSAGE value="whiskey type 데이터 추가" />
     <MESSAGE value="html &gt;&gt; content &lt;&lt; 전체 구조 변경" />
@@ -744,6 +748,7 @@
     <MESSAGE value="Main 수정_8" />
     <MESSAGE value="Main 수정_9" />
     <MESSAGE value="Main 수정_11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main 수정_11" />
+    <MESSAGE value="데이터 추가 코드 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터 추가 코드 수정" />
   </component>
 </project>

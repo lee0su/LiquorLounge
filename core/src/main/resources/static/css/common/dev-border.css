@@ -23,3 +23,13 @@
 .recommend {
     border: 1px solid green;
 }
+
+.center-content-box {
+    border: 1px solid black;
+}
+
+.center-box-top,
+.center-box-center,
+.center-box-bottom {
+    border: 1px solid white;
+}

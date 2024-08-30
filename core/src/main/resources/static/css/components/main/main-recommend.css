@@ -31,6 +31,11 @@
     src: url('/font/nimbusmono-bold.otf') format('truetype');
 }
 
+@font-face {
+    font-family: 'retro';
+    src: url('/font/DungGeunMo.otf') format('truetype');
+}
+
 .recommend {
     display: block;
     align-items: center;
@@ -89,7 +94,7 @@
 
     z-index: 10;
 
-    box-shadow: 5px 5px 15px var(--rightObject);
+    box-shadow: -5px 5px 15px var(--rightObject);
 
     transform: translateX(-35px);
     transform-origin: top left;
@@ -102,7 +107,7 @@
 
     z-index: 15;
 
-    box-shadow: -5px 5px 15px var(--rightObject);
+    box-shadow: 5px 5px 15px var(--rightObject);
 
     transform: translateX(35px);
     transform-origin: bottom right;
@@ -220,6 +225,7 @@
     width: 96%;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -265,4 +271,116 @@
     }
 
     border-left: 2px solid var(--borderLine);
+}
+
+.center-content-box {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: retro, serif;
+    font-size: 3.0vw;
+    font-weight: bold;
+    font-style: italic;
+
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.center-box-top {
+    padding-left: 10%;
+
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+
+    .center-box-top-no1 {
+        width: 28%;
+    }
+
+    .center-box-top-no2 {
+        width: 25%;
+    }
+
+    .center-box-top-no2.whiskey {
+        color: darkred;
+    }
+
+    .center-box-top-no2.whiskey:hover {
+        color: palevioletred;
+    }
+
+    .center-box-top-no2.cocktail {
+        color: palevioletred;
+    }
+
+    .center-box-top-no2.cocktail:hover {
+        color: darkred;
+    }
+
+    .center-box-top-no3 {
+        width: 25%
+    }
+}
+
+.center-box-center {
+    padding-left: 10%;
+    width: 100%;
+    height: 20%;
+}
+
+.center-box-bottom {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    width: 100%;
+    height: 50%;
+
+    font-size: 1.5vw;
+}
+
+.w-color {
+    color: darkred;
+}
+
+.w-color:hover {
+    color: palevioletred;
+}
+
+.c-color {
+    color: palevioletred;
+}
+
+.c-color:hover {
+    color: darkred;
+}
+
+.w-color,
+.c-color {
+    font-size: 2vw;
+}
+
+.whiskey-button,
+.cocktail-button {
+    font-family: retro, serif;
+    font-style: italic;
+    font-size: 1.5vw;
+
+    border: none;
+    border-radius: 0.7rem;
+    padding: 1vw;
+
+    background-color: darkgray;
+    color: black;
+}
+
+.whiskey-button:hover,
+.cocktail-button:hover {
+    background-color: var(--rightObject);
+    color: white;
 }

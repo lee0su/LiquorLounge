@@ -1,3 +1,25 @@
+:root {
+    /* colorSet-1 */
+    /*
+    --topColor: #9986B3;
+    --rightColor: white;
+
+    --backgroundColor: #E0DBEF;
+
+    --borderLine: #C4BEE2;
+     */
+
+    /* colorSet-2 */
+    --topColor: #828385;
+    --rightColor: #F9F9F9;
+
+    --rightObject: #9E9E9E;
+
+    --backgroundColor: #DBDBDB;
+
+    --borderLine: #A4A4A4;
+}
+
 @font-face {
     font-family: 'font1';
     src: url('/font/nimbusmono-bold.otf') format('truetype');
@@ -7,8 +29,6 @@
     display: block;
     align-items: center;
     width: 68vw;
-
-    border: 1px yellow solid;
 }
 
 .recommend-buttons {
@@ -20,10 +40,12 @@
     margin-top: 0;
     margin-bottom: 0;
 
-    border: 1px green solid;
-
     .recommend-whiskey,
     .recommend-cocktail {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
         position: relative;
 
         width: 60%;
@@ -31,8 +53,6 @@
 
         opacity: 0;
         transition: opacity 0.5s ease, transform 0.5s ease;
-
-        border: 1px red solid;
     }
 
     .recommend-whiskey-text,
@@ -44,13 +64,12 @@
         font-family: font1, serif;
         font-style: italic;
         font-size: 4vw;
+        font-weight: bold;
 
         overflow: hidden;
 
         opacity: 0;
         transition: opacity 0.5s ease;
-
-        border: 1px blue solid;
     }
 }
 
@@ -60,7 +79,7 @@
 
     transform: translateX(-35px);
 
-    background-color: gray;
+    background-color: var(--backgroundColor);
 }
 
 .recommend-cocktail {
@@ -71,7 +90,7 @@
 
     transform: translateX(35px);
 
-    background-color: lightgray;
+    background-color: var(--backgroundColor);
 }
 
 .recommend-whiskey-text {
@@ -90,4 +109,146 @@
     height: 39.1vh;
 }
 
+.recommend-box-top {
+    width: 99.3%;
+    height: 8%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .recommend-box-top-color {
+        width: 99%;
+        height: 88%;
+
+        background-color: var(--topColor);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+        .top-object-text {
+            width: 82%;
+            height: 85%;
+
+            margin-left: 2%;
+            margin-top: 5px;
+
+            display: flex;
+            align-items: center;
+
+            font-family: font1, serif;
+            font-size: 1.5vw;
+
+            color: white;
+        }
+
+        .top-object-button {
+            width: 4.5%;
+            height: 85%;
+            margin-left: 1px;
+            margin-right: 2px;
+
+            border: none;
+            border-radius: 0.3rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: white;
+
+            transform: rotate(90deg);
+
+            background-color: var(--backgroundColor);
+        }
+
+        .top-object-button:hover {
+            background-color: var(--rightObject);
+            color: var(--topColor);
+        }
+
+        .top-object-button.exit {
+            margin-right: 5px;
+
+            height: 88%;
+
+            transform: rotate(0);
+
+            background-color: red;
+        }
+
+        .top-object-button.exit:hover {
+            background-color: darkred;
+            color: darkgray;
+        }
+
+    }
+
+    border: 2px solid var(--borderLine);
+}
+
+.recommend-box {
+    width: 99.65%;
+    height: 92%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    border-right: 2px solid var(--borderLine);
+    border-bottom: 2px solid var(--borderLine);
+}
+
+.recommend-box-center {
+    height: 100%;
+    width: 96%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-left: 2px solid var(--borderLine);
+}
+
+.recommend-box-right {
+    height: 100%;
+    width: 4%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .recommend-box-right-color {
+        height: 99%;
+        width: 85%;
+
+        background-color: var(--rightColor);
+
+        .right-object {
+            position: relative;
+
+            left: 0;
+
+            width: 100%;
+            height: 15%;
+
+            background-color: var(--rightObject);
+        }
+
+        .right-object:hover {
+            background-color: var(--topColor);
+        }
+
+        .right-object.whiskey {
+            top: 20%;
+        }
+
+        .right-object.cocktail {
+            top: 55%;
+        }
+    }
+
+    border-left: 2px solid var(--borderLine);
+}

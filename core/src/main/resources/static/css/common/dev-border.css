@@ -1,0 +1,17 @@
+/* 공통 */
+.content {
+    border: 1px solid red;
+}
+
+.empty-div {
+    border: 1px solid blue;
+}
+
+/* MAIN */
+.explanation {
+    border: 1px solid yellow;
+}
+
+.recommend {
+    border: 1px solid green;
+}

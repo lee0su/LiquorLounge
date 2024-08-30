@@ -4,6 +4,9 @@
     <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <meta charset="UTF-8">
     <title>LiquorLounge</title>
+    <!--디자인용 보더 생성-->
+    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">
+    <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
     <link rel="stylesheet" type="text/css" href="/css/common/footer.css">
@@ -32,13 +35,47 @@
             <div class="recommend">
                 <div class="recommend-buttons">
                     <div class="recommend-whiskey">
-                        <button class="whiskey-button" onclick="location.href='/member/recommend/whiskey'">WHISKEY</button>
+                        <div class="recommend-box-top">
+                            <div class="recommend-box-top-color">
+                                <div class="top-object-text whiskey">WHISKEY !</div>
+                                <div class="top-object-button">|</div>
+                                <div class="top-object-button">[]</div>
+                                <div class="top-object-button exit">X</div>
+                            </div>
+                        </div>
+                        <div class="recommend-box">
+                            <div class="recommend-box-center">
+                                <button class="whiskey-button" onclick="location.href='/member/recommend/whiskey'">WHISKEY</button>
+                            </div>
+                            <div class="recommend-box-right">
+                                <div class="recommend-box-right-color">
+                                    <div class="right-object whiskey"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="recommend-whiskey-text">WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W<br>HISKEY WHIS<br>KEY WHISKEY</div>
+                    <div class="recommend-whiskey-text">WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W<br>HISKEY WHIS<br>KEY WHISKEY<br>WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W</div>
                     <div class="recommend-cocktail">
-                        <button class="cocktail-button" onclick="location.href='/member/recommend/cocktail'">COCKTAIL</button>
+                        <div class="recommend-box-top">
+                            <div class="recommend-box-top-color">
+                                <div class="top-object-text whiskey">COCKTAIL !</div>
+                                <div class="top-object-button">|</div>
+                                <div class="top-object-button">[]</div>
+                                <div class="top-object-button exit">X</div>
+                            </div>
+                        </div>
+                        <div class="recommend-box">
+                            <div class="recommend-box-center">
+                                <button class="cocktail-button" onclick="location.href='/member/recommend/cocktail'">COCKTAIL</button>
+                            </div>
+                            <div class="recommend-box-right">
+                                <div class="recommend-box-right-color">
+                                    <div class="right-object cocktail"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="recommend-cocktail-text">COCKTAIL CO<br>COTAIL COCK<br>TAIL COCKTA<br>IL COCKTAIL<br>COCKTAIL CO</div>
+                    <div class="recommend-cocktail-text">COCKTAIL CO<br>COTAIL COCK<br>TAIL COCKTA<br>IL COCKTAIL<br>&nbsp;COCKTAIL C<br>OCKTAIL COC<br>KTAIL COCKT<br>AIL COCKTAI</div>
                 </div>
             </div>
         </div>

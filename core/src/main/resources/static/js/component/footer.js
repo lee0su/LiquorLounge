@@ -5,8 +5,6 @@ const updateFooterPosition = () => {
     const navbar = document.querySelector('.navbar');
 
     const content = container.offsetHeight + navbar.offsetHeight;
-    console.log(window.innerHeight);
-    console.log(content);
 
     if (content < window.innerHeight) {
         footer.style.position = 'fixed';

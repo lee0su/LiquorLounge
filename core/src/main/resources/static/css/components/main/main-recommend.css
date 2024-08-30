@@ -4,11 +4,12 @@
     --topColor: #9986B3;
     --rightColor: white;
 
+    --rightObject: #9986B3;
+
     --backgroundColor: #E0DBEF;
 
     --borderLine: #C4BEE2;
      */
-
     /* colorSet-2 */
     --topColor: #828385;
     --rightColor: #F9F9F9;
@@ -22,6 +23,7 @@
 
 @font-face {
     font-family: 'font1';
+    /*src: url('/font/KoomikMono-Regular.otf') format('truetype');*/
     src: url('/font/nimbusmono-bold.otf') format('truetype');
 }
 
@@ -51,6 +53,9 @@
         width: 60%;
         height: 52.95vh;
 
+        background-color: var(--backgroundColor);
+        box-shadow: 5px 5px 15px var(--rightObject);
+
         opacity: 0;
         transition: opacity 0.5s ease, transform 0.5s ease;
     }
@@ -63,8 +68,10 @@
 
         font-family: font1, serif;
         font-style: italic;
-        font-size: 3.9vw;
+        font-size: 4vw;
         font-weight: bold;
+
+        color: var(--rightObject);
 
         overflow: hidden;
 
@@ -77,28 +84,19 @@
     top: 0;
     left: 0;
 
-    z-index: 1;
+    z-index: 10;
 
     transform: translateX(-35px);
 
-    background-color: var(--backgroundColor);
-}
-
-.recommend-whiskey:hover {
-    z-index: 500;
 }
 
 .recommend-cocktail {
     top: -72.8%;
     left: 40%;
 
-    z-index: 5;
-
-    z-index: 10;
-
     transform: translateX(35px);
 
-    background-color: var(--backgroundColor);
+    z-index: 15;
 }
 
 .recommend-whiskey-text {

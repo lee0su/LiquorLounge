@@ -31,3 +31,12 @@ window.addEventListener('scroll', () => {
     }
 });
 
+recommendWhiskey.addEventListener('mouseover', () => {
+    recommendWhiskey.style.zIndex = `50`;
+    recommendCocktail.style.zIndex = `20`;
+})
+
+recommendCocktail.addEventListener('mouseover', () => {
+    recommendCocktail.style.zIndex = `50`;
+    recommendWhiskey.style.zIndex = `20`;
+})

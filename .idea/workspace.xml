@@ -7,6 +7,7 @@
     <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

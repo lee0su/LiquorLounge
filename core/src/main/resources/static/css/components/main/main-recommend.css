@@ -79,7 +79,7 @@
         overflow: hidden;
 
         opacity: 0;
-        transition: opacity 0.5s ease;
+        transition: opacity 0.5s ease, transform 0.5s ease;
     }
 }
 
@@ -115,6 +115,8 @@
     z-index: 1;
 
     height: 52.95vh;
+
+    transform: translateX(35px);
 }
 
 .recommend-cocktail-text {
@@ -122,6 +124,8 @@
     left: 0;
 
     height: 39.1vh;
+
+    transform: translateX(-35px);
 }
 
 .recommend-box-top {

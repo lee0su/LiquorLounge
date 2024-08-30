@@ -14,20 +14,33 @@ window.addEventListener('scroll', () => {
         recommendWhiskey.style.opacity = `1`;
         recommendWhiskey.style.transform = `translateX(0)`;
         recommendWhiskeyText.style.opacity = `1`;
+        recommendWhiskeyText.style.transform = `translateX(0)`;
     } else {
         recommendWhiskey.style.opacity = `0`;
         recommendWhiskey.style.transform = `translateX(-35px)`;
         recommendWhiskeyText.style.opacity = `0`;
+        recommendWhiskeyText.style.transform = `translateX(35px)`;
+
+        recommendWhiskey.style.zIndex = `20`;
+        recommendCocktail.style.zIndex = `50`;
     }
 
     if (scrollPosition > cocktailThreshold) {
+        let o = parseInt(recommendCocktailText.style.opacity);
+
+        if (o === 0) {
+            recommendCocktail.style.zIndex = `50`;
+        }
+
         recommendCocktail.style.opacity = `1`;
         recommendCocktail.style.transform = `translateX(0)`;
         recommendCocktailText.style.opacity = `1`;
+        recommendCocktailText.style.transform = `translateX(0)`;
     } else {
         recommendCocktail.style.opacity = `0`;
         recommendCocktail.style.transform = `translateX(35px)`;
         recommendCocktailText.style.opacity = `0`;
+        recommendCocktailText.style.transform = `translateX(-35px)`;
     }
 });
 

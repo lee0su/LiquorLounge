@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_12">
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend-box.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main CSS 분리">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend-box.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,14 +308,6 @@
       <workItem from="1724831484534" duration="116000" />
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
-    </task>
-    <task id="LOCAL-00017" summary="종속성 설명 추가">
-      <option name="closed" value="true" />
-      <created>1723481330553</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1723481330553</updated>
     </task>
     <task id="LOCAL-00018" summary="폴더 정리_2">
       <option name="closed" value="true" />
@@ -703,7 +693,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725033805948</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Main CSS 분리">
+      <option name="closed" value="true" />
+      <created>1725034645957</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1725034645958</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +720,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="whiskey type 데이터 추가" />
     <MESSAGE value="html &gt;&gt; content &lt;&lt; 전체 구조 변경" />
     <MESSAGE value="html &gt;&gt; container &lt;&lt; 전체 구조 변경" />
     <MESSAGE value="main color 변경" />
@@ -747,6 +744,7 @@
     <MESSAGE value="Main 수정_11" />
     <MESSAGE value="데이터 추가 코드 수정" />
     <MESSAGE value="Main 수정_12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main 수정_12" />
+    <MESSAGE value="Main CSS 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main CSS 분리" />
   </component>
 </project>

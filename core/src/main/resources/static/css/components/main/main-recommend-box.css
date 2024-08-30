@@ -1,3 +1,9 @@
+:root {
+    --pointColor1: rgba(30, 30, 50, 0.8);
+    --pointColor2: rgba(50, 30, 50, 0.8);
+    --mainColor: rgba(0, 0, 0, 0.8);
+}
+
 /*
 
     BOX-TOP
@@ -180,7 +186,7 @@
     font-weight: bold;
     font-style: italic;
 
-    color: rgba(0, 0, 0, 0.9);
+    color: var(--mainColor);
 }
 
 .center-box-top {
@@ -202,19 +208,19 @@
 }
 
 .center-box-top-no2.whiskey {
-    color: darkred;
+    color: var(--pointColor1);
 }
 
 .center-box-top-no2.whiskey:hover {
-    color: palevioletred;
+    color: var(--pointColor2);
 }
 
 .center-box-top-no2.cocktail {
-    color: palevioletred;
+    color: var(--pointColor2);
 }
 
 .center-box-top-no2.cocktail:hover {
-    color: darkred;
+    color: var(--pointColor1);
 }
 
 .center-box-top-no3 {
@@ -239,19 +245,19 @@
 }
 
 .w-color {
-    color: darkred;
+    color: var(--pointColor1);
 }
 
 .w-color:hover {
-    color: palevioletred;
+    color: var(--pointColor2);
 }
 
 .c-color {
-    color: palevioletred;
+    color: var(--pointColor2);
 }
 
 .c-color:hover {
-    color: darkred;
+    color: var(--pointColor1);
 }
 
 .w-color,

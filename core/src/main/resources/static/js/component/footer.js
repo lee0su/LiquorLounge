@@ -19,6 +19,10 @@ const updateFooterPosition = () => {
 
     } else {
         footer.style.position = 'relative';
+
+        empty.forEach(e => {
+            e.style.height = '';
+        })
     }
 }
 

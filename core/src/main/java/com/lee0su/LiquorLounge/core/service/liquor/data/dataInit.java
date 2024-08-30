@@ -42,10 +42,25 @@ public class dataInit {
 
     // 주석처리 X -> 서버 구동 시 데이터 입력 O
     // 주석처리 O -> 서버 구동 시 데이터 입력 X
-//    @PostConstruct
+    @PostConstruct
     public void init() {
 
         // Whiskey
+//        whiskeyInit();
+
+        // Gin
+        ginInit();
+
+        // Rum
+//        rumInit();
+
+        // Wine
+//        wineInit();
+
+    }
+
+    // Whiskey
+    private void whiskeyInit() {
         try (InputStream inputStream = getClass().getResourceAsStream("/static/data/whisky-database.json");
              InputStreamReader reader = new InputStreamReader(inputStream)) {
 
@@ -57,8 +72,10 @@ public class dataInit {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
-        // Gin
+    // Gin
+    private void ginInit() {
         try (InputStream inputStream = getClass().getResourceAsStream("/static/data/gin-database.csv");
              BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
 
@@ -98,8 +115,10 @@ public class dataInit {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
-        // Rum
+    // Rum
+    private void rumInit() {
         try (InputStream inputStream = getClass().getResourceAsStream("/static/data/rum-database.csv");
              BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
 
@@ -129,8 +148,10 @@ public class dataInit {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
-        // Wine
+    // Wine
+    private void wineInit() {
         try (InputStream inputStream = getClass().getResourceAsStream("/static/data/wine-database.csv");
              BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
 
@@ -159,9 +180,11 @@ public class dataInit {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
+    private void otherInit() {
+
+    }
 
     // Whiskey
     private List<WhiskeyEntity> convertToWhiskeyEntity(List<WhiskeyDTO> whiskeyDTOs) {

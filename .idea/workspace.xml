@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_9">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main 수정_11">
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,14 +307,6 @@
       <workItem from="1724831484534" duration="116000" />
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
-    </task>
-    <task id="LOCAL-00014" summary="임시 로고 네비바에 추가">
-      <option name="closed" value="true" />
-      <created>1723477175196</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1723477175196</updated>
     </task>
     <task id="LOCAL-00015" summary="로그인 상태가 아닐때 로그인 url 로 이동시 /guest/main 이 호출되게 변경">
       <option name="closed" value="true" />
@@ -702,7 +692,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725022120017</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Main 수정_11">
+      <option name="closed" value="true" />
+      <created>1725027930424</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1725027930424</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +719,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="서버 실행 기본 설정 데이터 불러오기 안하게" />
     <MESSAGE value="test" />
     <MESSAGE value="gin 사진 추가" />
     <MESSAGE value="whiskey type 데이터 추가" />
@@ -746,6 +743,7 @@
     <MESSAGE value="Main 수정_7" />
     <MESSAGE value="Main 수정_8" />
     <MESSAGE value="Main 수정_9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main 수정_9" />
+    <MESSAGE value="Main 수정_11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main 수정_11" />
   </component>
 </project>

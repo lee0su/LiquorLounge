@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>LiquorLounge</title>
     <!--디자인용 보더 생성-->
-<!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
+    <!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
@@ -14,7 +14,7 @@
 </head>
 <body data-target-text="Community">
 <!--header navbar-->
-<th:block th:replace="~{/components/member-header.html :: member-header}"></th:block>
+<th:block th:replace="~{/components/header.html :: header}"></th:block>
 
 <div class="container">
     <div class="empty-div left"></div>
@@ -23,13 +23,13 @@
         <div class="container-community">
             <table>
                 <thead>
-                    <tr class="tabs">
-                        <th class="tab title">제목</th>
-                        <th class="tab author">작성자</th>
-                        <th class="tab date">작성일</th>
-                        <th class="tab likes">공감</th>
-                        <th class="tab comments">댓글</th>
-                    </tr>
+                <tr class="tabs">
+                    <th class="tab title">제목</th>
+                    <th class="tab author">작성자</th>
+                    <th class="tab date">작성일</th>
+                    <th class="tab likes">공감</th>
+                    <th class="tab comments">댓글</th>
+                </tr>
                 </thead>
                 <tbody id="postTableBody">
                 <!-- 게시글 -->
@@ -44,10 +44,10 @@
                 </select>
                 <input type="text" id="searchInput" placeholder="검색" onkeyup="searchPosts()">
                 <button id="search">검색</button>
-                <button id="addPostButton" onclick="location.href='/member/written'">게시글 작성</button>
+                <button id="addPostButton" onclick="showLoginAlert()">게시글 작성</button>
             </div>
 
-        <!-- 페이지 넘기는 기능 추가할 것 -->
+            <!-- 페이지 넘기는 기능 추가할 것 -->
         </div>
     </div>
     <div class="empty-div right"></div>
@@ -57,8 +57,9 @@
 <th:block th:replace="~{/components/footer.html :: footer}"></th:block>
 
 <!--script-->
+<script src="/js/components/url.js"></script>
 <script src="/js/components/footer.js"></script>
 <script src="/js/components/header.js"></script>
-<script src="/js/user/sign-out.js"></script>
+<script src="/js/community/login-before.js"></script>
 </body>
 </html>

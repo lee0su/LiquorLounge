@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>LiquorLounge</title>
+    <!--디자인용 보더 생성-->
+    <!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/common/footer.css">
+</head>
+<!--따옴표 속에 active 속성을 넣을 버튼의 Text 입력 (대소문자 구분)-->
+<body data-target-text="">
+<!--header navbar-->
+<th:block th:replace="~{/components/header.html :: header}"></th:block>
+
+<div class="container">
+    <div class="empty-div left"></div>
+    <div class="content">
+        <!--page content-->
+        <div class="recommend-cocktail-container">
+
+        </div>
+    </div>
+    <div class="empty-div right"></div>
+</div>
+
+<!--footer-->
+<th:block th:replace="~{/components/footer.html :: footer}"></th:block>
+
+<!--script-->
+<script src="/js/components/url.js"></script>
+<script src="/js/components/footer.js"></script>
+<script src="/js/components/header.js"></script>
+</body>
+</html>

@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <title>LiquorLounge</title>
     <!--디자인용 보더 생성-->
-<!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
+    <!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
     <link rel="stylesheet" type="text/css" href="/css/common/footer.css">
     <link rel="stylesheet" type="text/css" href="/css/components/user/sign-up.css">
 </head>
-<body data-target-text="Sign in">
+<body data-target-text="TEMP">
 <!--header navbar-->
-<th:block th:replace="~{/components/guest-header.html :: guest-header}"></th:block>
+<th:block th:replace="~{/components/header.html :: header}"></th:block>
 
 <div class="container">
     <div class="empty-div left"></div>
@@ -45,6 +45,7 @@
 <th:block th:replace="~{/components/footer.html :: footer}"></th:block>
 
 <!--script-->
+<script src="/js/components/url.js"></script>
 <script src="/js/components/footer.js"></script>
 <script src="/js/components/header.js"></script>
 <script src="/js/user/validation.js" defer></script>

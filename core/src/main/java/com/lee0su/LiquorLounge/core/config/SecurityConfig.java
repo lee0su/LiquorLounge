@@ -17,18 +17,18 @@ public class SecurityConfig{
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authorize -> authorize
-                        .requestMatchers("/","/guest/**","/member/**", "/component/**", "/api/users/register","/api/users/check-session","/api/users/check-username","/api/users/sign-in", "/api/liquors/**", "/css/**", "/js/**", "/images/**", "/font/**").permitAll()
+                        .requestMatchers("/","/guest/**","/member/**", "/pages/**", "/component/**", "/api/users/register","/api/users/check-session","/api/users/check-username","/api/users/sign-in", "/api/liquors/**", "/api/session/username", "/css/**", "/js/**", "/images/**", "/font/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin(form -> form
-                        .loginPage("/guest/sign-in") // 내(커스텀) 로그인 페이지
+                        .loginPage("/pages/sign-in") // 내(커스텀) 로그인 페이지
                         .permitAll()
                 )
                 .logout(logout -> logout
                         .logoutUrl("/api/users/logout") // 로그아웃 URL
                         .logoutSuccessHandler((HttpServletRequest request, HttpServletResponse response, Authentication authentication) -> {
                             request.getSession().invalidate();
-                            response.sendRedirect("/guest/main");
+                            response.sendRedirect("/pages/main");
                         })
                         .permitAll()
                 );

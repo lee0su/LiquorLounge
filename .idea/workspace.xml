@@ -4,12 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="navbar.css 수정">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="함수명 변경">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/session/SessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/PagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/community.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/liquor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-cocktail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/write-member.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/GuestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-out.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-out.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/guest-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/member-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-cocktail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-whiskey.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +106,8 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -312,14 +340,6 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-    </task>
-    <task id="LOCAL-00024" summary="liquor 창 버튼 수정">
-      <option name="closed" value="true" />
-      <created>1723632836654</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1723632836654</updated>
     </task>
     <task id="LOCAL-00025" summary="liquor list 이전, 다음 버튼 구현">
       <option name="closed" value="true" />
@@ -705,7 +725,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725099830819</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="함수명 변경">
+      <option name="closed" value="true" />
+      <created>1725107991608</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1725107991608</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +752,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="footer 임시 추가 (더 바꿔야됨)" />
     <MESSAGE value="페이지 기본 구조 변경" />
     <MESSAGE value="기본 베이스 추가" />
     <MESSAGE value="Header, Footer 분리" />
@@ -749,6 +776,7 @@
     <MESSAGE value="잡다한거 수정" />
     <MESSAGE value="styles.css 수정" />
     <MESSAGE value="navbar.css 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar.css 수정" />
+    <MESSAGE value="함수명 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="함수명 변경" />
   </component>
 </project>

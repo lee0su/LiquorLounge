@@ -17,6 +17,13 @@
     margin-left: 5%;
 }
 
+.username {
+    border: 1px solid red;
+    width: 20vw;
+    height: 100%;
+    color: white;
+}
+
 .navbar button {
     color: white;
     display: inline-block;

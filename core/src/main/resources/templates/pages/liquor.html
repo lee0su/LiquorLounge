@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <meta charset="UTF-8">
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <title>LiquorLounge</title>
     <!--디자인용 보더 생성-->
-<!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
+    <!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
@@ -16,8 +16,7 @@
 </head>
 <body data-target-text="Liquor">
 <!--header navbar-->
-<th:block th:replace="~{/components/member-header.html :: member-header}"></th:block>
-
+<th:block th:replace="~{/components/header.html :: header}"></th:block>
 <div class="container">
     <div class="empty-div left"></div>
     <div class="content">
@@ -47,9 +46,9 @@
 <th:block th:replace="~{/components/footer.html :: footer}"></th:block>
 
 <!--script-->
+<script src="/js/components/url.js"></script>
 <script src="/js/components/footer.js"></script>
 <script src="/js/components/header.js"></script>
-<script src="/js/user/sign-out.js"></script>
 <script src="/js/liquor/liquor-tabs.js"></script>
 
 <!--시작 기본 호출 스크립트-->

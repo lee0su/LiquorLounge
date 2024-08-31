@@ -70,7 +70,7 @@ recommendCocktail.addEventListener('mouseout', () => {
     recommendCocktail.style.transform = `scale(1)`;
 });
 
-async function buttonAction(path) {
+async function recommendButtonAction(path) {
 
     try {
         const response = await fetch('/api/users/check-session',);

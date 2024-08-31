@@ -13,8 +13,8 @@ body, html {
 .content {
     width: 74vw;
     height: 100%;
-    margin-top: 15vh;
-    margin-bottom: 25vh;
+    padding-top: 15vh;
+    padding-bottom: 25vh;
 }
 
 .empty-div {

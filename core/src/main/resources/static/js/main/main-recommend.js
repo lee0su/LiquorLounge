@@ -70,14 +70,20 @@ recommendCocktail.addEventListener('mouseout', () => {
     recommendCocktail.style.transform = `scale(1)`;
 });
 
-function buttonAction(path) {
-    const loggedIn = localStorage.getItem('loggedIn');
+async function buttonAction(path) {
 
-    if (loggedIn === 'true') {
-        window.location.href = path;
-    } else if (loggedIn === 'false') {
-        alert("로그인 후에 가능한 서비스입니다.");
-    } else {
-        alert("오류가 발생했습니다.");
+    try {
+        const response = await fetch('/api/users/check-session',);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            if (data.loggedIn) {
+                window.location.href = path;
+            } else {
+                alert("로그인 후에 가능한 서비스입니다.");
+            }
+        }
+    } catch (error) {
+        console.log(error);
     }
 }

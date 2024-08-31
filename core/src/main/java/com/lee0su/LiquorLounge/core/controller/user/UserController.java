@@ -59,4 +59,14 @@ public class UserController {
         return ResponseEntity.ok(new LoginResponse(user.getName()));
     }
 
+    // 로그인 확인 점검
+    @GetMapping("/check-session")
+    public ResponseEntity<?> checkSession(HttpSession session) {
+        UserEntity user = (UserEntity) session.getAttribute("user");
+        if (user != null) {
+            return ResponseEntity.ok(Map.of("loggedIn", true));
+        }
+        return ResponseEntity.ok(Map.of("loggedIn", false));
+    }
+
 }

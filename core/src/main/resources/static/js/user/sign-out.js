@@ -6,7 +6,6 @@ async function signOut() {
 
         if (response.ok) {
             alert('로그아웃 되었습니다.');
-            localStorage.setItem('loggedIn', 'false');
             window.location.href = '/guest/main';
         } else {
             alert('로그아웃 중 오류가 발생했습니다.');

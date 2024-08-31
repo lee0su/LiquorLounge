@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="함수명 변경">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/session/SessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/PagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/community.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/forgot-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/liquor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-cocktail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-up.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/write-member.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/GuestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/MemberController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/sign-in.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/guest-header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/member-header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/forgot-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/liquor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/sign-up.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/liquor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-cocktail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/member/recommend-whiskey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-cocktail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-cocktail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-whiskey.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

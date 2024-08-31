@@ -21,9 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
-
-    getUsername().then(data => {});
-
 });
 
 function signInAndOut() {
@@ -57,17 +54,5 @@ async function signOut() {
         window.location.href = '/pages/main';
     } else {
         alert('로그아웃 중 오류가 발생했습니다.');
-    }
-}
-
-async function getUsername() {
-    const response = await fetch('/api/session/username');
-    if (response.ok) {
-        const data = await response.json();
-        console.log(data);
-        const username = document.querySelector('.username');
-        username.innerText = data.username;
-    } else {
-        alert('데이터 가져오기 실패');
     }
 }

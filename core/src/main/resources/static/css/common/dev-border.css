@@ -28,6 +28,18 @@
     border: 1px solid yellow;
 }
 
+.explanation-top {
+    border: 1px solid cyan;
+}
+
+.explanation-center {
+    border: 1px solid cyan;
+}
+
+.explanation-bottom {
+    border: 1px solid cyan;
+}
+
 .recommend {
     border: 1px solid green;
 }

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="Main CSS 분리">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="footer.js 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend-box.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-recommend-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-explanation.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/main/main-explanation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/guest/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,22 +310,7 @@
       <workItem from="1724831484534" duration="116000" />
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
-    </task>
-    <task id="LOCAL-00018" summary="폴더 정리_2">
-      <option name="closed" value="true" />
-      <created>1723484923971</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1723484923971</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Liquor 탭 추가">
-      <option name="closed" value="true" />
-      <created>1723529845599</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1723529845599</updated>
+      <workItem from="1725093033252" duration="793000" />
     </task>
     <task id="LOCAL-00020" summary="파일명 정리">
       <option name="closed" value="true" />
@@ -701,7 +688,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725034645958</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Main 수정_13">
+      <option name="closed" value="true" />
+      <created>1725035459071</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1725035459071</updated>
+    </task>
+    <task id="LOCAL-00068" summary="footer.js 수정">
+      <option name="closed" value="true" />
+      <created>1725035768682</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1725035768683</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,8 +723,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="html &gt;&gt; content &lt;&lt; 전체 구조 변경" />
-    <MESSAGE value="html &gt;&gt; container &lt;&lt; 전체 구조 변경" />
     <MESSAGE value="main color 변경" />
     <MESSAGE value="main 수정" />
     <MESSAGE value="Whiskey image 수정" />
@@ -745,6 +746,8 @@
     <MESSAGE value="데이터 추가 코드 수정" />
     <MESSAGE value="Main 수정_12" />
     <MESSAGE value="Main CSS 분리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main CSS 분리" />
+    <MESSAGE value="Main 수정_13" />
+    <MESSAGE value="footer.js 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer.js 수정" />
   </component>
 </project>

@@ -7,6 +7,8 @@ const recommendCocktailText = document.querySelector('.recommend-cocktail-text')
 const whiskeyThreshold = window.innerHeight * 0.35;
 const cocktailThreshold = window.innerHeight * 0.55;
 
+
+
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
 
@@ -67,3 +69,15 @@ recommendWhiskey.addEventListener('mouseout', () => {
 recommendCocktail.addEventListener('mouseout', () => {
     recommendCocktail.style.transform = `scale(1)`;
 });
+
+function buttonAction(path) {
+    const loggedIn = localStorage.getItem('loggedIn');
+
+    if (loggedIn === 'true') {
+        window.location.href = path;
+    } else if (loggedIn === 'false') {
+        alert("로그인 후에 가능한 서비스입니다.");
+    } else {
+        alert("오류가 발생했습니다.");
+    }
+}

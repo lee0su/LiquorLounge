@@ -38,14 +38,4 @@ public class GuestController {
         return "guest/forgot-password";
     }
 
-    @GetMapping("/recommend/whiskey")
-    public String recommendWhiskeyPage() {
-        return "guest/recommend-whiskey";
-    }
-
-    @GetMapping("/recommend/cocktail")
-    public String recommendCocktailPage() {
-        return "guest/recommend-cocktail";
-    }
-
 }

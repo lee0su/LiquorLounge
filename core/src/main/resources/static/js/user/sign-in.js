@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded",() => {
             if (response.ok) {
                 const data = await response.json();
                 alert(`${data.username} 님, 환영합니다!`);
+                localStorage.setItem('loggedIn', 'true');
                 window.location.href = '/member/main';
             } else {
                 alert('아이디 또는 비밀번호가 잘못되었습니다.');

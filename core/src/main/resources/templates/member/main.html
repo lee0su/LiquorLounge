@@ -18,7 +18,7 @@
 </head>
 <body data-target-text="Main">
 <!--header navbar-->
-<th:block th:replace="~{/component/member-header.html :: member-header}"></th:block>
+<th:block th:replace="~{/components/member-header.html :: member-header}"></th:block>
 <!--page contents-->
 <div class="container">
     <div class="empty-div left"></div>
@@ -38,73 +38,9 @@
             <!--추천-->
             <div class="recommend">
                 <div class="recommend-buttons">
-                    <div class="recommend-whiskey">
-                        <div class="recommend-box-top">
-                            <div class="recommend-box-top-color">
-                                <div class="top-object-text whiskey">WHISKEY !</div>
-                                <div class="top-object-button">|</div>
-                                <div class="top-object-button">[]</div>
-                                <div class="top-object-button exit">X</div>
-                            </div>
-                        </div>
-                        <div class="recommend-box">
-                            <div class="recommend-box-center">
-                                <div class="center-content-box">
-                                    <div class="center-box-top">
-                                        <div class="center-box-top-no1">당신의&nbsp;</div>
-                                        <div class="center-box-top-no2 whiskey">WHISKEY</div>
-                                        <div class="center-box-top-no3">&nbsp;를</div>
-                                    </div>
-                                    <div class="center-box-center">
-                                        <div>찾아보세요 !</div>
-                                    </div>
-                                    <div class="center-box-bottom">
-                                        <div><span class="c-color">LIQUOR LOUNGE</span>&nbsp;가<br>개인적인 성향에 맞는<br><span class="w-color">whiskey</span> 를 추천해드립니다 !</div>
-                                    </div>
-                                </div>
-                                <button class="whiskey-button" onclick="location.href='/member/recommend/whiskey'">TRY NOW !</button>
-                            </div>
-                            <div class="recommend-box-right">
-                                <div class="recommend-box-right-color">
-                                    <div class="right-object whiskey"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <th:block th:replace="~{/components/main/recommend-whiskey.html :: recommend-box-whiskey}"></th:block>
                     <div class="recommend-whiskey-text">WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W<br>HISKEY WHIS<br>KEY WHISKEY<br>WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W</div>
-                    <div class="recommend-cocktail">
-                        <div class="recommend-box-top">
-                            <div class="recommend-box-top-color">
-                                <div class="top-object-text whiskey">COCKTAIL !</div>
-                                <div class="top-object-button">|</div>
-                                <div class="top-object-button">[]</div>
-                                <div class="top-object-button exit">X</div>
-                            </div>
-                        </div>
-                        <div class="recommend-box">
-                            <div class="recommend-box-center">
-                                <div class="center-content-box">
-                                    <div class="center-box-top">
-                                        <div class="center-box-top-no1">당신의&nbsp;</div>
-                                        <div class="center-box-top-no2 cocktail">COCKTAIL</div>
-                                        <div class="center-box-top-no3">&nbsp;&nbsp;을</div>
-                                    </div>
-                                    <div class="center-box-center">
-                                        <div>찾아보세요 !</div>
-                                    </div>
-                                    <div class="center-box-bottom">
-                                        <div><span class="w-color">LIQUOR LOUNGE</span>&nbsp;가<br>개인적인 성향에 맞는<br><span class="c-color">cocktail</span> 을 추천해드립니다 !</div>
-                                    </div>
-                                </div>
-                                <button class="cocktail-button" onclick="location.href='/member/recommend/cocktail'">TRY NOW !</button>
-                            </div>
-                            <div class="recommend-box-right">
-                                <div class="recommend-box-right-color">
-                                    <div class="right-object cocktail"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <th:block th:replace="~{/components/main/recommend-cocktail.html :: recommend-box-cocktail}"></th:block>
                     <div class="recommend-cocktail-text">COCKTAIL CO<br>COTAIL COCK<br>TAIL COCKTA<br>IL COCKTAIL<br>&nbsp;COCKTAIL C<br>OCKTAIL COC<br>KTAIL COCKT<br>AIL COCKTAI</div>
                 </div>
             </div>
@@ -118,11 +54,11 @@
 </div>
 
 <!--footer-->
-<th:block th:replace="~{/component/footer.html :: footer}"></th:block>
+<th:block th:replace="~{/components/footer.html :: footer}"></th:block>
 
 <!--script-->
-<script src="/js/component/footer.js"></script>
-<script src="/js/component/header.js"></script>
+<script src="/js/components/footer.js"></script>
+<script src="/js/components/header.js"></script>
 <script src="/js/user/sign-out.js"></script>
 <script src="/js/main/main.js"></script>
 <script src="/js/main/main-recommend.js"></script>

@@ -4,8 +4,8 @@ const recommendCocktail = document.querySelector('.recommend-cocktail');
 const recommendWhiskeyText = document.querySelector('.recommend-whiskey-text');
 const recommendCocktailText = document.querySelector('.recommend-cocktail-text');
 
-const whiskeyThreshold = window.innerHeight * 0.15;
-const cocktailThreshold = window.innerHeight * 0.25;
+const whiskeyThreshold = window.innerHeight * 0.35;
+const cocktailThreshold = window.innerHeight * 0.55;
 
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;

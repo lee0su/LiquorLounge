@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
-    const buttons = navbar.querySelectorAll('button');
-    const btn = document.querySelector('.header-button.four');
+    const buttons = navbar.querySelectorAll('.header-button');
 
     // data-target-text 속성에서 버튼 텍스트 가져오기
     const targetText = document.body.getAttribute('data-target-text');
@@ -10,15 +9,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (button.textContent.trim() === targetText) {
             button.classList.add('active');
         }
+    });
 
-        if (button === btn) {
-            signInCheck().then(data => {
-               if (data.loggedIn) {
-                   button.innerText = 'Sign out';
-               } else {
-                   button.innerText = 'Sign in';
-               }
-            });
+    const signOutBtn = document.querySelector('.header-button.out');
+    const signInBtn = document.querySelector('.header-button.in');
+
+    signInCheck().then(data => {
+        if (data.loggedIn) {
+            signOutBtn.style.display = 'inline-block';
+            signInBtn.style.display = 'none';
+        } else {
+            signInBtn.style.display = 'inline-block';
+            signOutBtn.style.display = 'none';
         }
     });
 });

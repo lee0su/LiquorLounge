@@ -13,37 +13,47 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PagesController {
 
     @GetMapping("/main")
-    public String mainPage(HttpSession session) {
+    public String mainPage() {
         return "pages/main";
     }
 
     @GetMapping("/recommend-whiskey")
-    public String recommendWhiskeyPage(HttpSession session) {
+    public String recommendWhiskeyPage() {
         return "pages/recommend-whiskey";
     }
 
     @GetMapping("/recommend-cocktail")
-    public String recommendCocktailPage(HttpSession session) {
+    public String recommendCocktailPage() {
         return "pages/recommend-cocktail";
     }
 
     @GetMapping("/liquor")
-    public String liquorPage(HttpSession session) {
+    public String liquorPage() {
         return "pages/liquor";
     }
 
     @GetMapping("/community")
-    public String communityPage(HttpSession session) {
+    public String communityPage() {
         return "pages/community";
     }
 
     @GetMapping("/written")
-    public String writtenPage(HttpSession session) {
+    public String writtenPage() {
         return "pages/write-member";
     }
 
     @GetMapping("/sign-in")
-    public String signInPage(HttpSession session) {
+    public String signInPage() {
         return "pages/sign-in";
+    }
+
+    @GetMapping("/sign-up")
+    public String signUpPage() {
+        return "pages/sign-up";
+    }
+
+    @GetMapping("/forgot-password")
+    public String forgotPasswordPage() {
+        return "pages/forgot-password";
     }
 }

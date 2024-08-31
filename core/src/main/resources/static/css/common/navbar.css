@@ -44,3 +44,7 @@
     border-radius: 20px;
     opacity: 0.5;
 }
+
+.header-button.out {
+    display: none;
+}

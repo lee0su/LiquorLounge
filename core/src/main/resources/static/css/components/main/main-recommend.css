@@ -68,6 +68,8 @@
     width: 60%;
     height: 52.95vh;
 
+    overflow: hidden;
+
     background-color: var(--backgroundColor);
 
     opacity: 0;

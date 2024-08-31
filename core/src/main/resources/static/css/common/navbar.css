@@ -1,4 +1,4 @@
-nav {
+.navbar {
     position: fixed;
     top: 0;
     width: 100vw;
@@ -17,7 +17,7 @@ nav {
     margin-left: 5%;
 }
 
-nav button {
+.navbar button {
     color: white;
     display: inline-block;
     font-weight: bold;
@@ -29,17 +29,17 @@ nav button {
     cursor: pointer;
 }
 
-nav button.active {
+.navbar button.active {
     background-color: darkblue;
     border-radius: 20px;
     color: white;
 }
 
-nav button.active:hover {
+.navbar button.active:hover {
     opacity: 0.8;
 }
 
-nav button:hover {
+.navbar button:hover {
     background-color: darkblue;
     border-radius: 20px;
     opacity: 0.5;

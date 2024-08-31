@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="파일정리">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/PagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/web/PagesController.java" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="경로수정">
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,14 +309,6 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-    </task>
-    <task id="LOCAL-00026" summary="자잘한 내용 수정">
-      <option name="closed" value="true" />
-      <created>1723635211323</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1723635211323</updated>
     </task>
     <task id="LOCAL-00027" summary="Gin 추가">
       <option name="closed" value="true" />
@@ -708,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725123770652</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="경로수정">
+      <option name="closed" value="true" />
+      <created>1725124737399</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1725124737399</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,7 +721,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="기본 베이스 추가" />
     <MESSAGE value="Header, Footer 분리" />
     <MESSAGE value="page logo 추가" />
     <MESSAGE value="header.js 분리" />
@@ -752,6 +745,7 @@
     <MESSAGE value="navbar.css 수정" />
     <MESSAGE value="함수명 변경" />
     <MESSAGE value="파일정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="파일정리" />
+    <MESSAGE value="경로수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="경로수정" />
   </component>
 </project>

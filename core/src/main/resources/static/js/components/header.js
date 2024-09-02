@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function signInAndOut() {
     signInCheck().then(data => {
         if (data.loggedIn) {
-            signOut().then(d => {});
+            signOut().then(d => {console.log('signOut')});
         } else {
             window.location.href = '/pages/sign-in';
         }

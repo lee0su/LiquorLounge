@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>LiquorLounge</title>
     <!--디자인용 보더 생성-->
-    <!--    <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
+        <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
@@ -25,29 +25,18 @@
     <div class="content">
         <div class="main-container">
             <!--제목-->
-            <div class="title">
-                <div class="liquor">LIQUOR</div>
-                <div class="lounge">LOUNGE</div>
-            </div>
+            <th:block th:replace="~{/components/main/title.html :: title}"></th:block>
             <!--웹 페이지 설명-->
-            <div class="explanation">
-                <div class="explanation-top">EXPLANATION</div>
-                <div class="explanation-center"></div>
-                <div class="explanation-bottom"></div>
-            </div>
+            <th:block th:replace="~{/components/main/explanation.html :: explanation}"></th:block>
             <!--추천-->
             <div class="recommend">
                 <div class="recommend-buttons">
                     <th:block th:replace="~{/components/main/recommend-whiskey.html :: recommend-box-whiskey}"></th:block>
-                    <div class="recommend-whiskey-text">WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W<br>HISKEY WHIS<br>KEY WHISKEY<br>WHISKEY WHI<br>SKEY WHISKE<br>Y WHISKEY W</div>
                     <th:block th:replace="~{/components/main/recommend-cocktail.html :: recommend-box-cocktail}"></th:block>
-                    <div class="recommend-cocktail-text">COCKTAIL CO<br>COTAIL COCK<br>TAIL COCKTA<br>IL COCKTAIL<br>&nbsp;COCKTAIL C<br>OCKTAIL COC<br>KTAIL COCKT<br>AIL COCKTAI</div>
                 </div>
             </div>
             <!--SECTION 3-->
-            <div class="main-section3">
-
-            </div>
+            <th:block th:replace="~{/components/main/section3.html :: section3}"></th:block>
         </div>
     </div>
     <div class="empty-div right"></div>

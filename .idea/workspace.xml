@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="경로수정">
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/navbar.css" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="header.js 수정">
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/explanation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/section3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/title.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-cocktail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-cocktail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/main/recommend-whiskey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,14 +316,6 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-    </task>
-    <task id="LOCAL-00027" summary="Gin 추가">
-      <option name="closed" value="true" />
-      <created>1723638119900</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1723638119900</updated>
     </task>
     <task id="LOCAL-00028" summary="안쓰는 import 삭제">
       <option name="closed" value="true" />
@@ -702,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725124737399</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="header.js 수정">
+      <option name="closed" value="true" />
+      <created>1725125080892</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1725125080892</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +728,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Header, Footer 분리" />
     <MESSAGE value="page logo 추가" />
     <MESSAGE value="header.js 분리" />
     <MESSAGE value="Main 내용 추가" />
@@ -746,6 +752,7 @@
     <MESSAGE value="함수명 변경" />
     <MESSAGE value="파일정리" />
     <MESSAGE value="경로수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="경로수정" />
+    <MESSAGE value="header.js 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="header.js 수정" />
   </component>
 </project>

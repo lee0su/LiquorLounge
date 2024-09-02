@@ -14,4 +14,4 @@ async function fetchAndStoreUsername() {
     }
 }
 
-fetchAndStoreUsername();
+fetchAndStoreUsername().then(data => console.log('URL'));

@@ -14,10 +14,10 @@
 </head>
 <body data-target-text="Community">
 <!--header navbar-->
-<th:block th:replace="~{/components/header-footer/header.html :: header}"></th:block>
+<th:block th:replace="~{/components/public/header.html :: header}"></th:block>
 
 <div class="container">
-    <div class="empty-div left"></div>
+    <th:block th:replace="~{/components/public/empty-div.html :: left}"></th:block>
     <div class="content">
         <!-- 커뮤니티 -->
         <div class="container-community">
@@ -50,11 +50,11 @@
             <!-- 페이지 넘기는 기능 추가할 것 -->
         </div>
     </div>
-    <div class="empty-div right"></div>
+    <th:block th:replace="~{/components/public/empty-div.html :: right}"></th:block>
 </div>
 
 <!--footer-->
-<th:block th:replace="~{/components/header-footer/footer.html :: footer}"></th:block>
+<th:block th:replace="~{/components/public/footer.html :: footer}"></th:block>
 
 <!--script-->
 <script src="/js/components/url.js"></script>

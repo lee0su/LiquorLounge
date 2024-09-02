@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>LiquorLounge</title>
     <!--디자인용 보더 생성-->
-        <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">
+<!--        <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
@@ -18,10 +18,10 @@
 </head>
 <body data-target-text="Main">
 <!--header navbar-->
-<th:block th:replace="~{/components/header-footer/header.html :: header}"></th:block>
+<th:block th:replace="~{/components/public/header.html :: header}"></th:block>
 <!--page contents-->
 <div class="container">
-    <div class="empty-div left"></div>
+    <th:block th:replace="~{/components/public/empty-div.html :: left}"></th:block>
     <div class="content">
         <div class="main-container">
             <!--제목-->
@@ -39,11 +39,11 @@
             <th:block th:replace="~{/components/main/section3.html :: section3}"></th:block>
         </div>
     </div>
-    <div class="empty-div right"></div>
+    <th:block th:replace="~{/components/public/empty-div.html :: right}"></th:block>
 </div>
 
 <!--footer-->
-<th:block th:replace="~{/components/header-footer/footer.html :: footer}"></th:block>
+<th:block th:replace="~{/components/public/footer.html :: footer}"></th:block>
 
 <!--script-->
 <script src="/js/components/url.js"></script>

@@ -50,8 +50,8 @@ async function showTab(tabName, currentPage) {
                 liquorItem.innerHTML = `
                     <img src="${item.img}" alt="${item.name}">
                     <div class="item-info">
-                        <strong>${item.name}</strong>
-                        <p>ABV: ${(item.proof / 2).toFixed(1)}%</p>
+                        <strong class="item-name">${item.name}</strong>
+                        <p class="item-abv">ABV: ${(item.proof / 2).toFixed(1)}%</p>
                         <p class="item-price">70cl $${item.pricePer70cl}<p>
                     </div>
                 `;
@@ -59,8 +59,8 @@ async function showTab(tabName, currentPage) {
                 liquorItem.innerHTML = `
                     <img src="${item.img}" alt="${item.name}">
                     <div class="item-info">
-                        <string>${item.name}</string>
-                        <p>ABV: ${item.alcohol}%</p>
+                        <strong class="item-name">${item.name}</strong>
+                        <p class="item-abv">ABV: ${item.alcohol}%</p>
                         <p class="item-price">$??</p>
                     </div>
                 `;
@@ -68,8 +68,8 @@ async function showTab(tabName, currentPage) {
                 liquorItem.innerHTML = `
                     <img src="${imgUrl}" alt="${item.name}">
                     <div class="item-info">
-                        <string>${item.name}</string>
-                        <p>ABV: ?%</p>
+                        <strong class="item-name">${item.name}</strong>
+                        <p class="item-abv">ABV: ?%</p>
                         <p class="item-price">$??</p>
                     </div>
                 `;
@@ -77,8 +77,8 @@ async function showTab(tabName, currentPage) {
                 liquorItem.innerHTML = `
                     <img src="${item.img}" alt="${item.name}">
                     <div class="item-info">
-                        <string>${item.name}</string>
-                        <p>ABV: ${item.abv}%</p>
+                        <strong class="item-name"${item.name}</strong>
+                        <p class="item-abv">ABV: ${item.abv}%</p>
                         <p class="item-price">$${item.price}</p>
                     </div>
                 `;

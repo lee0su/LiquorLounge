@@ -65,4 +65,9 @@ public class UserController {
         return ResponseEntity.ok(Map.of("loggedIn", userService.signCheck(session)));
     }
 
+    @GetMapping("/find-password")
+    public ResponseEntity<?> findPassword(@RequestParam String id, @RequestParam String name, @RequestParam String email) {
+        return ResponseEntity.ok(Map.of("password", userService.findPassword(id, name, email)));
+    }
+
 }

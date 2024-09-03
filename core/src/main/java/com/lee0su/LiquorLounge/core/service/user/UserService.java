@@ -45,4 +45,8 @@ public class UserService {
         return session.getAttribute("user") != null;
     }
 
+    public String findPassword(String id, String name, String email) {
+        UserEntity user = userRepository.findPasswordByUsernameAndNameAndEmail(id, name, email);
+        return user.getPassword();
+    }
 }

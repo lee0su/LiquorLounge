@@ -5,7 +5,7 @@ function showLoginAlert() {
 
     console.log(username);
 
-    if (username === 'X') {
+    if (username === '') {
         alert("게시글 작성은 로그인 후에 가능합니다.");
     } else {
         window.location.href='/pages/written'

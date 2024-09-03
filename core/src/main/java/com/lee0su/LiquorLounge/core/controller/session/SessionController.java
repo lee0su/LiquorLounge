@@ -22,7 +22,7 @@ public class SessionController {
         if (user != null) {
             response.put("username", user.getUsername());
         } else {
-            response.put("username", "X");
+            response.put("username", "");
         }
 
         return ResponseEntity.ok(response);

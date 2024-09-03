@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
 
+        const idInput = document.querySelector('.sign-up-input.id');
+        const pwInput = document.querySelector('.sign-up-input.pw');
+        const pwCheckInput = document.querySelector('.sign-up-input.pw-check');
+        const nameInput = document.querySelector('.sign-up-input.pw');
+        const emailInput = document.querySelector('.sign-up-input.pw');
+
         const username = form.username.value;
         const password = form.password.value;
         const confirmPassword = form.confirmPassword.value;
@@ -18,26 +24,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (username.length < 6 || username.length > 12 || !usernameRegex.test(username)) {
             alert('아이디는 6~12글자 사이여야 하며, 영어와 숫자만 사용이 가능합니다.');
+            idInput.focus();
             return;
         }
 
         if (password.length < 8 || password.length > 16 || !/[a-zA-Z]/.test(password) || !/[0-9]/.test(password) || !passwordRegex.test(password)) {
             alert('비밀번호는 8~16글자 사이여야 하며, 영어와 숫자, 특수기호를 포함해야 합니다.');
+            pwInput.focus();
             return;
         }
 
         if (password !== confirmPassword) {
             alert('비밀번호가 일치하지 않습니다.');
+            pwCheckInput.focus();
             return;
         }
 
         if (!nameRegex.test(name) || name.length < 2 || name.length > 10) {
             alert('이름은 2~10글자 사이여야 하며, 영어와 한글만 사용이 가능합니다.');
+            nameInput.focus();
             return;
         }
 
         if (!emailRegex.test(email)) {
             alert('유효한 이메일 주소를 입력해주세요.');
+            emailInput.focus();
             return;
         }
 
@@ -47,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (!data.available) {
                 alert('이미 사용중인 아이디입니다.');
+                idInput.focus();
                 return;
             }
 

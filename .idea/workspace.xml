@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="기본 template 구조 변경">
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/user/UserService.java" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="안쓰는 js 코드 삭제">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/components/public/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/components/public/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,22 +312,6 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-    </task>
-    <task id="LOCAL-00033" summary="테스트 계정 파일 분리">
-      <option name="closed" value="true" />
-      <created>1723653488990</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1723653488990</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Database Table 이름 정리">
-      <option name="closed" value="true" />
-      <created>1723655474334</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1723655474334</updated>
     </task>
     <task id="LOCAL-00035" summary="임시 이미지 추가">
       <option name="closed" value="true" />
@@ -703,7 +689,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725350256015</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="UserController, UserService 로그인 확인 기능 분리">
+      <option name="closed" value="true" />
+      <created>1725350642980</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1725350642980</updated>
+    </task>
+    <task id="LOCAL-00083" summary="안쓰는 js 코드 삭제">
+      <option name="closed" value="true" />
+      <created>1725350869374</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1725350869374</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,8 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Main 수정_4" />
-    <MESSAGE value="Main 수정_5" />
     <MESSAGE value="Main 수정_6" />
     <MESSAGE value="Main 수정_7" />
     <MESSAGE value="Main 수정_8" />
@@ -747,6 +747,8 @@
     <MESSAGE value="empty-div 요소 분리" />
     <MESSAGE value="liquor 수정" />
     <MESSAGE value="기본 template 구조 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="기본 template 구조 변경" />
+    <MESSAGE value="UserController, UserService 로그인 확인 기능 분리" />
+    <MESSAGE value="안쓰는 js 코드 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="안쓰는 js 코드 삭제" />
   </component>
 </project>

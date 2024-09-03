@@ -41,4 +41,8 @@ public class UserService {
         return null; // 로그인 실패
     }
 
+    public boolean signCheck(HttpSession session) {
+        return session.getAttribute("user") != null;
+    }
+
 }

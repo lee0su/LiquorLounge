@@ -25,16 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function signInAndOut() {
-    signInCheck().then(data => {
-        if (data.loggedIn) {
-            signOut().then(d => {console.log('signOut')});
-        } else {
-            window.location.href = '/pages/sign-in';
-        }
-    });
-}
-
 async function signInCheck() {
     try {
         const response = await fetch('/api/users/check-session',);

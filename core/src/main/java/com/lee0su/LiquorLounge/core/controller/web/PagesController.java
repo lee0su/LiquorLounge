@@ -56,4 +56,9 @@ public class PagesController {
     public String forgotPasswordPage() {
         return "pages/forgot-password";
     }
+
+    @GetMapping("/change-password")
+    public String changePasswordPage() {
+        return "pages/change-password";
+    }
 }

@@ -21,7 +21,7 @@ function findPassword() {
     } else {
         loadPassword(userId, userName, userEmail).then(data => {
             if (data) {
-                alert('비밀번호 변경 페이지로 이동합니다.');
+                window.location.href='/pages/change-password';
             } else {
                 alert('일치하는 정보가 없습니다.');
             }

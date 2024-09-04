@@ -2,7 +2,10 @@ const idInput = document.querySelector('.forgotPassword-input.id');
 const nameInput = document.querySelector('.forgotPassword-input.name');
 const emailInput = document.querySelector('.forgotPassword-input.email');
 
-let id = '';
+const pwInput = document.querySelector('.change-password-input.pw');
+const pwCheckInput = document.querySelector('.change-password-input.pw-check');
+
+const passwordRegex = /^[a-zA-Z0-9!@#$%^&*()_+]+$/;
 
 function findPassword() {
 
@@ -23,8 +26,7 @@ function findPassword() {
     } else {
         loadPassword(userId, userName, userEmail).then(data => {
             if (data) {
-                id = userId;
-                window.location.href='/pages/change-password';
+                window.location.href=`/pages/change-password?userId=${userId}`;
             } else {
                 alert('일치하는 정보가 없습니다.');
             }
@@ -51,5 +53,47 @@ async function loadPassword(userId, userName, userEmail) {
  */
 
 function changePassword() {
+    const password = pwInput.value;
+    const passwordCheck = pwCheckInput.value;
 
+    if (password.length < 8 || password.length > 16 || !/[a-zA-Z]/.test(password) || !/[0-9]/.test(password) || !passwordRegex.test(password)) {
+        alert('비밀번호는 8~16글자 사이여야 하며, 영어와 숫자, 특수기호를 포함해야 합니다.');
+        pwInput.focus();
+        return;
+    }
+
+    if (password !== passwordCheck) {
+        alert('비밀번호가 일치하지 않습니다.');
+        pwCheckInput.focus();
+        return;
+    }
+
+    const urlParams = new URL(location.href).searchParams;
+    const id = urlParams.get('userId');
+
+    updatePassword(id, password.value).then(data => {
+       if (data) {
+           alert('비밀번호 변경 완료 !');
+           window.location.href='/pages/sign-in';
+       } else {
+           alert('비밀번호 변경 실패..');
+       }
+    });
+
+}
+
+async function updatePassword(id, password) {
+    try {
+        const response = await fetch(`/api/users/change-password?userId=${id}&password=${password}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({id, password})
+        });
+        console.log('OK');
+        return response;
+    } catch(error) {
+        console.error(error);
+    }
 }

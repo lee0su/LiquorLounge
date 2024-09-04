@@ -35,7 +35,7 @@ public class UserController {
 
             userService.registerUser(user);
 
-            response.setHeader("Location", "/guest/signIn");
+            response.setHeader("Location", "/pages/signIn");
             return ResponseEntity.status(HttpStatus.FOUND).build();
         } catch (IllegalArgumentException e) {
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
@@ -65,9 +65,16 @@ public class UserController {
         return ResponseEntity.ok(Map.of("loggedIn", userService.signCheck(session)));
     }
 
+    // 비밀번호 찾기 요청
     @GetMapping("/find-password")
     public ResponseEntity<?> findPassword(@RequestParam String id, @RequestParam String name, @RequestParam String email) {
         return ResponseEntity.ok(Map.of("password", userService.findPassword(id, name, email)));
+    }
+
+    // 비밀번호 변경 요청
+    @PostMapping("/change-password")
+    public void changePassword(@RequestParam String userId, @RequestParam String password) {
+
     }
 
 }

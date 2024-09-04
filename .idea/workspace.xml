@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="비밀번호 변경 창 추가">
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/user/change-password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/change-password.js" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="비밀번호 변경 창 요소 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/community/CommunityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/community/CommunityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/change-password.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/find-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/find-password.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/change-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/change-password.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -314,14 +315,6 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-    </task>
-    <task id="LOCAL-00038" summary="Rum 데이터 추가">
-      <option name="closed" value="true" />
-      <created>1723712010008</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1723712010008</updated>
     </task>
     <task id="LOCAL-00039" summary="서버 실행 기본 설정 데이터 불러오기 안하게">
       <option name="closed" value="true" />
@@ -707,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725421837391</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="비밀번호 변경 창 요소 추가">
+      <option name="closed" value="true" />
+      <created>1725422963452</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1725422963452</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +727,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Main 수정_9" />
     <MESSAGE value="Main 수정_11" />
     <MESSAGE value="데이터 추가 코드 수정" />
     <MESSAGE value="Main 수정_12" />
@@ -751,6 +751,7 @@
     <MESSAGE value="회원가입 수정" />
     <MESSAGE value="비밀번호 찾기 기능 추가" />
     <MESSAGE value="비밀번호 변경 창 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="비밀번호 변경 창 추가" />
+    <MESSAGE value="비밀번호 변경 창 요소 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="비밀번호 변경 창 요소 추가" />
   </component>
 </project>

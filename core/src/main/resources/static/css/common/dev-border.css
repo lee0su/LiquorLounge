@@ -71,3 +71,12 @@
 .rw-title {
     border: 1px solid green;
 }
+
+/*
+
+    CHANGE-PASSWORD
+
+ */
+.change-password-box {
+    border: 1px solid black;
+}

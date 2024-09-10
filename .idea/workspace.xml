@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="자잘한 수정">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="자잘한 수정_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/liquor/liquor-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/user/find-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/user/find-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,46 +114,46 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.core [:main.main()].executor": "Run",
-    "Gradle.core [build].executor": "Run",
-    "Gradle.core [clean].executor": "Run",
-    "Gradle.core [dependencies].executor": "Run",
-    "Gradle.core 빌드.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.CoreApplication (1).executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "패싯",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack",
-    "two.files.diff.last.used.folder": "/Users/iyeongsu/Desktop/project_list/LiquorLounge/core/src/main/resources/templates/public",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.core [:main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.core [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.core [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.core [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.core 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CoreApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;패싯&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/iyeongsu/Desktop/project_list/LiquorLounge/core/src/main/resources/templates/public&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/resources/templates/components/header-footer" />
@@ -312,14 +311,7 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-    </task>
-    <task id="LOCAL-00040" summary="test">
-      <option name="closed" value="true" />
-      <created>1723717759125</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1723717759126</updated>
+      <workItem from="1725776291482" duration="6673000" />
     </task>
     <task id="LOCAL-00041" summary="gin 사진 추가">
       <option name="closed" value="true" />
@@ -705,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725423676706</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="자잘한 수정_2">
+      <option name="closed" value="true" />
+      <created>1725425588200</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1725425588200</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="데이터 추가 코드 수정" />
     <MESSAGE value="Main 수정_12" />
     <MESSAGE value="Main CSS 분리" />
     <MESSAGE value="Main 수정_13" />
@@ -749,6 +748,7 @@
     <MESSAGE value="비밀번호 변경 창 추가" />
     <MESSAGE value="비밀번호 변경 창 요소 추가" />
     <MESSAGE value="자잘한 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="자잘한 수정" />
+    <MESSAGE value="자잘한 수정_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="자잘한 수정_2" />
   </component>
 </project>

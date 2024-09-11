@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="자잘한 수정_2">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="주소 데이터 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/community/login-before.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/main/main-recommend.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,15 +310,7 @@
       <workItem from="1724831700178" duration="30313000" />
       <workItem from="1725019531600" duration="3346000" />
       <workItem from="1725093033252" duration="10376000" />
-      <workItem from="1725776291482" duration="6673000" />
-    </task>
-    <task id="LOCAL-00041" summary="gin 사진 추가">
-      <option name="closed" value="true" />
-      <created>1724052143351</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1724052143351</updated>
+      <workItem from="1725776291482" duration="15483000" />
     </task>
     <task id="LOCAL-00042" summary="whiskey type 데이터 추가">
       <option name="closed" value="true" />
@@ -705,7 +696,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725425588200</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="주소 데이터 수정">
+      <option name="closed" value="true" />
+      <created>1725945173335</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1725945173336</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +723,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Main 수정_12" />
     <MESSAGE value="Main CSS 분리" />
     <MESSAGE value="Main 수정_13" />
     <MESSAGE value="footer.js 수정" />
@@ -749,6 +747,7 @@
     <MESSAGE value="비밀번호 변경 창 요소 추가" />
     <MESSAGE value="자잘한 수정" />
     <MESSAGE value="자잘한 수정_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="자잘한 수정_2" />
+    <MESSAGE value="주소 데이터 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="주소 데이터 수정" />
   </component>
 </project>

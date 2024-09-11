@@ -7,8 +7,6 @@ const recommendCocktailText = document.querySelector('.recommend-cocktail-text')
 const whiskeyThreshold = window.innerHeight * 0.35;
 const cocktailThreshold = window.innerHeight * 0.55;
 
-
-
 window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
 
@@ -72,18 +70,16 @@ recommendCocktail.addEventListener('mouseout', () => {
 
 async function recommendButtonAction(path) {
 
-    try {
-        const response = await fetch('/api/users/check-session',);
-        if (response.ok) {
-            const data = await response.json();
-            console.log(data);
-            if (data.loggedIn) {
-                window.location.href = path;
-            } else {
-                alert("로그인 후에 가능한 서비스입니다.");
-            }
-        }
-    } catch (error) {
-        console.log(error);
+    const url = new URL(window.location.href);
+    const params = new URLSearchParams(url.search);
+    const username = params.get('username');
+
+    console.log(username);
+
+    if (username === '') {
+        alert("로그인 후에 가능한 서비스입니다.");
+    } else {
+        window.location.href = path;
     }
+
 }

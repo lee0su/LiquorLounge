@@ -78,6 +78,7 @@ async function recommendButtonAction(path) {
 
     if (username === '') {
         alert("로그인 후에 가능한 서비스입니다.");
+        window.location.href = '/pages/login';
     } else {
         window.location.href = path;
     }

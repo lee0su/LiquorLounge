@@ -24,15 +24,28 @@
             <table>
                 <thead>
                 <tr class="tabs">
+                    <th class="tab number">번호</th>
                     <th class="tab title">제목</th>
                     <th class="tab author">작성자</th>
+                    <th class="tab S_number">조회수</th>
                     <th class="tab date">작성일</th>
                     <th class="tab likes">공감</th>
                     <th class="tab comments">댓글</th>
                 </tr>
                 </thead>
                 <tbody id="postTableBody">
-                <!-- 게시글 -->
+                <tr th:each="post : ${posts}" class="backg">
+                    <td th:text="${post.id}"></td>
+                    <td th:text="${post.title}"></td>
+                    <td th:text="${post.author}"></td>
+                    <td th:text="${post.readCount}"></td>
+                    <td th:text="${post.writeDate != null ? post.writeDate.format(T(java.time.format.DateTimeFormatter).ofPattern('yyyy-MM-dd')) : 'N/A'}"></td>
+                    <td th:text="${post.likeCount}"></td>
+                    <td th:text="${post.react_count}"></td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(posts)}">
+                    <td colspan="7" class="no-posts">게시글이 없습니다.</td>
+                </tr>
                 </tbody>
             </table>
 

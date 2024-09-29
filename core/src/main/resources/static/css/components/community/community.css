@@ -5,47 +5,62 @@
     border-radius: 5px;
     padding: 20px;
     background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom : 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; /* 모든 셀 가운데 정렬 */
+    border: 1px solid rgba(204, 204, 204, 0.5);
 }
 
 th {
-    font-size: 13px;
-    text-align: center;
+    background-color: #e7e7e7;
+    font-size: 14px; /* 헤더 글자 크기 조정 */
 }
 
 .tabs {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .tab {
-    padding: 10px 20px;
     cursor: pointer;
-    background-color: #e7e7e7;
-    border: 1px solid rgba(204, 204, 204, 0.5);
-    transition: background-color 0.3s;
-    box-sizing: border-box;
+}
+
+.number {
+    width: 50px; /* 번호 열 너비 */
 }
 
 .title {
-    flex: 4;
+    width: 200px; /* 제목 열 너비 */
 }
 
 .author {
-    flex: 0.8;
+    width: 100px; /* 작성자 열 너비 */
+}
+
+.S_number {
+    width: 80px; /* 조회수 열 너비 */
 }
 
 .date {
-    flex:1.2;
+    width: 100px; /* 작성일 열 너비 */
 }
 
 .likes, .comments {
-    flex: 0.3; /* 좋아요와 댓글 열: 0.5 */
+    width: 70px; /* 공감과 댓글 열 너비 */
+}
+
+.no-posts {
+    font-weight: bold;
+    color: #777; /* 색상 조정 */
+    text-align: center; /* 가운데 정렬 */
 }
 
 .form-container {
@@ -62,10 +77,10 @@ th {
 }
 
 .form-container select {
-    padding: 5px; /* 내부 여백 */
-    margin-right: 10px; /* 입력 필드와 버튼 간의 간격 */
-    font-size: 14px; /* 글자 크기 조정 */
-    width: 80px; /* 선택 박스의 고정 너비 */
+    padding: 5px; /* 내부 여백 /
+margin-right: 10px; / 입력 필드와 버튼 간의 간격 /
+font-size: 14px; / 글자 크기 조정 /
+width: 80px; / 선택 박스의 고정 너비 */
 }
 
 .form-container input {
@@ -82,6 +97,7 @@ th {
 #search {
     margin-right: 20px;
 }
+
 
 
 

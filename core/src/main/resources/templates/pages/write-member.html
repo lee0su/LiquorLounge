@@ -21,7 +21,7 @@
     <div class="content">
         <!-- 커뮤니티 글쓰기 -->
         <div class="container-community">
-            <form id="postForm">
+            <form action="/posts" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <input type="text" id="title" name="title" placeholder="제목을 입력하세요" required>
                 </div>
@@ -45,5 +45,6 @@
 <script src="/js/components/url.js"></script>
 <script src="/js/components/footer.js"></script>
 <script src="/js/components/header.js"></script>
+<script src="/js/community/filter.js"></script>
 </body>
 </html>

@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <title>LiquorLounge</title>
     <!--디자인용 보더 생성-->
-        <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">
+<!--        <link rel="stylesheet" type="text/css" href="/css/common/dev-border.css">-->
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="/css/common/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
     <link rel="stylesheet" type="text/css" href="/css/common/footer.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/recommend/recommend.css">
 </head>
 <!--따옴표 속에 active 속성을 넣을 버튼의 Text 입력 (대소문자 구분)-->
 <body data-target-text="">
@@ -21,7 +22,12 @@
     <div class="content">
         <!--page content-->
         <div class="recommend-cocktail-container">
-
+            <div class="question-div">question 1</div>
+            <div class="answer-button">
+                <button class="answer one" onclick="setQuestion(1)">answer 1-1</button>
+                <button class="answer two" onclick="setQuestion(2)">answer 2-1</button>
+                <button class="exit" onclick="location.href='/'">메인화면으로 돌아가기</button>
+            </div>
         </div>
     </div>
     <th:block th:replace="~{/components/public/empty-div.html :: right}"></th:block>
@@ -32,7 +38,9 @@
 
 <!--script-->
 <script src="/js/components/url.js"></script>
-<script src="/js/components/footer.js"></script>
-<script src="/js/components/header.js"></script>
+<!--<script src="/js/components/footer.js"></script>-->
+<!--<script src="/js/components/header.js"></script>-->
+<script src="/js/recommend/sign-in-check.js"></script>
+<script src="/js/recommend/cocktail.js"></script>
 </body>
 </html>

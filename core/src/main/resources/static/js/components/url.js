@@ -14,9 +14,10 @@ async function fetchAndStoreUsername() {
         }
 
         window.history.replaceState({}, '', newUrl);
+        return newUrl;
     } else {
         console.error('세션 데이터 가져오기 실패:', response.status);
     }
 }
 
-fetchAndStoreUsername().then(data => console.log('URL'));
+fetchAndStoreUsername().then(data => console.log('URL:', data));

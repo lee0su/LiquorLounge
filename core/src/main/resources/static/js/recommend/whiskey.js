@@ -14,7 +14,7 @@ const answerOneText = ["answer 1-2", "answer 1-3", "answer 1-4", "answer 1-5", "
 // 답변 목록 2번버튼 (아랫쪽)
 const answerTwoText = ["answer 2-2", "answer 2-3", "answer 2-4", "answer 2-5", "answer 2-6"];
 
-function setQuestion(answer) {
+function setWhiskeyQuestion(answer) {
 
     answers.push(answer);
     console.log(answers);

@@ -1,6 +1,7 @@
 const question = document.querySelector(".question-div");
 const answerOne = document.querySelector(".answer.one");
 const answerTwo = document.querySelector(".answer.two");
+const exitButton = document.querySelector(".exit");
 
 let answers = [];
 let count = 0;
@@ -29,6 +30,7 @@ function setQuestion(answer) {
         question.innerText = 'END !';
         answerOne.style.display = 'none';
         answerTwo.style.display = 'none';
+        exitButton.style.display = 'flex';
     }
 
     count++;

@@ -31,14 +31,22 @@
     height: 40%;
 }
 
-.answer {
+.answer,
+.exit {
     width: 100%;
     height: 50%;
     background-color: lightgray;
     border: solid 1px #121212;
     border-radius: 5rem;
+    align-items: center;
+    justify-content: center;
 }
 
-.answer:hover {
+.answer:hover,
+.exit:hover {
     background-color: darkgray;
+}
+
+.exit {
+    display: none;
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="주류 추천 페이지에 질문, 선택창 틀 추가">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="주류 추천 페이지 임시 디자인 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" afterDir="false" />
@@ -318,15 +317,7 @@
       <workItem from="1725093033252" duration="10376000" />
       <workItem from="1725776291482" duration="15483000" />
       <workItem from="1726998988759" duration="867000" />
-      <workItem from="1727000052227" duration="7564000" />
-    </task>
-    <task id="LOCAL-00043" summary="html &gt;&gt; container &lt;&lt; 전체 구조 변경">
-      <option name="closed" value="true" />
-      <created>1724153798701</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1724153798701</updated>
+      <workItem from="1727000052227" duration="7912000" />
     </task>
     <task id="LOCAL-00044" summary="main color 변경">
       <option name="closed" value="true" />
@@ -712,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727842295413</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="주류 추천 페이지 임시 디자인 수정">
+      <option name="closed" value="true" />
+      <created>1727843298721</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1727843298721</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,7 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Main 수정_13" />
     <MESSAGE value="footer.js 수정" />
     <MESSAGE value="Main 수정_14" />
     <MESSAGE value="잡다한거 수정" />
@@ -756,7 +754,8 @@
     <MESSAGE value="자잘한 수정_2" />
     <MESSAGE value="주소 데이터 수정" />
     <MESSAGE value="주류 추천 페이지에 질문, 선택창 틀 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="주류 추천 페이지에 질문, 선택창 틀 추가" />
+    <MESSAGE value="주류 추천 페이지 임시 디자인 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="주류 추천 페이지 임시 디자인 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

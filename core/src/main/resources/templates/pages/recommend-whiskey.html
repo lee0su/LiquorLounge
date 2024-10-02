@@ -15,26 +15,31 @@
 <!--따옴표 속에 active 속성을 넣을 버튼의 Text 입력 (대소문자 구분)-->
 <body data-target-text="">
 <!--header navbar-->
-<th:block th:replace="~{/components/public/header.html :: header}"></th:block>
+<!--<th:block th:replace="~{/components/public/header.html :: header}"></th:block>-->
 
 <div class="container">
     <th:block th:replace="~{/components/public/empty-div.html :: left}"></th:block>
     <div class="content">
         <!--page content-->
         <div class="recommend-whiskey-container">
-
+            <div class="question-div">question 1</div>
+            <div class="answer-button">
+                <button class="answer one" onclick="setQuestion(1)">answer 1</button>
+                <button class="answer two" onclick="setQuestion(2)">answer 2</button>
+            </div>
         </div>
     </div>
     <th:block th:replace="~{/components/public/empty-div.html :: right}"></th:block>
 </div>
 
 <!--footer-->
-<th:block th:replace="~{/components/public/footer.html :: footer}"></th:block>
+<!--<th:block th:replace="~{/components/public/footer.html :: footer}"></th:block>-->
 
 <!--script-->
 <script src="/js/components/url.js"></script>
-<script src="/js/components/footer.js"></script>
-<script src="/js/components/header.js"></script>
+<!--<script src="/js/components/footer.js"></script>-->
+<!--<script src="/js/components/header.js"></script>-->
 <script src="/js/recommend/sign-in-check.js"></script>
+<script src="/js/recommend/whiskey.js"></script>
 </body>
 </html>

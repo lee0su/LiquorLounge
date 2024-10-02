@@ -25,13 +25,13 @@ public class PostController {
     public String showPosts(Model model) {
         List<Post> posts = postService.getAllPosts();
         model.addAttribute("posts", posts);
-        return "pages/community"; // community.html로 이동
+        return "pages/community"; // community.html 로 이동
     }
 
     // 게시글 작성 페이지
     @GetMapping("/new")
     public String showCreatePostForm() {
-        return "pages/write-member"; // write-member.html로 이동
+        return "pages/write-member"; // write-member.html 로 이동
     }
 
     // 게시글 등록 처리
@@ -53,7 +53,7 @@ public class PostController {
         post.setContent(content);
         post.setWriteDate(LocalDate.now());
 
-        // username을 사용하여 savePost 호출
+        // username 을 사용하여 savePost 호출
         postService.savePost(post, image, loggedInUser.getName());
 
         return "redirect:/posts"; // 등록 후 게시글 목록 페이지로 리디렉션

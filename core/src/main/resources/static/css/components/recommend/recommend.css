@@ -1,6 +1,9 @@
 .recommend-whiskey-container,
 .recommend-cocktail-container {
-    width: 100%;
+    border: 1px solid darkgray;
+    border-radius: 10rem;
+
+    width: 90%;
     height: 59.5vh;
 
     display: flex;
@@ -28,12 +31,11 @@
 .answer-button {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     height: 40%;
 }
 
-.answer,
-.exit {
+.answer{
     width: 100%;
     height: 50%;
     background-color: lightgray;
@@ -43,11 +45,17 @@
     justify-content: center;
 }
 
-.answer:hover,
-.exit:hover {
+.answer:hover{
     background-color: darkgray;
 }
 
-.exit {
+.block {
     display: none;
+    width: 100%;
+    height: 59.5vh;
+
+    justify-content: center;
+    align-items: center;
+
+    /*background-color: #121212;*/
 }

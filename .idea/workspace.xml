@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="cocktail 추천 페이지도 동일하게 변경">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="whiskey, cocktail 추천 js 분할">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/liquor/RecommendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/recommend/RecommendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/components/url.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/cocktail.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/cocktail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/WhiskeyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/WhiskeyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/recommend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-cocktail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-cocktail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" afterDir="false" />
@@ -79,9 +86,9 @@
       <list>
         <option value="Interface" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,46 +128,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.core [:main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.core 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CoreApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;패싯&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/iyeongsu/Desktop/project_list/LiquorLounge/core/src/main/resources/templates/public&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.core [:main.main()].executor": "Run",
+    "Gradle.core [build].executor": "Run",
+    "Gradle.core [clean].executor": "Run",
+    "Gradle.core [dependencies].executor": "Run",
+    "Gradle.core 빌드.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CoreApplication (1).executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "패싯",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "proofread",
+    "two.files.diff.last.used.folder": "/Users/iyeongsu/Desktop/project_list/LiquorLounge/core/src/main/resources/templates/public",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/resources/templates/components/header-footer" />
@@ -320,15 +326,7 @@
       <workItem from="1725093033252" duration="10376000" />
       <workItem from="1725776291482" duration="15483000" />
       <workItem from="1726998988759" duration="867000" />
-      <workItem from="1727000052227" duration="9272000" />
-    </task>
-    <task id="LOCAL-00046" summary="Whiskey image 수정">
-      <option name="closed" value="true" />
-      <created>1724156709109</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1724156709109</updated>
+      <workItem from="1727000052227" duration="16898000" />
     </task>
     <task id="LOCAL-00047" summary="Wine img 추가">
       <option name="closed" value="true" />
@@ -714,7 +712,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727844087563</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="whiskey, cocktail 추천 js 분할">
+      <option name="closed" value="true" />
+      <created>1727845001546</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1727845001546</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -733,7 +739,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="잡다한거 수정" />
     <MESSAGE value="styles.css 수정" />
     <MESSAGE value="navbar.css 수정" />
     <MESSAGE value="함수명 변경" />
@@ -758,7 +763,8 @@
     <MESSAGE value="주류 추천 페이지 임시 디자인 수정" />
     <MESSAGE value="추천 페이지 완료 시 메인화면으로 이동가능한 버튼 추가" />
     <MESSAGE value="cocktail 추천 페이지도 동일하게 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="cocktail 추천 페이지도 동일하게 변경" />
+    <MESSAGE value="whiskey, cocktail 추천 js 분할" />
+    <option name="LAST_COMMIT_MESSAGE" value="whiskey, cocktail 추천 js 분할" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

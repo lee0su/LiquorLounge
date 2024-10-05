@@ -45,8 +45,8 @@ public class dataInit {
     @PostConstruct
     public void init() {
 
-//        whiskeyInit();
-        ginInit();
+        whiskeyInit();
+//        ginInit();
 //        rumInit();
 //        wineInit();
 

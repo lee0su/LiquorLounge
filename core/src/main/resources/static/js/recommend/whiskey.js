@@ -3,6 +3,10 @@ const answerOne = document.querySelector(".answer.one");
 const answerTwo = document.querySelector(".answer.two");
 const exitButton = document.querySelector(".exit");
 
+const blockDiv = document.querySelector(".block");
+const recommendWhiskeyContainer = document.querySelector(".recommend-whiskey-container")
+const recommendWhiskeyAnswerContainer = document.querySelector(".recommend-whiskey-answer-container");
+
 let answers = [];
 let count = 0;
 
@@ -27,10 +31,45 @@ function setWhiskeyQuestion(answer) {
     }
 
     if (count === questions.length) {
-        question.innerText = 'END !';
-        answerOne.style.display = 'none';
-        answerTwo.style.display = 'none';
-        exitButton.style.display = 'flex';
+        fetch('/api/recommend/whiskey', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(answers),
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+
+                recommendWhiskeyContainer.style.display = 'none';
+                blockDiv.style.display = 'flex';
+
+                setTimeout(() => {
+                    blockDiv.style.display = 'none';
+
+                    recommendWhiskeyAnswerContainer.style.display = 'flex';
+
+                    recommendWhiskeyAnswerContainer.innerHTML = `
+                    <div class="recommended-whiskey-box">
+                        <div class="whiskey-img-box">
+                            <img class="recommend-whiskey-img" src="${data.img}" alt="${data.name}">
+                        </div>
+                        <div class="recommended-whiskey-name-proof">
+                            <div class="recommend-whiskey-name">${data.name}</div>
+                            <div class="recommend-whiskey-proof">ABV: ${(data.proof / 2).toFixed(1)}%</div>
+                        </div>
+                    </div>
+                    <div class="recommend-whiskey-explanation">Explanation</div>
+                    <div class="recommend-whiskey-price">70cl $${data.pricePer70cl}</div>
+                    `;
+                }, 3000);
+
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+
     }
 
     count++;

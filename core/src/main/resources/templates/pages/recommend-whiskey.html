@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/common/navbar.css">
     <link rel="stylesheet" type="text/css" href="/css/common/footer.css">
     <link rel="stylesheet" type="text/css" href="/css/components/recommend/recommend.css">
+    <link rel="stylesheet" type="text/css" href="/css/components/recommend/whiskey.css">
 </head>
 <!--따옴표 속에 active 속성을 넣을 버튼의 Text 입력 (대소문자 구분)-->
 <body data-target-text="">
@@ -26,8 +27,11 @@
             <div class="answer-button">
                 <button class="answer one" onclick="setWhiskeyQuestion(1)">answer 1-1</button>
                 <button class="answer two" onclick="setWhiskeyQuestion(2)">answer 2-1</button>
-                <button class="exit" onclick="location.href='/'">메인화면으로 돌아가기</button>
             </div>
+        </div>
+        <div class="block">추천할만한 위스키를 찾는중...</div>
+        <div class="recommend-whiskey-answer-container">
+            <!--동적으로 추천된 위스키의 정보가 추가될 자리-->
         </div>
     </div>
     <th:block th:replace="~{/components/public/empty-div.html :: right}"></th:block>
@@ -40,7 +44,7 @@
 <script src="/js/components/url.js"></script>
 <!--<script src="/js/components/footer.js"></script>-->
 <!--<script src="/js/components/header.js"></script>-->
-<script src="/js/recommend/sign-in-check.js"></script>
+<!--<script src="/js/recommend/sign-in-check.js"></script>-->
 <script src="/js/recommend/whiskey.js"></script>
 </body>
 </html>

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="위스키 추천 기능 추가">
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="추천 탭에서 메인화면으로 이동하는 버튼 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/recommend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,15 +318,7 @@
       <workItem from="1725093033252" duration="10376000" />
       <workItem from="1725776291482" duration="15483000" />
       <workItem from="1726998988759" duration="867000" />
-      <workItem from="1727000052227" duration="17253000" />
-    </task>
-    <task id="LOCAL-00048" summary="footer 임시 추가 (더 바꿔야됨)">
-      <option name="closed" value="true" />
-      <created>1724238450501</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1724238450501</updated>
+      <workItem from="1727000052227" duration="17957000" />
     </task>
     <task id="LOCAL-00049" summary="페이지 기본 구조 변경">
       <option name="closed" value="true" />
@@ -709,7 +704,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728115257850</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="추천 탭에서 메인화면으로 이동하는 버튼 추가">
+      <option name="closed" value="true" />
+      <created>1728115811720</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1728115811720</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +731,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="navbar.css 수정" />
     <MESSAGE value="함수명 변경" />
     <MESSAGE value="파일정리" />
     <MESSAGE value="경로수정" />
@@ -753,7 +755,8 @@
     <MESSAGE value="cocktail 추천 페이지도 동일하게 변경" />
     <MESSAGE value="whiskey, cocktail 추천 js 분할" />
     <MESSAGE value="위스키 추천 기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="위스키 추천 기능 추가" />
+    <MESSAGE value="추천 탭에서 메인화면으로 이동하는 버튼 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="추천 탭에서 메인화면으로 이동하는 버튼 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

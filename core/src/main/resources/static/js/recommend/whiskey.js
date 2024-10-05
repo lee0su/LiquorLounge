@@ -60,8 +60,9 @@ function setWhiskeyQuestion(answer) {
                     </div>
                     <div class="recommend-whiskey-explanation">Explanation</div>
                     <div class="recommend-whiskey-price">70cl $${data.pricePer70cl}</div>
-                    <div class="exit-box">
-                        <button class="exit" onclick="location.href='/'">메인으로</button>
+                    <div class="button-box">
+                        <button class="exit" onclick="location.href='/'">Main</button>
+                        <button class="more-info" onclick="location.href='/'">More info</button>
                     </div>
                     `;
                 }, 3000);

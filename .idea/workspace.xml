@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="whiskey, cocktail 추천 js 분할">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/controller/liquor/RecommendController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/recommend/RecommendService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/WhiskeyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/repository/liquor/WhiskeyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/lee0su/LiquorLounge/core/service/liquor/data/dataInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/dev-border.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/common/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/recommend.css" afterDir="false" />
+    <list default="true" id="a4486efa-9bd1-42b2-a2c0-15a876d45349" name="변경" comment="위스키 추천 기능 추가">
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/css/components/recommend/whiskey.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/static/js/recommend/whiskey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-cocktail.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-cocktail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/templates/pages/recommend-whiskey.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,15 +315,7 @@
       <workItem from="1725093033252" duration="10376000" />
       <workItem from="1725776291482" duration="15483000" />
       <workItem from="1726998988759" duration="867000" />
-      <workItem from="1727000052227" duration="16898000" />
-    </task>
-    <task id="LOCAL-00047" summary="Wine img 추가">
-      <option name="closed" value="true" />
-      <created>1724184071786</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1724184071786</updated>
+      <workItem from="1727000052227" duration="17253000" />
     </task>
     <task id="LOCAL-00048" summary="footer 임시 추가 (더 바꿔야됨)">
       <option name="closed" value="true" />
@@ -720,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727845001546</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="위스키 추천 기능 추가">
+      <option name="closed" value="true" />
+      <created>1728115257850</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1728115257850</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +728,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styles.css 수정" />
     <MESSAGE value="navbar.css 수정" />
     <MESSAGE value="함수명 변경" />
     <MESSAGE value="파일정리" />
@@ -764,7 +752,8 @@
     <MESSAGE value="추천 페이지 완료 시 메인화면으로 이동가능한 버튼 추가" />
     <MESSAGE value="cocktail 추천 페이지도 동일하게 변경" />
     <MESSAGE value="whiskey, cocktail 추천 js 분할" />
-    <option name="LAST_COMMIT_MESSAGE" value="whiskey, cocktail 추천 js 분할" />
+    <MESSAGE value="위스키 추천 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="위스키 추천 기능 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

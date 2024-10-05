@@ -40,8 +40,6 @@ function setWhiskeyQuestion(answer) {
         })
             .then(response => response.json())
             .then(data => {
-                console.log(data);
-
                 recommendWhiskeyContainer.style.display = 'none';
                 blockDiv.style.display = 'flex';
 
@@ -62,6 +60,9 @@ function setWhiskeyQuestion(answer) {
                     </div>
                     <div class="recommend-whiskey-explanation">Explanation</div>
                     <div class="recommend-whiskey-price">70cl $${data.pricePer70cl}</div>
+                    <div class="exit-box">
+                        <button class="exit" onclick="location.href='/'">메인으로</button>
+                    </div>
                     `;
                 }, 3000);
 
